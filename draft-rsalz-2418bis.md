@@ -58,10 +58,7 @@ incorporates the changes from RFC8717 and RFC9141.
 
         NOTE: This document started with the raw text of RFC 2418, and
         subsequent drafts each incorporated the text of RFC 3934, RFC
-        7475, RFC 7776, RFC 8717 (although the change to "Managing
-        Director, Secretariat" does not seem right), and RFC 9141.
-        A final update addressed all the errata. We have submitted this
-        to the GENDISPATCH working group to determine the next steps.
+        7475, RFC 7776, and RFC 9141.
 
 The Internet, a loosely-organized international collaboration of
 autonomous, interconnected networks, supports host-to-host
@@ -109,11 +106,11 @@ also selects an overall chair for the IETF.  The nominations process
 is described in {{?RFC8713}}.
 
 The area directors sitting as a body, along with the IETF Chair,
-comprise the Internet Engineering Steering Group (IESG). The IETF
-Managing Director, IETF Secretariat, and the IAB Chair
+comprise the Internet Engineering Steering Group (IESG). The
+IAB Chair and the IETF Executive Director
 are ex-officio members of the IESG.
 There are also liaisons from IANA, the RFC Production Center,
-the Secretariat, and another from the IAB.
+the Secretariat, and a second member of the IAB.
 The IESG approves IETF Standards and approves the
 publication of other IETF documents.  (See {{bis2026}}.)
 
