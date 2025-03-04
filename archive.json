@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-03-02T01:36:32.322977+00:00",
+  "timestamp": "2025-03-04T01:25:58.697032+00:00",
   "repo": "richsalz/draft-rsalz-2418bis",
   "labels": [
     {
@@ -355,6 +355,32 @@
       "mergeCommit": {
         "oid": "5c9858603fc6b0a47377fdb843297405799d0ed8"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 14,
+      "id": "PR_kwDOMaVM686NNRoC",
+      "title": "IASA2-update terminology changes",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/pull/14",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes: #8",
+      "createdAt": "2025-03-03T20:45:03Z",
+      "updatedAt": "2025-03-03T20:45:03Z",
+      "baseRepository": "richsalz/draft-rsalz-2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "4821254564d0f402af30e68c392f019d841b99ba",
+      "headRepository": "richsalz/draft-rsalz-2418bis",
+      "headRefName": "iasa-terminology",
+      "headRefOid": "0f3f12890654c6acd1ee70e00191c07e10f51450",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
