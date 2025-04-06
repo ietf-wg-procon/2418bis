@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-03-30T01:42:50.292159+00:00",
+  "timestamp": "2025-04-06T01:41:44.805473+00:00",
   "repo": "richsalz/draft-rsalz-2418bis",
   "labels": [
     {
@@ -62,9 +62,17 @@
       "labels": [],
       "body": "The original doc says in the first paragraph of section 3:\r\n```\r\nWG participants should specifically note the\r\nrequirements for disclosure of conflicts of interest in [2].\r\n```\r\n\r\n[2] is RFC 2028, obsoleted by 9281 and neither one of these mentions conflict of interest.\r\n\r\nSee email thread at https://mailarchive.ietf.org/arch/msg/ietf/8mEwZkwtL-WNCPyZ5hBd7FaWVq8/\r\n",
       "createdAt": "2024-08-09T20:26:48Z",
-      "updatedAt": "2024-08-09T20:26:48Z",
+      "updatedAt": "2025-04-04T18:42:42Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "OWNER",
+          "body": "Per email with Scott, this should probably be a reference to 2026 because that talks about disclosures.",
+          "createdAt": "2025-04-04T18:42:41Z",
+          "updatedAt": "2025-04-04T18:42:41Z"
+        }
+      ]
     },
     {
       "number": 5,
