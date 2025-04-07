@@ -27,7 +27,7 @@ author:
     email: sob@sobco.com
 
 venue:
- repo: https://github.com/richsalz/draft-rsalz-2418bis.md
+ repo: https://github.com/richsalz/draft-rsalz-2418bis
 
 normative:
 
