@@ -168,11 +168,11 @@ Table of Contents
 
    The area directors sitting as a body, along with the IETF Chair,
    comprise the Internet Engineering Steering Group (IESG).  The IAB
-   Chair the IETF Executive Director are ex-officio members of the IESG.
-   There are also liaisons from IANA, the RFC Production Center, the
-   Secretariat, and a second member of the IAB.  The IESG approves IETF
-   Standards and approves the publication of other IETF documents.  (See
-   [bis2026].)
+   Chair and the IETF Executive Director are ex-officio members of the
+   IESG.  There are also liaisons from IANA, the RFC Production Center,
+   the Secretariat, and a second member of the IAB.  The IESG approves
+   IETF Standards and approves the publication of other IETF documents.
+   (See [bis2026].)
 
    The IETF Secretariat provides staff and administrative support for
    the operation of the IETF.
