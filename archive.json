@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-06T01:41:44.805473+00:00",
+  "timestamp": "2025-04-08T01:37:34.105821+00:00",
   "repo": "richsalz/draft-rsalz-2418bis",
   "labels": [
     {
@@ -103,15 +103,15 @@
       "id": "I_kwDOMaVM686VWSHQ",
       "title": "Everyone still says \"Executive Director\"",
       "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/8",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "RFC 8717 https://www.rfc-editor.org/rfc/rfc8717#name-where-appropriate-replaceme\r\n\r\nBut everywhere (not in this doc!) it still says Executive Director\r\n",
       "createdAt": "2024-09-04T15:10:16Z",
-      "updatedAt": "2024-09-04T15:19:53Z",
-      "closedAt": null,
+      "updatedAt": "2025-04-07T16:37:09Z",
+      "closedAt": "2025-04-07T16:37:09Z",
       "comments": [
         {
           "author": "richsalz",
@@ -371,24 +371,26 @@
       "id": "PR_kwDOMaVM686NNRoC",
       "title": "IASA2-update terminology changes",
       "url": "https://github.com/richsalz/draft-rsalz-2418bis/pull/14",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Fixes: #8",
       "createdAt": "2025-03-03T20:45:03Z",
-      "updatedAt": "2025-03-03T20:45:03Z",
+      "updatedAt": "2025-04-07T16:37:15Z",
       "baseRepository": "richsalz/draft-rsalz-2418bis",
       "baseRefName": "main",
       "baseRefOid": "4821254564d0f402af30e68c392f019d841b99ba",
       "headRepository": "richsalz/draft-rsalz-2418bis",
       "headRefName": "iasa-terminology",
-      "headRefOid": "0f3f12890654c6acd1ee70e00191c07e10f51450",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "08ed551d9215e10ec3c55a4e173cd462a1daba4e",
+      "closedAt": "2025-04-07T16:37:08Z",
+      "mergedAt": "2025-04-07T16:37:08Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "2e5976d5324c7fdadb6209da7b4e87e249046b27"
+      },
       "comments": [],
       "reviews": []
     }
