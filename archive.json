@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-08T01:37:34.105821+00:00",
+  "timestamp": "2025-04-10T01:37:38.338013+00:00",
   "repo": "richsalz/draft-rsalz-2418bis",
   "labels": [
     {
@@ -167,6 +167,22 @@
       "body": "discuss objectives and expected impact with respect to:\r\n\r\nPrivacy \r\n\r\nSecurity\r\n\r\n",
       "createdAt": "2024-10-11T11:42:47Z",
       "updatedAt": "2024-10-11T11:42:47Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 15,
+      "id": "I_kwDOMaVM686x1xcC",
+      "title": "Michael Richardson's comments",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/15",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "See https://mailarchive.ietf.org/arch/msg/procon/X1qRYD6Vc4zHdQ6ZGg-Aps_o0_E/. He has a message that talks about 2026bis and 2418bis.\n",
+      "createdAt": "2025-04-09T19:05:11Z",
+      "updatedAt": "2025-04-09T19:05:11Z",
       "closedAt": null,
       "comments": []
     }
