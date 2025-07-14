@@ -58,7 +58,7 @@ incorporates the changes from RFC8717 and RFC9141.
 
         NOTE: This document started with the raw text of RFC 2418, and
         subsequent drafts each incorporated the text of RFC 3934, RFC
-        7475, RFC 7776, and RFC 9141.
+        7475, RFC 7776, RFC 8717, and RFC 9141.
 
 The Internet, a loosely-organized international collaboration of
 autonomous, interconnected networks, supports host-to-host
@@ -1084,6 +1084,9 @@ since it is not really directly including text from the RFC.
 - Draft 6: Addressed the editorial issues found by the following
 errata: 6787.
 Errata 3752. 6130, 7408 were previously fixed.
+
+- Draft 7: Incorporated RFC 8717 (and the bis draft for that) about
+the name of the IETF Executive Director.
 
 --- back
 
