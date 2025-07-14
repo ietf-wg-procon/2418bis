@@ -6,8 +6,8 @@ xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                           S. Bradner
 Updates: 7475, 7776, 8717, 9141 (if approved)                      SOBCO
-Intended status: Best Current Practice                      7 April 2025
-Expires: 9 October 2025
+Intended status: Best Current Practice                      14 July 2025
+Expires: 15 January 2026
 
 
               IETF Working Group Guidelines and Procedures
@@ -38,7 +38,7 @@ About This Document
    https://datatracker.ietf.org/doc/draft-rsalz-2418bis/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/richsalz/draft-rsalz-2418bis.md.
+   https://github.com/richsalz/draft-rsalz-2418bis.
 
 Status of This Memo
 
@@ -55,7 +55,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 9 October 2025.
+   This Internet-Draft will expire on 15 January 2026.
 
 Copyright Notice
 
@@ -121,7 +121,7 @@ Table of Contents
 
        NOTE: This document started with the raw text of RFC 2418, and
        subsequent drafts each incorporated the text of RFC 3934, RFC
-       7475, RFC 7776, and RFC 9141.
+       7475, RFC 7776, RFC 8717, and RFC 9141.
 
    The Internet, a loosely-organized international collaboration of
    autonomous, interconnected networks, supports host-to-host
@@ -1156,6 +1156,9 @@ Table of Contents
    *  Draft 6: Addressed the editorial issues found by the following
       errata: 6787.  Errata 3752. 6130, 7408 were previously fixed.
 
+   *  Draft 7: Incorporated RFC 8717 (and the bis draft for that) about
+      the name of the IETF Executive Director.
+
 13.  References
 
 13.1.  Normative References
@@ -1181,9 +1184,9 @@ Table of Contents
 
    [bis2026]  Salz, R. and S. O. Bradner, "The Internet Standards
               Process", Work in Progress, Internet-Draft, draft-rsalz-
-              2026bis-12, 10 October 2024,
+              2026bis-13, 7 April 2025,
               <https://datatracker.ietf.org/doc/html/draft-rsalz-
-              2026bis-12>.
+              2026bis-13>.
 
    [RFC1796]  Huitema, C., Postel, J., and S. Crocker, "Not All RFCs are
               Standards", RFC 1796, DOI 10.17487/RFC1796, April 1995,
