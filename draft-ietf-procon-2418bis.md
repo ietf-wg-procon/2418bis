@@ -108,10 +108,10 @@ is described in {{?RFC8713}}.
 
 The area directors sitting as a body, along with the IETF Chair,
 comprise the Internet Engineering Steering Group (IESG). The
-IAB Chair and the IETF Executive Director
+Internet Architecture Board (IAB) Chair and the IETF Executive Director
 are ex-officio members of the IESG.
 There are also liaisons from IANA, the RFC Production Center,
-the Secretariat, and a second member of the IAB.
+the Secretariat, and the IAB.
 The IESG approves IETF Standards and approves the
 publication of other IETF documents.  (See {{2026bis}}.)
 
@@ -242,7 +242,7 @@ group through the chartering process.
 The formation of a working group requires a charter which is primarily
 negotiated between a prospective working group Chair and the relevant
 Area Director(s), although final approval is made by the IESG with
-advice from the Internet Architecture Board (IAB).  A charter is a
+advice from the IAB.  A charter is a
 contract between a working group and the IETF to perform a set of
 tasks.  A charter:
 
