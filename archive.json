@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-17T01:53:37.704368+00:00",
+  "timestamp": "2025-07-27T02:03:27.301350+00:00",
   "repo": "richsalz/draft-rsalz-2418bis",
   "labels": [
     {
@@ -408,6 +408,40 @@
         "oid": "2e5976d5324c7fdadb6209da7b4e87e249046b27"
       },
       "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 16,
+      "id": "PR_kwDOMaVM686gm9A3",
+      "title": "Clarify IAB liaison",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/pull/16",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "and expand IAB acronym at first occurrence",
+      "createdAt": "2025-07-25T10:38:45Z",
+      "updatedAt": "2025-07-25T10:39:36Z",
+      "baseRepository": "richsalz/draft-rsalz-2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "53eab7f6a8cd740fdc9b2eb7a561ef088c0e5bdf",
+      "headRepository": "mirjak/draft-rsalz-2418bis",
+      "headRefName": "patch-1",
+      "headRefOid": "4bb67eb4494fb1e53000f9a3bba14045c4851390",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "NONE",
+          "body": "Actually we could even cite RFC2850 here...",
+          "createdAt": "2025-07-25T10:39:36Z",
+          "updatedAt": "2025-07-25T10:39:36Z"
+        }
+      ],
       "reviews": []
     }
   ]
