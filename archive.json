@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-27T02:03:27.301350+00:00",
+  "timestamp": "2025-08-31T01:42:55.213972+00:00",
   "repo": "richsalz/draft-rsalz-2418bis",
   "labels": [
     {
@@ -86,7 +86,7 @@
       "labels": [],
       "body": "The section titled \"Internet-Drafts\" has a bunch of outdated information\r\n\r\n- Says to submit via email\r\n- Says secretariat maintains boilerplate\r\n- refers to 1id-organization.txt file\r\n- refers to 1id-guidelines.txt file\r\n",
       "createdAt": "2024-08-30T17:07:23Z",
-      "updatedAt": "2024-09-04T14:27:30Z",
+      "updatedAt": "2025-08-29T07:44:07Z",
       "closedAt": null,
       "comments": [
         {
@@ -95,6 +95,13 @@
           "body": "Several of the items have been fixed (in the to-be-published darft-04 which has updates from the RPC editor) but not all.",
           "createdAt": "2024-09-04T14:27:29Z",
           "updatedAt": "2024-09-04T14:27:29Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "The word \"adopt\" does not occur anywhere in this section, yet it is a _de facto_ part of WG process. I suggest that we should add a very brief definition of adoption something like:\n\nWorking Groups MAY formally adopt an Internet-Draft to indicate that it is being considered as a candidate for publication as an RFC.\n\n(Anything beyond that can be in a separate document; this is just an anchor.)",
+          "createdAt": "2025-08-29T07:44:07Z",
+          "updatedAt": "2025-08-29T07:44:07Z"
         }
       ]
     },
@@ -150,9 +157,17 @@
       "labels": [],
       "body": "These two feel very outdated\r\n\r\n Document Editor\r\n\r\nWG Facilitator\r\n\r\n\"Working Group Consultant\" is more like Adviser now from another area\r\n\r\n",
       "createdAt": "2024-10-11T11:35:29Z",
-      "updatedAt": "2024-10-11T11:35:29Z",
+      "updatedAt": "2025-08-29T01:01:59Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "mcr",
+          "authorAssociation": "NONE",
+          "body": "also #19 ",
+          "createdAt": "2025-08-29T01:01:59Z",
+          "updatedAt": "2025-08-29T01:01:59Z"
+        }
+      ]
     },
     {
       "number": 13,
@@ -175,14 +190,126 @@
       "id": "I_kwDOMaVM686x1xcC",
       "title": "Michael Richardson's comments",
       "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/15",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "See https://mailarchive.ietf.org/arch/msg/procon/X1qRYD6Vc4zHdQ6ZGg-Aps_o0_E/. He has a message that talks about 2026bis and 2418bis.\n",
       "createdAt": "2025-04-09T19:05:11Z",
-      "updatedAt": "2025-04-09T19:05:11Z",
+      "updatedAt": "2025-08-29T17:34:31Z",
+      "closedAt": "2025-08-29T17:34:31Z",
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "OWNER",
+          "body": "Thanks for doing this @mcr.  It wasn't lack of knowledge, it was time :)",
+          "createdAt": "2025-08-29T17:34:31Z",
+          "updatedAt": "2025-08-29T17:34:31Z"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "id": "I_kwDOMaVM687IktLV",
+      "title": "section 4.2.1, agenda@ietf.org is obsolete",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/17",
+      "state": "OPEN",
+      "author": "mcr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Agenda requests are now handled through DT.\n\nreplaces #15.\n",
+      "createdAt": "2025-08-29T00:44:09Z",
+      "updatedAt": "2025-08-29T00:44:09Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 18,
+      "id": "I_kwDOMaVM687Ikt32",
+      "title": "split up section 4.2.2",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/18",
+      "state": "OPEN",
+      "author": "mcr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "```\n   As in face-to-face sessions, occasionally one or more individuals may\n   engage in behavior on a mailing list that, in the opinion of the WG\n   chair, is disruptive to the WG process. \n```\n\nThis needs to be a new section.  Maybe a top-level section.\nI also think that this might even warrant a new document, because I think that our processes around disruptive individuals will change more.\nI'd prefer to rev another document rather than open 2418bis.\n\nreplace #15 ",
+      "createdAt": "2025-08-29T00:46:43Z",
+      "updatedAt": "2025-08-29T00:46:43Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 19,
+      "id": "I_kwDOMaVM687Ikuon",
+      "title": "rework Staff Role section",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/19",
+      "state": "OPEN",
+      "author": "mcr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The word \"Staff\" implies to some that the people listed are employed by the IETF, rather than volunteers that serve at the whim of another layer of volunteer.\n\nI think that the WG Chair section needs further structure.\nI think that I would move all of the 7.x up a section to be section X.\n\nreplace #15 ",
+      "createdAt": "2025-08-29T00:49:34Z",
+      "updatedAt": "2025-08-29T00:51:44Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "mcr",
+          "authorAssociation": "NONE",
+          "body": "I think section 7.1 (WG Chairs) might perhaps be split up into two sections.\nI'm not quite sure about the titles yet.\n* WG Chair Responsabilities (Things they are uniquely empowered to do)\n* WG Chair Obligations (Things they need to coordinate/lead)\n\n",
+          "createdAt": "2025-08-29T00:51:44Z",
+          "updatedAt": "2025-08-29T00:51:44Z"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "id": "I_kwDOMaVM687Iku0f",
+      "title": "should we keep WG Facilitator?",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/20",
+      "state": "OPEN",
+      "author": "mcr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "\n\nI've never seen the WG Facilitator role be formally enacted.\nNot sure it belongs anymore. We just do this as we need to.\n\nreplace #15 ",
+      "createdAt": "2025-08-29T00:50:00Z",
+      "updatedAt": "2025-08-29T00:50:00Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 21,
+      "id": "I_kwDOMaVM687IkvP4",
+      "title": "more structure around Design Teams",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/21",
+      "state": "OPEN",
+      "author": "mcr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I think Design Teams needs more text. \nParticularly around record keeping as it affects IPR.\nDesign Teams need to keep some record of decisions, and who was present at meetings.\n\n",
+      "createdAt": "2025-08-29T00:51:08Z",
+      "updatedAt": "2025-08-29T00:51:08Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 22,
+      "id": "I_kwDOMaVM687IkvVN",
+      "title": "should the sample WG charter be retained",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/22",
+      "state": "OPEN",
+      "author": "mcr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I don't know if the \tAppendix: Sample Working Group Charter is useful.\n",
+      "createdAt": "2025-08-29T00:51:25Z",
+      "updatedAt": "2025-08-29T00:51:25Z",
       "closedAt": null,
       "comments": []
     }
