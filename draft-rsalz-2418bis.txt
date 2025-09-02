@@ -6,8 +6,8 @@ xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                           S. Bradner
 Updates: 7475, 7776, 8717, 9141 (if approved)                      SOBCO
-Intended status: Best Current Practice                      14 July 2025
-Expires: 15 January 2026
+Intended status: Best Current Practice                  2 September 2025
+Expires: 6 March 2026
 
 
               IETF Working Group Guidelines and Procedures
@@ -26,7 +26,7 @@ Abstract
    Directors.
 
    This document obsoletes RFC2418, and RFC3934.  It also includes the
-   changes from RFC7475, and with [bis2026], obsoletes it.  It also
+   changes from RFC7475, and with [_2026bis], obsoletes it.  It also
    includes a summary of the changes implied in RFC7776 and incorporates
    the changes from RFC8717 and RFC9141.
 
@@ -55,7 +55,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 15 January 2026.
+   This Internet-Draft will expire on 6 March 2026.
 
 Copyright Notice
 
@@ -131,7 +131,7 @@ Table of Contents
    global Internet but use the Internet Standards.  Internet Standards
    are developed in the Internet Engineering Task Force (IETF).  This
    document defines guidelines and procedures for IETF working groups.
-   The Internet Standards Process of the IETF is defined in [bis2026].
+   The Internet Standards Process of the IETF is defined in [_2026bis].
    The organizations involved in the IETF Standards Process are
    described in [RFC9281] as are the roles of specific individuals.
 
@@ -172,7 +172,7 @@ Table of Contents
    IESG.  There are also liaisons from IANA, the RFC Production Center,
    the Secretariat, and a second member of the IAB.  The IESG approves
    IETF Standards and approves the publication of other IETF documents.
-   (See [bis2026].)
+   (See [_2026bis].)
 
    The IETF Secretariat provides staff and administrative support for
    the operation of the IETF.
@@ -193,7 +193,7 @@ Table of Contents
 
 1.1.  IETF approach to standardization
 
-   Familiarity with The Internet Standards Process [bis2026] is
+   Familiarity with The Internet Standards Process [_2026bis] is
    essential for a complete understanding of the philosophy, procedures
    and guidelines described in this document.
 
@@ -652,7 +652,7 @@ Table of Contents
    30 days.  Even while posting privileges are suspended, the individual
    must not be prevented from receiving messages posted to the list.
    Like all other WG chair decisions, any suspension of posting
-   privileges is subject to appeal, as described in [bis2026].
+   privileges is subject to appeal, as described in [_2026bis].
 
    This mechanism is intended to permit a WG chair to suspend posting
    privileges of a disruptive individual for a short period of time.
@@ -753,7 +753,7 @@ Table of Contents
 
    Formal procedures for requesting a review of WG, Chair, Area Director
    or IESG actions and conducting appeals are documented in The Internet
-   Standards Process [bis2026].
+   Standards Process [_2026bis].
 
 5.  Working Group Termination
 
@@ -889,10 +889,10 @@ Table of Contents
 
    *  Document implementations
 
-   Under the procedures described in [bis2026], the Chair is responsible
-   for documenting the specific implementations which qualify the
-   specification for Draft or Internet Standard status along with
-   documentation about testing of the interoperation of these
+   Under the procedures described in [_2026bis], the Chair is
+   responsible for documenting the specific implementations which
+   qualify the specification for Draft or Internet Standard status along
+   with documentation about testing of the interoperation of these
    implementations.
 
 7.2.  WG Secretary
@@ -1014,10 +1014,10 @@ Table of Contents
 
    The work of an IETF working group often results in publication of one
    or more documents, as part of the Request For Comments (RFCs)
-   [bis2026] series.  This series is the archival publication record for
-   the Internet community.  A document can be written by an individual
-   in a working group, by a group as a whole with a designated Editor,
-   or by others not involved with the IETF.
+   [_2026bis] series.  This series is the archival publication record
+   for the Internet community.  A document can be written by an
+   individual in a working group, by a group as a whole with a
+   designated Editor, or by others not involved with the IETF.
 
    NOTE: The RFC series is a publication mechanism only and publication
    does not determine the IETF status of a document.  Status is
@@ -1035,7 +1035,8 @@ Table of Contents
    Call.  The decision to issue a working group Last-Call is at the
    discretion of the WG Chair working with the Area Director.  A working
    group Last-Call serves the same purpose within a working group that
-   an IESG Last-Call does in the broader IETF community (see [bis2026]).
+   an IESG Last-Call does in the broader IETF community (see
+   [_2026bis]).
 
 8.5.  Submission of documents
 
@@ -1071,7 +1072,7 @@ Table of Contents
 
    Prior to the IESG beginning their deliberations on standards-track
    documents, IETF Secretariat will issue a "Last-Call" to the IETF
-   mailing list (see [bis2026]).  This Last Call will announce the
+   mailing list (see [_2026bis]).  This Last Call will announce the
    intention of the IESG to consider the document, and it will solicit
    final comments from the IETF within a period of two weeks.  It is
    important to note that a Last-Call is intended as a brief, final
@@ -1088,7 +1089,7 @@ Table of Contents
 
    2.  The document is accepted as-is but not for the status requested.
        This fact will be announced by the IETF Secretariat to the IETF
-       mailing list and to the RFC Editor (see [bis2026] for more
+       mailing list and to the RFC Editor (see [_2026bis] for more
        details).
 
    3.  Changes regarding content are suggested to the author(s)/WG.
@@ -1115,7 +1116,7 @@ Table of Contents
    If any individual or group of individuals feels that the review
    treatment has been unfair, there is the opportunity to make a
    procedural complaint.  The mechanism for this type of complaints is
-   described in [bis2026].
+   described in [_2026bis].
 
 10.  Security Considerations
 
@@ -1182,12 +1183,6 @@ Table of Contents
 
 13.2.  Informative References
 
-   [bis2026]  Salz, R. and S. O. Bradner, "The Internet Standards
-              Process", Work in Progress, Internet-Draft, draft-rsalz-
-              2026bis-13, 7 April 2025,
-              <https://datatracker.ietf.org/doc/html/draft-rsalz-
-              2026bis-13>.
-
    [RFC1796]  Huitema, C., Postel, J., and S. Crocker, "Not All RFCs are
               Standards", RFC 1796, DOI 10.17487/RFC1796, April 1995,
               <https://www.rfc-editor.org/rfc/rfc1796>.
@@ -1210,6 +1205,12 @@ Table of Contents
               Nominating and Recall Committees", BCP 10, RFC 8713,
               DOI 10.17487/RFC8713, February 2020,
               <https://www.rfc-editor.org/rfc/rfc8713>.
+
+   [_2026bis] Salz, R. and S. O. Bradner, "The Internet Standards
+              Process", Work in Progress, Internet-Draft, draft-rsalz-
+              2026bis-13, 7 April 2025,
+              <https://datatracker.ietf.org/doc/html/draft-rsalz-
+              2026bis-13>.
 
 Appendix: Sample Working Group Charter
 
