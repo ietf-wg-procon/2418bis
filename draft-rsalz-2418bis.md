@@ -32,7 +32,7 @@ venue:
 normative:
 
 informative:
-  bis2026: I-D.draft-rsalz-2026bis
+  2026bis: I-D.draft-rsalz-2026bis
 
 --- abstract
 
@@ -47,7 +47,7 @@ including WG Chairs, WG participants, and IETF Area Directors.
 
 This document obsoletes
 RFC2418, and RFC3934.
-It also includes the changes from RFC7475, and with {{bis2026}}, obsoletes it.
+It also includes the changes from RFC7475, and with {{2026bis}}, obsoletes it.
 It also includes a summary of the changes implied in RFC7776 and
 incorporates the changes from RFC8717 and RFC9141.
 
@@ -68,7 +68,7 @@ isolated interconnected networks, which are not connected to the
 global Internet but use the Internet Standards. Internet Standards are
 developed in the Internet Engineering Task Force (IETF).  This
 document defines guidelines and procedures for IETF working groups.
-The Internet Standards Process of the IETF is defined in {{bis2026}}. The
+The Internet Standards Process of the IETF is defined in {{2026bis}}. The
 organizations involved in the IETF Standards Process are described in
 {{!RFC9281}} as are the roles of specific individuals.
 
@@ -112,7 +112,7 @@ are ex-officio members of the IESG.
 There are also liaisons from IANA, the RFC Production Center,
 the Secretariat, and a second member of the IAB.
 The IESG approves IETF Standards and approves the
-publication of other IETF documents.  (See {{bis2026}}.)
+publication of other IETF documents.  (See {{2026bis}}.)
 
 The IETF Secretariat provides staff and administrative support for
 the operation of the IETF.
@@ -133,7 +133,7 @@ working group are also defined.
 
 ## IETF approach to standardization
 
-Familiarity with The Internet Standards Process {{bis2026}} is essential for a
+Familiarity with The Internet Standards Process {{2026bis}} is essential for a
 complete understanding of the philosophy, procedures and guidelines
 described in this document.
 
@@ -580,7 +580,7 @@ privileges of the disruptive individual for a period of not more than
 30 days.  Even while posting privileges are suspended, the individual
 must not be prevented from receiving messages posted to the
 list.  Like all other WG chair decisions, any suspension of posting
-privileges is subject to appeal, as described in {{bis2026}}.
+privileges is subject to appeal, as described in {{2026bis}}.
 
 This mechanism is intended to permit a WG chair to suspend posting
 privileges of a disruptive individual for a short period of
@@ -684,7 +684,7 @@ resolved by a process of open review and discussion.
 
 Formal procedures for requesting a review of WG, Chair, Area Director
 or IESG actions and conducting appeals are documented in The Internet
-Standards Process {{bis2026}}.
+Standards Process {{2026bis}}.
 
 # Working Group Termination {#sec4}
 
@@ -822,7 +822,7 @@ version of a document at the same time.
 
 - Document implementations
 
-Under the procedures described in {{bis2026}}, the Chair is responsible for
+Under the procedures described in {{2026bis}}, the Chair is responsible for
 documenting the specific implementations which qualify the
 specification for Draft or Internet Standard status along with
 documentation about testing of the interoperation of these
@@ -944,7 +944,7 @@ The tooling available to authors automates most the above.
 ## Request For Comments (RFC) {#rfc-doc}
 
 The work of an IETF working group often results in publication of one
-or more documents, as part of the Request For Comments (RFCs) {{bis2026}}
+or more documents, as part of the Request For Comments (RFCs) {{2026bis}}
 series. This series is the archival publication record for the
 Internet community. A document can be written by an individual in a
 working group, by a group as a whole with a designated Editor, or by
@@ -966,7 +966,7 @@ is done by the WG Chair issuing a working group Last-Call.  The
 decision to issue a working group Last-Call is at the discretion of
 the WG Chair working with the Area Director.  A working group
 Last-Call serves the same purpose within a working group that an IESG
-Last-Call does in the broader IETF community (see {{bis2026}}).
+Last-Call does in the broader IETF community (see {{2026bis}}).
 
 ## Submission of documents
 
@@ -1001,7 +1001,7 @@ documents.
 
 Prior to the IESG beginning their deliberations on standards-track
 documents, IETF Secretariat will issue a "Last-Call" to the IETF
-mailing list (see {{bis2026}}). This Last Call will announce the intention of
+mailing list (see {{2026bis}}). This Last Call will announce the intention of
 the IESG to consider the document, and it will solicit final comments
 from the IETF within a period of two weeks.  It is important to note
 that a Last-Call is intended as a brief, final check with the Internet
@@ -1018,7 +1018,7 @@ mailing list and to the RFC Editor.
 
 2. The document is accepted as-is but not for the status requested.
 This fact will be announced by the IETF Secretariat to the IETF
-mailing list and to the RFC Editor (see {{bis2026}} for more details).
+mailing list and to the RFC Editor (see {{2026bis}} for more details).
 
 3. Changes regarding content are suggested to the author(s)/WG.
 Suggestions from the IESG must be clear and direct, so as to
@@ -1042,7 +1042,7 @@ flawed in some way.
 If any individual or group of individuals feels that the review
 treatment has been unfair, there is the opportunity to make a
 procedural complaint. The mechanism for this type of complaints is
-described in {{bis2026}}.
+described in {{2026bis}}.
 
 # Security Considerations
 
