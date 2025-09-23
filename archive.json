@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-08-31T01:42:55.213972+00:00",
+  "timestamp": "2025-09-23T01:27:11.494304+00:00",
   "repo": "richsalz/draft-rsalz-2418bis",
   "labels": [
     {
@@ -310,6 +310,22 @@
       "body": "I don't know if the \tAppendix: Sample Working Group Charter is useful.\n",
       "createdAt": "2025-08-29T00:51:25Z",
       "updatedAt": "2025-08-29T00:51:25Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 23,
+      "id": "I_kwDOMaVM687NJ-kd",
+      "title": "suspending posting privileges - remove text?",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/23",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "RFC 3934 updates 3.2 to allw suspension of posting privileges. This will be obsoleted by the MODPOD WG document",
+      "createdAt": "2025-09-22T17:15:33Z",
+      "updatedAt": "2025-09-22T17:15:33Z",
       "closedAt": null,
       "comments": []
     }
