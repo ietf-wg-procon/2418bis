@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-23T01:27:11.494304+00:00",
+  "timestamp": "2025-09-25T01:36:42.705211+00:00",
   "repo": "richsalz/draft-rsalz-2418bis",
   "labels": [
     {
@@ -326,6 +326,22 @@
       "body": "RFC 3934 updates 3.2 to allw suspension of posting privileges. This will be obsoleted by the MODPOD WG document",
       "createdAt": "2025-09-22T17:15:33Z",
       "updatedAt": "2025-09-22T17:15:33Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 24,
+      "id": "I_kwDOMaVM687NZO0i",
+      "title": "Codify call for adoption?",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/24",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "From Brian E Carpenter on the mailing list:\n\n> Adoption is _not_ a formal step in the IETF process described by RFC 2026\n> and RFC 2418. Most newcomers seem to assume that it is, since it's\n> entrenched in common practice and in the tracker.\n\n> There is a question that the WG charter allows us to ask: should WG\n> adoption be mentioned in section 8.2 of 2418bis? That is distinct from\n> the longer term question of pursuing draft-carpenter-gendispatch-rfc7221bis.",
+      "createdAt": "2025-09-23T16:26:53Z",
+      "updatedAt": "2025-09-23T16:26:53Z",
       "closedAt": null,
       "comments": []
     }
