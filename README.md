@@ -2,19 +2,19 @@
 
 This is the working area for the individual Internet-Draft, "ETF Working Group Guidelines and Procedures".
 
-* [Editor's Copy](https://richsalz.github.io/draft-rsalz-2418bis/#go.draft-rsalz-2418bis.html)
-* [Datatracker Page](https://datatracker.ietf.org/doc/draft-rsalz-2418bis)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-rsalz-2418bis)
-* [Compare Editor's Copy to Individual Draft](https://richsalz.github.io/draft-rsalz-2418bis/#go.draft-rsalz-2418bis.diff)
+* [Editor's Copy](https://ietf-wg-procon.github.io/draft-ietf-procon-2418bis/#go.draft-ietf-procon-2418bis.html)
+* [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-procon-2418bis)
+* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-ietf-procon-2418bis)
+* [Compare Editor's Copy to Individual Draft](https://ietf-wg-procon.github.io/draft-ietf-procon-2418bis/#go.draft-ietf-procon-2418bis.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/richsalz/draft-rsalz-2418bis/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/ietf-wg-procon/draft-ietf-procon-2418bis/blob/main/CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
-The GitHub interface supports creating pull requests using the Edit (✏) button.
+The GitHub interface supports creating pull requests using the Edit (â) button.
 
 
 ## Command Line Usage
