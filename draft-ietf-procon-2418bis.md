@@ -1,12 +1,12 @@
 ---
 title: "IETF Working Group Guidelines and Procedures"
 abbrev: "wg-guidelines"
-docname: draft-rsalz-2418bis-latest
+docname: draft-ietf-procon-2418bis-latest
 submissiontype: IETF
 category: bcp
 ipr: trust200902
 area: General
-workgroup: xxxxxxx
+workgroup: procon
 keyword: process
 stand_alone: yes
 smart_quotes: no
@@ -27,12 +27,12 @@ author:
     email: sob@sobco.com
 
 venue:
- repo: https://github.com/richsalz/draft-rsalz-2418bis
+ repo: https://github.com/ietf-wg-proocon/draft-ietf-procon-2418bis
 
 normative:
 
 informative:
-  2026bis: I-D.draft-rsalz-2026bis
+  2026bis: I-D.draft-ietf-procon-2026bis
 
 --- abstract
 
