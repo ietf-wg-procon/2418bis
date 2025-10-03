@@ -2,16 +2,16 @@
 
 
 
-xxxxxxx                                                          R. Salz
+procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                           S. Bradner
 Updates: 7475, 7776, 8717, 9141 (if approved)                      SOBCO
-Intended status: Best Current Practice                  2 September 2025
-Expires: 6 March 2026
+Intended status: Best Current Practice                    3 October 2025
+Expires: 6 April 2026
 
 
               IETF Working Group Guidelines and Procedures
-                       draft-rsalz-2418bis-latest
+                    draft-ietf-procon-2418bis-latest
 
 Abstract
 
@@ -35,10 +35,10 @@ About This Document
    This note is to be removed before publishing as an RFC.
 
    Status information for this document may be found at
-   https://datatracker.ietf.org/doc/draft-rsalz-2418bis/.
+   https://datatracker.ietf.org/doc/draft-ietf-procon-2418bis/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/richsalz/draft-rsalz-2418bis.
+   https://github.com/ietf-wg-procon/2418bis.
 
 Status of This Memo
 
@@ -55,7 +55,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 6 March 2026.
+   This Internet-Draft will expire on 6 April 2026.
 
 Copyright Notice
 
@@ -1207,10 +1207,10 @@ Table of Contents
               <https://www.rfc-editor.org/rfc/rfc8713>.
 
    [_2026bis] Salz, R. and S. O. Bradner, "The Internet Standards
-              Process", Work in Progress, Internet-Draft, draft-rsalz-
-              2026bis-13, 7 April 2025,
-              <https://datatracker.ietf.org/doc/html/draft-rsalz-
-              2026bis-13>.
+              Process", Work in Progress, Internet-Draft, draft-ietf-
+              procon-2026bis-00, 30 September 2025,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-procon-
+              2026bis-00>.
 
 Appendix: Sample Working Group Charter
 
