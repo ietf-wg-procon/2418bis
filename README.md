@@ -1,21 +1,22 @@
+<!-- regenerate: on (set to off if you edit this file) -->
+
 # IETF Working Group Guidelines and Procedures
 
-This is the working area for the individual Internet-Draft, "ETF Working Group Guidelines and Procedures".
+This is the working area for the IETF [PROCON Working Group](https://datatracker.ietf.org/group/procon/documents/) Internet-Draft, "IETF Working Group Guidelines and Procedures".
 
-* [Editor's Copy](https://ietf-wg-procon.github.io/draft-ietf-procon-2418bis/#go.draft-ietf-procon-2418bis.html)
+* [Editor's Copy](https://ietf-wg-procon.github.io/2418bis/#go.draft-ietf-procon-2418bis.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-procon-2418bis)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-ietf-procon-2418bis)
-* [Compare Editor's Copy to Individual Draft](https://ietf-wg-procon.github.io/draft-ietf-procon-2418bis/#go.draft-ietf-procon-2418bis.diff)
+* [Working Group Draft](https://datatracker.ietf.org/doc/html/draft-ietf-procon-2418bis)
+* [Compare Editor's Copy to Working Group Draft](https://ietf-wg-procon.github.io/2418bis/#go.draft-ietf-procon-2418bis.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/ietf-wg-procon/draft-ietf-procon-2418bis/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/ietf-wg-procon/2418bis/blob/main/CONTRIBUTING.md).
 
-Contributions can be made by creating pull requests.
-The GitHub interface supports creating pull requests using the Edit (â) button.
-
+The contributing file also has tips on how to make contributions, if you
+don't already know how to do that.
 
 ## Command Line Usage
 
