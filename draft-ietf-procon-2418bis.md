@@ -250,8 +250,8 @@ tasks.  A charter:
 2. Specifies the direction or objectives of the working group and
 describes the approach that will be taken to achieve the goals; and
 
-3. Enumerates a set of milestones together with time frames for their
-completion.
+3. Optionally enumerates a set of milestones together with time frames
+for their completion.
 
 When the prospective Chair(s), the Area Director and the IETF
 Secretariat are satisfied with the charter form and content, it
@@ -264,8 +264,8 @@ approval.
 Charters may be renegotiated periodically to reflect the current
 status, organization or goals of the working group (see {{sec5}}).
 Hence, a charter is a contract between the IETF and the working group
-which is committing to meet explicit milestones and delivering
-specific "products".
+which is committing to a scope for the work and optionally also to
+meet explicit milestones and delivering specific "products".
 
 Specifically, each charter consists of the following sections:
 
@@ -329,10 +329,10 @@ respect to:
 - Transition (where applicable)
 
 Goals and milestones
-: The working group charter MUST establish a timetable for specific work
+: The working group charter SHOULD establish a timetable for specific work
 items.  While this may be renegotiated over time, the list of
 milestones and dates facilitates the Area Director's tracking of
-working group progress and status, and it is indispensable to
+working group progress and status, and it can facilitate
 potential participants identifying the critical moments for input.
 Milestones shall consist of deliverables that can be qualified as
 showing specific achievement; e.g., "Internet-Draft finished" is fine,
@@ -370,6 +370,19 @@ If the IESG approves the formation of the working group it remands the
 approved charter to the IETF Secretariat who records and enters the
 information into the IETF tracking database.  The working group is
 announced to the IETF-announce a by the IETF Secretariat.
+
+While chartering a new working group, the IESG will decide whether
+milestones are enabled or disabled for this working group. If they are
+enabled, the IESG will decide whether the milestones for this working group
+have dates. If they do, the IESG will also decide what the granularity of
+those dates should be. Examples of granularity include months, quarters,
+half-years, IETF meetings, and sooner-vs-later. The Area Director is
+encouraged to discuss these choices with the working group chairs, as the
+success of milestones is predicated on the chairs updating them in a timely
+manner. While it is expected that this decision will almost always be made
+as agreement between working group chairs and their responsible area
+director, in the case of a disagreement the final decision lies with the
+area director.
 
 ## Birds of a Feather (BOF)
 
@@ -502,7 +515,7 @@ sent to: minutes@ietf.org
 
 Each working group will determine the balance of email and
 face-to-face sessions that is appropriate for achieving its
-milestones. Electronic mail permits the widest participation;
+goals. Electronic mail permits the widest participation;
 face-to-face meetings often permit better focus and therefore can be
 more efficient for reaching a consensus among a core of the working
 group participants.  In determining the balance, the WG must ensure
@@ -551,6 +564,10 @@ individual who is unprepared or otherwise covering inappropriate
 material, or who, in the opinion of the Chair is disrupting the WG
 process.  The Chair should consult with the Area Director(s) if the
 individual persists in disruptive behavior.
+
+For working groups where milestones are enabled, chairs are expected to keep
+milestones up to date. Chairs are expected to review milestones at least
+once per IETF meeting (every four months) to ensure they are accurate.
 
 ### On-line
 
@@ -715,9 +732,13 @@ appeal to the IESG (see {{appeals}}).
 
 Updated milestones are renegotiated with the Area Director and the
 IESG, as needed, and then are submitted to the IESG Secretariat:
-iesg-secretary@ietf.org.
+iesg-secretary@ietf.org. Similarly, the Area Director can enable or
+disable milestones, or enable or disable dates, or change the granularity
+of dates, all without a formal recharter. The Area Director can also
+optionally give the working group chairs access permission to update the
+dates of milestones.
 
-Rechartering (other than revising milestones) a working group follows
+Rechartering (other than changes to milestones) a working group follows
 the same procedures that the initial chartering does (see {{sec2}}).
 The revised charter must be submitted to the IESG and IAB for
 approval.  As with the initial chartering, the IESG may approve new
@@ -754,7 +775,7 @@ The Chair's responsibility encompasses at least the following:
 - Ensure WG process and content management
 
 The Chair has ultimate responsibility for ensuring that a working
-group achieves forward progress and meets its milestones.  The Chair
+group achieves forward progress and meets its goals.  The Chair
 is also responsible to ensure that the working group operates in an
 open and fair manner.  For some working groups, this can be
 accomplished by having the Chair perform all management-related
@@ -1164,6 +1185,7 @@ will investigate and design a protocol for this purpose, generate an
 Internet Draft, and advance it to RFC as appropriate.
 
 Goals and Milestones:
+For this working group, milestones are enabled with monthly dates.
 
 May 98    Issue first Internet-Draft on service framework
 Jul 98    Submit framework ID to IESG for publication as an RFC.
