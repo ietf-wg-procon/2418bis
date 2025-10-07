@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-05T01:42:54.384868+00:00",
+  "timestamp": "2025-10-07T01:27:19.797219+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -635,6 +635,159 @@
           "createdAt": "2025-10-01T18:01:43Z",
           "updatedAt": "2025-10-01T18:01:43Z",
           "comments": []
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "id": "PR_kwDOMaVM686sYSmr",
+      "title": "Make milestones optional",
+      "url": "https://github.com/ietf-wg-procon/2418bis/pull/26",
+      "state": "OPEN",
+      "author": "DavidSchinazi",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This PR incorporates draft-schinazi-update-on-milestones into draft-ietf-procon-2418bis. It makes changes to all mentions of milestones in the document.",
+      "createdAt": "2025-10-06T22:00:43Z",
+      "updatedAt": "2025-10-07T01:02:18Z",
+      "baseRepository": "ietf-wg-procon/2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "33ad4c29658cf51095f860b34e59974e6b16f5a4",
+      "headRepository": "ietf-wg-procon/2418bis",
+      "headRefName": "milestones",
+      "headRefOid": "6812117631ee12c52338f4792cf941db99b1c79f",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687FJxhS",
+          "commit": {
+            "abbreviatedOid": "6812117"
+          },
+          "author": "mcr",
+          "authorAssociation": "NONE",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2025-10-06T22:10:35Z",
+          "updatedAt": "2025-10-06T22:10:48Z",
+          "comments": [
+            {
+              "originalPosition": 51,
+              "body": "Presumably, this could be **changed** by mutual agreement of AD+chairs.\r\nThat the choice does not require a charter revision. You say that later on.  \r\nAnd that it does not require the tooling to enforce the choice?\r\nIt seems like a lot words here.\r\n",
+              "createdAt": "2025-10-06T22:10:35Z",
+              "updatedAt": "2025-10-06T22:10:48Z"
+            },
+            {
+              "originalPosition": 84,
+              "body": "This requires tooling changes.\r\n(I think that milestones would get used and update more often if WG chairs could do this without supervision)\r\n",
+              "createdAt": "2025-10-06T22:10:37Z",
+              "updatedAt": "2025-10-06T22:10:48Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687FJy0f",
+          "commit": {
+            "abbreviatedOid": "6812117"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-06T22:13:50Z",
+          "updatedAt": "2025-10-06T22:13:50Z",
+          "comments": [
+            {
+              "originalPosition": 84,
+              "body": "It does. But we intentionally don't go into the details of the tooling in this document. Just state what is possible and let the IESG work with the tools team to figure out the details",
+              "createdAt": "2025-10-06T22:13:50Z",
+              "updatedAt": "2025-10-06T22:13:50Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687FJzJ2",
+          "commit": {
+            "abbreviatedOid": "6812117"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-06T22:14:41Z",
+          "updatedAt": "2025-10-06T22:14:41Z",
+          "comments": [
+            {
+              "originalPosition": 51,
+              "body": "Yes, it can be changed later. We say that though. I don't think we should get into the details of tooling in this document.",
+              "createdAt": "2025-10-06T22:14:41Z",
+              "updatedAt": "2025-10-06T22:14:41Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687FK2lx",
+          "commit": {
+            "abbreviatedOid": "6812117"
+          },
+          "author": "mcr",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-07T00:57:00Z",
+          "updatedAt": "2025-10-07T00:57:00Z",
+          "comments": [
+            {
+              "originalPosition": 84,
+              "body": "> It does. But we intentionally don't go into the details of the tooling in this document. Just state what is possible and let the IESG work with the tools team to figure out the details\r\n\r\nI'm not concerned about the tooling requirement, but the detail of who has authority to do what does need to feed into the tooling. ",
+              "createdAt": "2025-10-07T00:57:00Z",
+              "updatedAt": "2025-10-07T00:57:00Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687FK2p3",
+          "commit": {
+            "abbreviatedOid": "6812117"
+          },
+          "author": "mcr",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-07T00:57:14Z",
+          "updatedAt": "2025-10-07T00:57:14Z",
+          "comments": [
+            {
+              "originalPosition": 51,
+              "body": "> Yes, it can be changed later. We say that though. I don't think we should get into the details of tooling in this document.\r\n\r\nI'm not seeing text that says that here.",
+              "createdAt": "2025-10-07T00:57:14Z",
+              "updatedAt": "2025-10-07T00:57:14Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687FK4d9",
+          "commit": {
+            "abbreviatedOid": "6812117"
+          },
+          "author": "mcr",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-07T01:02:17Z",
+          "updatedAt": "2025-10-07T01:02:18Z",
+          "comments": [
+            {
+              "originalPosition": 51,
+              "body": "```suggestion\r\nWhile chartering a new working group, the IESG will decide whether\r\nmilestones are enabled or disabled for this working group, and if enabled whether there are dates included, and at what granularity.\r\nThe responsible Area Director is empowered to change these details without formal updates to the charter.\r\nThe Area Director is encouraged to discuss these choices with the working group chairs, as the\r\nsuccess of milestones is predicated on the chairs updating them in a timely manner. \r\nUpdating the date attached to a milestone is under the authority of the working group chairs and does not require pre-approval of the Area Director.  \r\nHowever, in the case of a disagreement the final decision lies with the Area Director.\r\n```\r\n",
+              "createdAt": "2025-10-07T01:02:18Z",
+              "updatedAt": "2025-10-07T01:02:18Z"
+            }
+          ]
         }
       ]
     }
