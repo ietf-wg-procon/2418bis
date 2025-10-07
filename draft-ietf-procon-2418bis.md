@@ -444,7 +444,7 @@ the details of its own operation with respect to session
 participation, reaching closure, etc. The core rule for operation is
 that acceptance or agreement is achieved via working group "rough
 consensus".  WG participants should specifically note the requirements
-for disclosure of conflicts of interest in {{RFC9281}}.
+around intellectual property in {{2026bis}}.
 
 A number of procedural questions and issues will arise over time, and
 it is the function of the Working Group Chair(s) to manage the group
