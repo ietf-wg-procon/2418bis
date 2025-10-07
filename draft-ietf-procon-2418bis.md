@@ -372,17 +372,17 @@ information into the IETF tracking database.  The working group is
 announced to the IETF-announce a by the IETF Secretariat.
 
 While chartering a new working group, the IESG will decide whether
-milestones are enabled or disabled for this working group. If they are
-enabled, the IESG will decide whether the milestones for this working group
-have dates. If they do, the IESG will also decide what the granularity of
-those dates should be. Examples of granularity include months, quarters,
-half-years, IETF meetings, and sooner-vs-later. The Area Director is
+milestones are enabled or disabled for this working group, and if enabled
+whether there are dates included, and at what granularity. Examples of
+granularity include months, quarters, half-years, IETF meetings, and
+sooner-vs-later. The responsible Area Director is empowered to change these
+details without formal updates to the charter. The Area Director is
 encouraged to discuss these choices with the working group chairs, as the
 success of milestones is predicated on the chairs updating them in a timely
-manner. While it is expected that this decision will almost always be made
-as agreement between working group chairs and their responsible area
-director, in the case of a disagreement the final decision lies with the
-area director.
+manner. Updating the date attached to a milestone is under the authority of
+the working group chairs and does not require pre-approval of the Area
+Director. However, in the case of a disagreement the final decision lies
+with the Area Director.
 
 ## Birds of a Feather (BOF)
 
@@ -734,9 +734,7 @@ Updated milestones are renegotiated with the Area Director and the
 IESG, as needed, and then are submitted to the IESG Secretariat:
 iesg-secretary@ietf.org. Similarly, the Area Director can enable or
 disable milestones, or enable or disable dates, or change the granularity
-of dates, all without a formal recharter. The Area Director can also
-optionally give the working group chairs access permission to update the
-dates of milestones.
+of dates, all without a formal recharter.
 
 Rechartering (other than changes to milestones) a working group follows
 the same procedures that the initial chartering does (see {{sec2}}).
