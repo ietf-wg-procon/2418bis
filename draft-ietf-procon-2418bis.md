@@ -377,9 +377,9 @@ information into the IETF tracking database.  The working group is
 announced to the IETF-announce a by the IETF Secretariat.
 
 While chartering a new working group, the IESG will decide whether
-milestones are enabled or disabled for this working group, and if enabled
-whether there are dates included, and at what granularity. Examples of
-granularity include months, quarters, half-years, IETF meetings, and
+milestones are initially enabled or disabled for this working group, and if
+enabled whether there are dates included, and at what granularity. Examples
+of granularity include months, quarters, half-years, IETF meetings, and
 sooner-vs-later. The responsible Area Director is empowered to change these
 details without formal updates to the charter. The Area Director is
 encouraged to discuss these choices with the working group chairs, as the
