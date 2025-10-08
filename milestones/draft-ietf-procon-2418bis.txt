@@ -7,8 +7,8 @@ Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                          D. Schinazi
 Updates: 7475, 7776, 8717, 9141 (if approved)                 Google LLC
 Intended status: Best Current Practice                        S. Bradner
-Expires: 10 April 2026                                             SOBCO
-                                                          7 October 2025
+Expires: 11 April 2026                                             SOBCO
+                                                          8 October 2025
 
 
               IETF Working Group Guidelines and Procedures
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 10 April 2026.
+   This Internet-Draft will expire on 11 April 2026.
 
 Copyright Notice
 
@@ -443,18 +443,18 @@ Table of Contents
    is announced to the IETF-announce a by the IETF Secretariat.
 
    While chartering a new working group, the IESG will decide whether
-   milestones are enabled or disabled for this working group, and if
-   enabled whether there are dates included, and at what granularity.
-   Examples of granularity include months, quarters, half-years, IETF
-   meetings, and sooner-vs-later.  The responsible Area Director is
-   empowered to change these details without formal updates to the
-   charter.  The Area Director is encouraged to discuss these choices
-   with the working group chairs, as the success of milestones is
-   predicated on the chairs updating them in a timely manner.  Updating
-   the date attached to a milestone is under the authority of the
-   working group chairs and does not require pre-approval of the Area
-   Director.  However, in the case of a disagreement the final decision
-   lies with the Area Director.
+   milestones are initially enabled or disabled for this working group,
+   and if enabled whether there are dates included, and at what
+   granularity.  Examples of granularity include months, quarters, half-
+   years, IETF meetings, and sooner-vs-later.  The responsible Area
+   Director is empowered to change these details without formal updates
+   to the charter.  The Area Director is encouraged to discuss these
+   choices with the working group chairs, as the success of milestones
+   is predicated on the chairs updating them in a timely manner.
+   Updating the date attached to a milestone is under the authority of
+   the working group chairs and does not require pre-approval of the
+   Area Director.  However, in the case of a disagreement the final
+   decision lies with the Area Director.
 
 3.4.  Birds of a Feather (BOF)
 
