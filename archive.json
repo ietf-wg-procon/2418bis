@@ -1,12 +1,17 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-07T01:27:19.797219+00:00",
+  "timestamp": "2025-10-09T01:36:01.912712+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
       "name": "bug",
       "description": "Something wrong in the doc",
       "color": "d73a4a"
+    },
+    {
+      "name": "discuss",
+      "description": "Needs WG consensus",
+      "color": "d876e3"
     },
     {
       "name": "editorial",
@@ -17,11 +22,6 @@
       "name": "hold",
       "description": "Perhaps wait for WG recharter",
       "color": "cfd3d7"
-    },
-    {
-      "name": "question",
-      "description": "Needs WG consensus",
-      "color": "d876e3"
     },
     {
       "name": "reality",
@@ -44,10 +44,12 @@
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "body": "The original doc says in the first paragraph of section 3:\r\n```\r\nWG participants should specifically note the\r\nrequirements for disclosure of conflicts of interest in [2].\r\n```\r\n\r\n[2] is RFC 2028, obsoleted by 9281 and neither one of these mentions conflict of interest.\r\n\r\nSee email thread at https://mailarchive.ietf.org/arch/msg/ietf/8mEwZkwtL-WNCPyZ5hBd7FaWVq8/\r\n",
       "createdAt": "2024-08-09T20:26:48Z",
-      "updatedAt": "2025-04-04T18:42:42Z",
+      "updatedAt": "2025-10-07T16:18:05Z",
       "closedAt": null,
       "comments": [
         {
@@ -68,10 +70,13 @@
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "bug",
+        "reality"
+      ],
       "body": "The section titled \"Internet-Drafts\" has a bunch of outdated information\r\n\r\n- Says to submit via email\r\n- Says secretariat maintains boilerplate\r\n- refers to 1id-organization.txt file\r\n- refers to 1id-guidelines.txt file\r\n",
       "createdAt": "2024-08-30T17:07:23Z",
-      "updatedAt": "2025-08-29T07:44:07Z",
+      "updatedAt": "2025-10-07T16:17:48Z",
       "closedAt": null,
       "comments": [
         {
@@ -123,10 +128,13 @@
       "author": "moonshiner",
       "authorAssociation": "NONE",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "bug",
+        "reality"
+      ],
       "body": "still talks of emailing agenda@ietf.org\r\n\r\nand may want to discuss newer tools to manage meetings. but maybe not",
       "createdAt": "2024-10-11T11:34:15Z",
-      "updatedAt": "2024-10-11T11:34:15Z",
+      "updatedAt": "2025-10-07T16:18:23Z",
       "closedAt": null,
       "comments": []
     },
@@ -199,32 +207,50 @@
       "id": "I_kwDOMaVM687IktLV",
       "title": "section 4.2.1, agenda@ietf.org is obsolete",
       "url": "https://github.com/ietf-wg-procon/2418bis/issues/17",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mcr",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "Agenda requests are now handled through DT.\n\nreplaces #15.\n",
       "createdAt": "2025-08-29T00:44:09Z",
-      "updatedAt": "2025-08-29T00:44:09Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2025-10-07T17:55:17Z",
+      "closedAt": "2025-10-07T17:55:17Z",
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "dup of #11",
+          "createdAt": "2025-10-07T17:55:17Z",
+          "updatedAt": "2025-10-07T17:55:17Z"
+        }
+      ]
     },
     {
       "number": 18,
       "id": "I_kwDOMaVM687Ikt32",
-      "title": "split up section 4.2.2",
+      "title": "split up section 4.2.2 (posting privileges)",
       "url": "https://github.com/ietf-wg-procon/2418bis/issues/18",
       "state": "OPEN",
       "author": "mcr",
       "authorAssociation": "NONE",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "discuss"
+      ],
       "body": "```\n   As in face-to-face sessions, occasionally one or more individuals may\n   engage in behavior on a mailing list that, in the opinion of the WG\n   chair, is disruptive to the WG process. \n```\n\nThis needs to be a new section.  Maybe a top-level section.\nI also think that this might even warrant a new document, because I think that our processes around disruptive individuals will change more.\nI'd prefer to rev another document rather than open 2418bis.\n\nreplace #15 ",
       "createdAt": "2025-08-29T00:46:43Z",
-      "updatedAt": "2025-08-29T00:46:43Z",
+      "updatedAt": "2025-10-07T18:06:26Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Is this overtaken by MODPOD?  Should we just point to that?",
+          "createdAt": "2025-10-07T18:00:27Z",
+          "updatedAt": "2025-10-07T18:00:27Z"
+        }
+      ]
     },
     {
       "number": 19,
@@ -259,10 +285,12 @@
       "author": "mcr",
       "authorAssociation": "NONE",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "discuss"
+      ],
       "body": "\n\nI've never seen the WG Facilitator role be formally enacted.\nNot sure it belongs anymore. We just do this as we need to.\n\nreplace #15 ",
       "createdAt": "2025-08-29T00:50:00Z",
-      "updatedAt": "2025-08-29T00:50:00Z",
+      "updatedAt": "2025-10-07T16:13:13Z",
       "closedAt": null,
       "comments": []
     },
@@ -311,16 +339,26 @@
       "id": "I_kwDOMaVM687NJ-kd",
       "title": "suspending posting privileges - remove text?",
       "url": "https://github.com/ietf-wg-procon/2418bis/issues/23",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "discuss"
+      ],
       "body": "RFC 3934 updates 3.2 to allw suspension of posting privileges. This will be obsoleted by the MODPOD WG document",
       "createdAt": "2025-09-22T17:15:33Z",
-      "updatedAt": "2025-09-22T17:15:33Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2025-10-07T18:05:52Z",
+      "closedAt": "2025-10-07T18:05:52Z",
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Dup of #18",
+          "createdAt": "2025-10-07T18:05:52Z",
+          "updatedAt": "2025-10-07T18:05:52Z"
+        }
+      ]
     },
     {
       "number": 24,
@@ -331,10 +369,30 @@
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "discuss"
+      ],
       "body": "From Brian E Carpenter on the mailing list:\n\n> Adoption is _not_ a formal step in the IETF process described by RFC 2026\n> and RFC 2418. Most newcomers seem to assume that it is, since it's\n> entrenched in common practice and in the tracker.\n\n> There is a question that the WG charter allows us to ask: should WG\n> adoption be mentioned in section 8.2 of 2418bis? That is distinct from\n> the longer term question of pursuing draft-carpenter-gendispatch-rfc7221bis.",
       "createdAt": "2025-09-23T16:26:53Z",
-      "updatedAt": "2025-09-23T16:26:53Z",
+      "updatedAt": "2025-10-07T16:13:14Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 27,
+      "id": "I_kwDOMaVM687QJQ3o",
+      "title": "do virtual side meetings count as BOFs",
+      "url": "https://github.com/ietf-wg-procon/2418bis/issues/27",
+      "state": "OPEN",
+      "author": "mcr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "discuss"
+      ],
+      "body": "I think some clarification would be useful as to whether virtual interim (side)meetings count as BOFs.\n\n2418 speaks about 1 BOF, with 2 being an exception.\n2 BOFs is now very common, with one or more side meetings even occuring.\nBOF organizers/proponents often (particularly pandemic) have weekly to monthly organizing meetings.\nThis is done using ad-hoc meeting technology, which often results in problems accessing for some, lack of good records.  Many would prefer to use meetecho for this, but then there was push back that said if it used the official tool, then it would be a BOF.\nIf the reason to limit BOFs to <= 2 is due to time constraints for plenary week, then any time elsewhere (elsewhen?) should not count.\nIf there are other reasons to limit BOF, then they should be enumerated.\n\nThere is also now an IAB involvement in bringing new work.\n\nreplacing ietf-wg-procon/2026bis#19, and this issue should move to other repo.\n",
+      "createdAt": "2025-08-29T00:42:21Z",
+      "updatedAt": "2025-10-07T16:01:17Z",
       "closedAt": null,
       "comments": []
     }
@@ -650,18 +708,61 @@
       "labels": [],
       "body": "This PR incorporates draft-schinazi-update-on-milestones into draft-ietf-procon-2418bis. It makes changes to all mentions of milestones in the document.",
       "createdAt": "2025-10-06T22:00:43Z",
-      "updatedAt": "2025-10-07T01:02:18Z",
+      "updatedAt": "2025-10-08T18:51:00Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "33ad4c29658cf51095f860b34e59974e6b16f5a4",
       "headRepository": "ietf-wg-procon/2418bis",
       "headRefName": "milestones",
-      "headRefOid": "6812117631ee12c52338f4792cf941db99b1c79f",
+      "headRefOid": "6cd582e115207de21225c532474702a7e068b6f4",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "It seems very restrictive that the decision whether or not to specify milestones is made once and for all when a WG is first chartered. It would be quite plausible for a WG with or without milestones to change mode as its role evolves. I suggest that it should be \"when a WG is first chartered _or rechartered_\".",
+          "createdAt": "2025-10-08T01:51:52Z",
+          "updatedAt": "2025-10-08T01:51:52Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Hi @becarpenter, I agree with you. This is already the case though - does the following sentence not cover it for you?\r\n\r\n> Similarly, the Area Director can enable or disable milestones, or enable or disable dates, or change the granularity of dates, all without a formal recharter.",
+          "createdAt": "2025-10-08T03:01:07Z",
+          "updatedAt": "2025-10-08T03:01:07Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "Yes, I guess, but the present text could be read as setting the decision in concrete.",
+          "createdAt": "2025-10-08T03:27:27Z",
+          "updatedAt": "2025-10-08T03:27:27Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "That's totally fair, and I'm happy to improve it. Do you have a suggestion for how to make it sound less final without repeating the other section too much?",
+          "createdAt": "2025-10-08T03:46:41Z",
+          "updatedAt": "2025-10-08T03:46:41Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "You know, one word would do it:\r\n\r\n> While chartering a new working group, the IESG will decide whether\r\n> milestones are _initially_  enabled or disabled for this working group,",
+          "createdAt": "2025-10-08T04:37:44Z",
+          "updatedAt": "2025-10-08T04:37:44Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I like that. Added the word \"initially\". Thanks for the suggestion.",
+          "createdAt": "2025-10-08T18:51:00Z",
+          "updatedAt": "2025-10-08T18:51:00Z"
+        }
+      ],
       "reviews": [
         {
           "id": "PRR_kwDOMaVM687FJxhS",
@@ -788,8 +889,139 @@
               "updatedAt": "2025-10-07T01:02:18Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687FTUOF",
+          "commit": {
+            "abbreviatedOid": "6812117"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-07T13:38:45Z",
+          "updatedAt": "2025-10-07T13:38:45Z",
+          "comments": [
+            {
+              "originalPosition": 51,
+              "body": "Is any IESG decision unchangeable? But I agree that it is probably worth making explicit here. Perhaps something like at the end: \"This decision can be revisited at any time, when requested by the IESG, the AD, or the WG Chairs.\"",
+              "createdAt": "2025-10-07T13:38:45Z",
+              "updatedAt": "2025-10-07T13:38:46Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687FTVcK",
+          "commit": {
+            "abbreviatedOid": "6812117"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "one comment added, which can be left to the WG if you want.\r\n\r\nplease also add yourself as an author, in anticipation of your future work on this :)",
+          "createdAt": "2025-10-07T13:39:56Z",
+          "updatedAt": "2025-10-07T13:39:56Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOMaVM687FXTGE",
+          "commit": {
+            "abbreviatedOid": "6812117"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-07T17:37:26Z",
+          "updatedAt": "2025-10-07T17:38:10Z",
+          "comments": [
+            {
+              "originalPosition": 51,
+              "body": "Thanks for both you suggestions, I've incorporated them into a revised version of this paragraph",
+              "createdAt": "2025-10-07T17:37:27Z",
+              "updatedAt": "2025-10-07T17:38:10Z"
+            },
+            {
+              "originalPosition": 84,
+              "body": "Got it. I took your suggestion in the paragraph above and removed the mention from here. I think that should address this comment?",
+              "createdAt": "2025-10-07T17:37:56Z",
+              "updatedAt": "2025-10-07T17:38:10Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687FXV_H",
+          "commit": {
+            "abbreviatedOid": "6812117"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-07T17:39:31Z",
+          "updatedAt": "2025-10-07T17:39:32Z",
+          "comments": [
+            {
+              "originalPosition": 51,
+              "body": "looks good, feel free to merge",
+              "createdAt": "2025-10-07T17:39:32Z",
+              "updatedAt": "2025-10-07T17:39:32Z"
+            }
+          ]
         }
       ]
+    },
+    {
+      "number": 28,
+      "id": "PR_kwDOMaVM686sh1gQ",
+      "title": "Change \"conflict of interest\"",
+      "url": "https://github.com/ietf-wg-procon/2418bis/pull/28",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This was a mistake in the original doc and should probably be about intellectual property.",
+      "createdAt": "2025-10-07T16:11:50Z",
+      "updatedAt": "2025-10-07T16:12:05Z",
+      "baseRepository": "ietf-wg-procon/2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "33ad4c29658cf51095f860b34e59974e6b16f5a4",
+      "headRepository": "ietf-wg-procon/2418bis",
+      "headRefName": "fix-1",
+      "headRefOid": "d3caa6de39cce9e5c95abddb95080d065727293b",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 29,
+      "id": "PR_kwDOMaVM686sh4x-",
+      "title": "Remove sample charter",
+      "url": "https://github.com/ietf-wg-procon/2418bis/pull/29",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-10-07T16:16:17Z",
+      "updatedAt": "2025-10-07T16:16:17Z",
+      "baseRepository": "ietf-wg-procon/2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "33ad4c29658cf51095f860b34e59974e6b16f5a4",
+      "headRepository": "ietf-wg-procon/2418bis",
+      "headRefName": "fix-13+22",
+      "headRefOid": "25b5d3a1f81caf4c9b87682c55e2d0b916b9bdfd",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
