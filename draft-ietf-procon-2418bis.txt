@@ -6,8 +6,8 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                           S. Bradner
 Updates: 7475, 7776, 8717, 9141 (if approved)                      SOBCO
-Intended status: Best Current Practice                    3 October 2025
-Expires: 6 April 2026
+Intended status: Best Current Practice                   15 October 2025
+Expires: 18 April 2026
 
 
               IETF Working Group Guidelines and Procedures
@@ -55,7 +55,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 6 April 2026.
+   This Internet-Draft will expire on 18 April 2026.
 
 Copyright Notice
 
@@ -110,6 +110,8 @@ Table of Contents
    10. Security Considerations
    11. IANA Considerations
    12. Change Log
+     12.1.  Working group draft
+     12.2.  Individual draft
    13. References
      13.1.  Normative References
      13.2.  Informative References
@@ -118,10 +120,6 @@ Table of Contents
    Authors' Addresses
 
 1.  Introduction
-
-       NOTE: This document started with the raw text of RFC 2418, and
-       subsequent drafts each incorporated the text of RFC 3934, RFC
-       7475, RFC 7776, RFC 8717, and RFC 9141.
 
    The Internet, a loosely-organized international collaboration of
    autonomous, interconnected networks, supports host-to-host
@@ -1137,6 +1135,15 @@ Table of Contents
    This document has no IANA actions.
 
 12.  Change Log
+
+12.1.  Working group draft
+
+   *  Draft 0: Adopted by PROCON WG
+
+   *  Draft 1: Removed sample charter.  Fix "conflict of interest" text.
+      Make milestones optional.  Clarify IAB liaison to IESG.
+
+12.2.  Individual draft
 
    *  Draft 0: Translated the nroff source of RFC 2418 into markdown.
       Changed the intellectual proper notices the current ones.
