@@ -56,10 +56,6 @@ incorporates the changes from RFC8717 and RFC9141.
 
 # Introduction
 
-        NOTE: This document started with the raw text of RFC 2418, and
-        subsequent drafts each incorporated the text of RFC 3934, RFC
-        7475, RFC 7776, RFC 8717, and RFC 9141.
-
 The Internet, a loosely-organized international collaboration of
 autonomous, interconnected networks, supports host-to-host
 communication through voluntary adherence to open protocols and
@@ -1063,6 +1059,15 @@ they are run.
 This document has no IANA actions.
 
 # Change Log
+
+## Working group draft
+
+- Draft 0: Adopted by PROCON WG
+
+- Draft 1: Removed sample charter. Fix "conflict of interest" text. Make
+milestones optional. Clarify IAB liaison to IESG.
+
+## Individual draft
 
 - Draft 0: Translated the nroff source of RFC 2418 into markdown. Changed
 the intellectual proper notices the current ones.
