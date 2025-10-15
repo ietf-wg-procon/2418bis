@@ -6,6 +6,7 @@
 <meta content="initial-scale=1.0" name="viewport">
 <title>IETF Working Group Guidelines and Procedures</title>
 <meta content="Rich Salz" name="author">
+<meta content="David Schinazi" name="author">
 <meta content="Scott Bradner" name="author">
 <meta content="
        The Internet Engineering Task Force (IETF) has responsibility for
@@ -1060,7 +1061,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <td class="right">October 2025</td>
 </tr></thead>
 <tfoot><tr>
-<td class="left">Salz &amp; Bradner</td>
+<td class="left">Salz, et al.</td>
 <td class="center">Expires 18 April 2026</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
@@ -1091,6 +1092,10 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <div class="author">
       <div class="author-name">R. Salz</div>
 <div class="org">Akamai Technologies</div>
+</div>
+<div class="author">
+      <div class="author-name">D. Schinazi</div>
+<div class="org">Google LLC</div>
 </div>
 <div class="author">
       <div class="author-name">S. Bradner</div>
@@ -1553,8 +1558,8 @@ tasks.  A charter:<a href="#section-3.2-1" class="pilcrow">¶</a></p>
 describes the approach that will be taken to achieve the goals; and<a href="#section-3.2-2.2.1" class="pilcrow">¶</a></p>
 </li>
           <li id="section-3.2-2.3">
-            <p id="section-3.2-2.3.1">Enumerates a set of milestones together with time frames for their
-completion.<a href="#section-3.2-2.3.1" class="pilcrow">¶</a></p>
+            <p id="section-3.2-2.3.1">Optionally enumerates a set of milestones together with time frames
+for their completion.<a href="#section-3.2-2.3.1" class="pilcrow">¶</a></p>
 </li>
         </ol>
 <p id="section-3.2-3">When the prospective Chair(s), the Area Director and the IETF
@@ -1567,8 +1572,8 @@ approval.<a href="#section-3.2-3" class="pilcrow">¶</a></p>
 <p id="section-3.2-4">Charters may be renegotiated periodically to reflect the current
 status, organization or goals of the working group (see <a href="#sec5" class="auto internal xref">Section 6</a>).
 Hence, a charter is a contract between the IETF and the working group
-which is committing to meet explicit milestones and delivering
-specific "products".<a href="#section-3.2-4" class="pilcrow">¶</a></p>
+which is committing to a scope for the work and optionally also to
+meet explicit milestones and delivering specific "products".<a href="#section-3.2-4" class="pilcrow">¶</a></p>
 <p id="section-3.2-5">Specifically, each charter consists of the following sections:<a href="#section-3.2-5" class="pilcrow">¶</a></p>
 <span class="break"></span><dl class="dlParallel" id="section-3.2-6">
           <dt id="section-3.2-6.1">Working group name</dt>
@@ -1660,10 +1665,10 @@ respect to:<a href="#section-3.2-9" class="pilcrow">¶</a></p>
 <span class="break"></span><dl class="dlParallel" id="section-3.2-11">
           <dt id="section-3.2-11.1">Goals and milestones</dt>
           <dd style="margin-left: 1.5em" id="section-3.2-11.2">
-            <p id="section-3.2-11.2.1">The working group charter <span class="bcp14">MUST</span> establish a timetable for specific work
+            <p id="section-3.2-11.2.1">The working group charter <span class="bcp14">SHOULD</span> establish a timetable for specific work
 items.  While this may be renegotiated over time, the list of
 milestones and dates facilitates the Area Director's tracking of
-working group progress and status, and it is indispensable to
+working group progress and status, and it can facilitate
 potential participants identifying the critical moments for input.
 Milestones shall consist of deliverables that can be qualified as
 showing specific achievement; e.g., "Internet-Draft finished" is fine,
@@ -1704,6 +1709,18 @@ charter as-is, it <span class="bcp14">MAY</span> request that changes be made in
 approved charter to the IETF Secretariat who records and enters the
 information into the IETF tracking database.  The working group is
 announced to the IETF-announce a by the IETF Secretariat.<a href="#section-3.3-3" class="pilcrow">¶</a></p>
+<p id="section-3.3-4">While chartering a new working group, the IESG will decide whether
+milestones are initially enabled or disabled for this working group, and if
+enabled whether there are dates included, and at what granularity. Examples
+of granularity include months, quarters, half-years, IETF meetings, and
+sooner-vs-later. The responsible Area Director is empowered to change these
+details without formal updates to the charter. The Area Director is
+encouraged to discuss these choices with the working group chairs, as the
+success of milestones is predicated on the chairs updating them in a timely
+manner. Updating the date attached to a milestone is under the authority of
+the working group chairs and does not require pre-approval of the Area
+Director. However, in the case of a disagreement the final decision lies
+with the Area Director.<a href="#section-3.3-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="birds-of-a-feather-bof">
@@ -1859,7 +1876,7 @@ sent to: minutes@ietf.org<a href="#section-4.1-5" class="pilcrow">¶</a></p>
         </h3>
 <p id="section-4.2-1">Each working group will determine the balance of email and
 face-to-face sessions that is appropriate for achieving its
-milestones. Electronic mail permits the widest participation;
+goals. Electronic mail permits the widest participation;
 face-to-face meetings often permit better focus and therefore can be
 more efficient for reaching a consensus among a core of the working
 group participants.  In determining the balance, the WG must ensure
@@ -1916,6 +1933,9 @@ individual who is unprepared or otherwise covering inappropriate
 material, or who, in the opinion of the Chair is disrupting the WG
 process.  The Chair should consult with the Area Director(s) if the
 individual persists in disruptive behavior.<a href="#section-4.2.1-4" class="pilcrow">¶</a></p>
+<p id="section-4.2.1-5">For working groups where milestones are enabled, chairs are expected to keep
+milestones up to date. Chairs are expected to review milestones at least
+once per IETF meeting (every four months) to ensure they are accurate.<a href="#section-4.2.1-5" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="on-line">
@@ -2107,8 +2127,10 @@ appeal to the IESG (see <a href="#appeals" class="auto internal xref">Section 4.
       </h2>
 <p id="section-6-1">Updated milestones are renegotiated with the Area Director and the
 IESG, as needed, and then are submitted to the IESG Secretariat:
-iesg-secretary@ietf.org.<a href="#section-6-1" class="pilcrow">¶</a></p>
-<p id="section-6-2">Rechartering (other than revising milestones) a working group follows
+iesg-secretary@ietf.org. Similarly, the Area Director can enable or
+disable milestones, or enable or disable dates, or change the granularity
+of dates, all without a formal recharter.<a href="#section-6-1" class="pilcrow">¶</a></p>
+<p id="section-6-2">Rechartering (other than changes to milestones) a working group follows
 the same procedures that the initial chartering does (see <a href="#sec2" class="auto internal xref">Section 3</a>).
 The revised charter must be submitted to the IESG and IAB for
 approval.  As with the initial chartering, the IESG may approve new
@@ -2151,7 +2173,7 @@ such an intervention.<a href="#section-7.1-2" class="pilcrow">¶</a></p>
 </li>
         </ul>
 <p id="section-7.1-5">The Chair has ultimate responsibility for ensuring that a working
-group achieves forward progress and meets its milestones.  The Chair
+group achieves forward progress and meets its goals.  The Chair
 is also responsible to ensure that the working group operates in an
 open and fair manner.  For some working groups, this can be
 accomplished by having the Chair perform all management-related
@@ -2703,6 +2725,14 @@ of creating this document.<a href="#appendix-A-2" class="pilcrow">¶</a></p>
 <div class="email">
 <span>Email:</span>
 <a href="mailto:rsalz@akamai.com" class="email">rsalz@akamai.com</a>
+</div>
+</address>
+<address class="vcard">
+        <div dir="auto" class="left"><span class="fn nameRole">David Schinazi</span></div>
+<div dir="auto" class="left"><span class="org">Google LLC</span></div>
+<div class="email">
+<span>Email:</span>
+<a href="mailto:dschinazi.ietf@gmail.com" class="email">dschinazi.ietf@gmail.com</a>
 </div>
 </address>
 <address class="vcard">
