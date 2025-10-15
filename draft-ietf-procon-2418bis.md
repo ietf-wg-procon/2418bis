@@ -336,8 +336,6 @@ but "discuss via email" is not. It is helpful to specify milestones
 for every 3-6 months, so that progress can be gauged easily.  This
 milestone list is expected to be updated periodically (see {{sec5}}).
 
-An example of a WG charter is included as {{sample-charter}}.
-
 ## Charter review & approval
 
 Proposed working groups often comprise technically competent
@@ -1094,92 +1092,6 @@ Errata 3752. 6130, 7408 were previously fixed.
 the name of the IETF Executive Director.
 
 --- back
-
-# Appendix:  Sample Working Group Charter {#sample-charter}
-{:numbered="false"}
-
-~~~
-Working Group Name:
-    IP Telephony (iptel)
-
-IETF Area:
-    Transport Area
-
-Chair(s):
-    Jonathan Rosenberg <jdrosen@bell-labs.com>
-
-Transport Area Director(s):
-    Scott Bradner <sob@harvard.edu>
-    Allyn Romanow <allyn@mci.net>
-
-Responsible Area Director:
-    Allyn Romanow <allyn@mci.net>
-
-Mailing Lists:
-    General Discussion:iptel@lists.research.bell-labs.com
-    To Subscribe: iptel-request@lists.research.bell-labs.com
-    Archive: http://www.bell-labs.com/mailing-lists/siptel
-
-Description of Working Group:
-
-Before Internet telephony can become a widely deployed service, a
-number of protocols must be deployed. These include signaling and
-capabilities exchange, but also include a number of "peripheral"
-protocols for providing related services.
-
-The primary purpose of this working group is to develop two such
-supportive protocols and a framework document. They are:
-
-1. Call Processing Syntax. When a call is setup between two endpoints,
-the signaling will generally pass through several servers (such as an
-H.323 gatekeeper) which are responsible for forwarding, redirecting,
-or proxying the signaling messages. For example, a user may make a
-call to j.doe@bigcompany.com. The signaling message to initiate the
-call will arrive at some server at bigcompany. This server can inform
-the caller that the callee is busy, forward the call initiation
-request to another server closer to the user, or drop the call
-completely (among other possibilities). It is very desirable to allow
-the callee to provide input to this process, guiding the server in its
-decision on how to act. This can enable a wide variety of advanced
-personal mobility and call agent services.
-
-Such preferences can be expressed in a call processing syntax, which
-can be authored by the user (or generated automatically by some tool),
-and then uploaded to the server. The group will develop this syntax,
-and specify means of securely transporting and extending it. The
-result will be a single standards track RFC.
-
-2. In addition, the group will write a service model document, which
-describes the services that are enabled by the call processing syntax,
-and discusses how the syntax can be used. This document will result in
-a single RFC.
-
-3. Gateway Attribute Distribution Protocol. When making a call between
-an IP host and a PSTN user, a telephony gateway must be used. The
-selection of such gateways can be based on many criteria, including
-client expressed preferences, service provider preferences, and
-availability of gateways, in addition to destination telephone number.
-Since gateways outside of the hosts' administrative domain might be
-used, a protocol is required to allow gateways in remote domains to
-distribute their attributes (such as PSTN connectivity, supported
-codecs, etc.) to entities in other domains which must make a selection
-of a gateway. The protocol must allow for scalable, bandwidth
-efficient, and very secure transmission of these attributes. The group
-will investigate and design a protocol for this purpose, generate an
-Internet Draft, and advance it to RFC as appropriate.
-
-Goals and Milestones:
-
-May 98    Issue first Internet-Draft on service framework
-Jul 98    Submit framework ID to IESG for publication as an RFC.
-Aug 98    Issue first Internet-Draft on Call Processing Syntax
-Oct 98    Submit Call processing syntax to IESG for consideration
-      as a Proposed Standard.
-Dec 98    Achieve consensus on basics of gateway attribute
-      distribution protocol
-Jan 99    Submit Gateway Attribute Distribution protocol to IESG
-      for consideration as a RFC (info, exp, stds track TB
-~~~
 
 # Acknowledgments
 {:numbered="false"}
