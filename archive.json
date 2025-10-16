@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-09T01:36:01.912712+00:00",
+  "timestamp": "2025-10-16T01:38:21.332418+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -40,7 +40,7 @@
       "id": "I_kwDOMaVM686Si5UU",
       "title": "reference to \"conflict of interest\"",
       "url": "https://github.com/ietf-wg-procon/2418bis/issues/1",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -49,8 +49,8 @@
       ],
       "body": "The original doc says in the first paragraph of section 3:\r\n```\r\nWG participants should specifically note the\r\nrequirements for disclosure of conflicts of interest in [2].\r\n```\r\n\r\n[2] is RFC 2028, obsoleted by 9281 and neither one of these mentions conflict of interest.\r\n\r\nSee email thread at https://mailarchive.ietf.org/arch/msg/ietf/8mEwZkwtL-WNCPyZ5hBd7FaWVq8/\r\n",
       "createdAt": "2024-08-09T20:26:48Z",
-      "updatedAt": "2025-10-07T16:18:05Z",
-      "closedAt": null,
+      "updatedAt": "2025-10-15T17:49:06Z",
+      "closedAt": "2025-10-15T17:49:06Z",
       "comments": [
         {
           "author": "richsalz",
@@ -625,34 +625,68 @@
       "id": "PR_kwDOMaVM686gm9A3",
       "title": "Clarify IAB liaison",
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/16",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "and expand IAB acronym at first occurrence",
       "createdAt": "2025-07-25T10:38:45Z",
-      "updatedAt": "2025-07-25T10:39:36Z",
+      "updatedAt": "2025-10-15T17:53:53Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "53eab7f6a8cd740fdc9b2eb7a561ef088c0e5bdf",
       "headRepository": "mirjak/draft-rsalz-2418bis",
       "headRefName": "patch-1",
       "headRefOid": "4bb67eb4494fb1e53000f9a3bba14045c4851390",
-      "closedAt": null,
+      "closedAt": "2025-10-15T17:53:53Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [
         {
           "author": "mirjak",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "Actually we could even cite RFC2850 here...",
           "createdAt": "2025-07-25T10:39:36Z",
           "updatedAt": "2025-07-25T10:39:36Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "rebased and merge on my laptop.",
+          "createdAt": "2025-10-15T17:53:53Z",
+          "updatedAt": "2025-10-15T17:53:53Z"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687HHrd5",
+          "commit": {
+            "abbreviatedOid": "4bb67eb"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "thanks!  I wanted to make explicit that the IAB has two seats, but if you think it's still clear enough, okay.",
+          "createdAt": "2025-10-15T14:20:05Z",
+          "updatedAt": "2025-10-15T14:20:05Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOMaVM687HLPml",
+          "commit": {
+            "abbreviatedOid": "4bb67eb"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-15T17:45:12Z",
+          "updatedAt": "2025-10-15T17:45:12Z",
+          "comments": []
+        }
+      ]
     },
     {
       "number": 25,
@@ -701,24 +735,26 @@
       "id": "PR_kwDOMaVM686sYSmr",
       "title": "Make milestones optional",
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/26",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "DavidSchinazi",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "This PR incorporates draft-schinazi-update-on-milestones into draft-ietf-procon-2418bis. It makes changes to all mentions of milestones in the document.",
       "createdAt": "2025-10-06T22:00:43Z",
-      "updatedAt": "2025-10-08T18:51:00Z",
+      "updatedAt": "2025-10-15T17:50:37Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
-      "baseRefOid": "33ad4c29658cf51095f860b34e59974e6b16f5a4",
+      "baseRefOid": "2be7a565ca16cf83428de6b31391ccb0b2da9c68",
       "headRepository": "ietf-wg-procon/2418bis",
       "headRefName": "milestones",
-      "headRefOid": "6cd582e115207de21225c532474702a7e068b6f4",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "ec6dc4fe92171ce683712c3420eb7c6209bf64d6",
+      "closedAt": "2025-10-15T17:50:36Z",
+      "mergedAt": "2025-10-15T17:50:36Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "7b6aff31d4beefd0504e0386a1b49e8dabfe604a"
+      },
       "comments": [
         {
           "author": "becarpenter",
@@ -968,6 +1004,19 @@
               "updatedAt": "2025-10-07T17:39:32Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687HHs8i",
+          "commit": {
+            "abbreviatedOid": "6cd582e"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-15T14:21:07Z",
+          "updatedAt": "2025-10-15T14:21:07Z",
+          "comments": []
         }
       ]
     },
@@ -976,52 +1025,126 @@
       "id": "PR_kwDOMaVM686sh1gQ",
       "title": "Change \"conflict of interest\"",
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/28",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "This was a mistake in the original doc and should probably be about intellectual property.",
       "createdAt": "2025-10-07T16:11:50Z",
-      "updatedAt": "2025-10-07T16:12:05Z",
+      "updatedAt": "2025-10-15T17:49:09Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "33ad4c29658cf51095f860b34e59974e6b16f5a4",
       "headRepository": "ietf-wg-procon/2418bis",
       "headRefName": "fix-1",
       "headRefOid": "d3caa6de39cce9e5c95abddb95080d065727293b",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-10-15T17:49:04Z",
+      "mergedAt": "2025-10-15T17:49:04Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "2be7a565ca16cf83428de6b31391ccb0b2da9c68"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687HLQfb",
+          "commit": {
+            "abbreviatedOid": "d3caa6d"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-15T17:46:28Z",
+          "updatedAt": "2025-10-15T17:46:28Z",
+          "comments": []
+        }
+      ]
     },
     {
       "number": 29,
       "id": "PR_kwDOMaVM686sh4x-",
       "title": "Remove sample charter",
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/29",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-10-07T16:16:17Z",
-      "updatedAt": "2025-10-07T16:16:17Z",
+      "updatedAt": "2025-10-15T17:48:37Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "33ad4c29658cf51095f860b34e59974e6b16f5a4",
       "headRepository": "ietf-wg-procon/2418bis",
       "headRefName": "fix-13+22",
       "headRefOid": "25b5d3a1f81caf4c9b87682c55e2d0b916b9bdfd",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-10-15T17:48:34Z",
+      "mergedAt": "2025-10-15T17:48:33Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "0988591eb559eda3b59d88fbf1c326aa6d40913c"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687HLQwo",
+          "commit": {
+            "abbreviatedOid": "25b5d3a"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-15T17:46:52Z",
+          "updatedAt": "2025-10-15T17:46:52Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "id": "PR_kwDOMaVM686t5z6-",
+      "title": "Add changelog, remove Note",
+      "url": "https://github.com/ietf-wg-procon/2418bis/pull/30",
+      "state": "MERGED",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-10-15T14:39:29Z",
+      "updatedAt": "2025-10-15T17:47:49Z",
+      "baseRepository": "ietf-wg-procon/2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "33ad4c29658cf51095f860b34e59974e6b16f5a4",
+      "headRepository": "ietf-wg-procon/2418bis",
+      "headRefName": "add-changelog-1",
+      "headRefOid": "f447c632dec56ec5939f8e875fedb66dab042966",
+      "closedAt": "2025-10-15T17:47:45Z",
+      "mergedAt": "2025-10-15T17:47:45Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "ad6772bc4c9f9aeaa128f3b8afdb9daee2a1a900"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687HLP6q",
+          "commit": {
+            "abbreviatedOid": "f447c63"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-15T17:45:39Z",
+          "updatedAt": "2025-10-15T17:45:39Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
