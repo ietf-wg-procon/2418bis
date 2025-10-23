@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-16T01:38:21.332418+00:00",
+  "timestamp": "2025-10-23T01:39:10.127905+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -290,9 +290,17 @@
       ],
       "body": "\n\nI've never seen the WG Facilitator role be formally enacted.\nNot sure it belongs anymore. We just do this as we need to.\n\nreplace #15 ",
       "createdAt": "2025-08-29T00:50:00Z",
-      "updatedAt": "2025-10-07T16:13:13Z",
+      "updatedAt": "2025-10-22T19:38:07Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "See also #12 ",
+          "createdAt": "2025-10-22T19:38:07Z",
+          "updatedAt": "2025-10-22T19:38:07Z"
+        }
+      ]
     },
     {
       "number": 21,
