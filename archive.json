@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-23T01:39:10.127905+00:00",
+  "timestamp": "2025-11-02T01:47:01.521746+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -174,9 +174,24 @@
       "labels": [],
       "body": "discuss objectives and expected impact with respect to:\r\n\r\nPrivacy \r\n\r\nSecurity\r\n\r\n",
       "createdAt": "2024-10-11T11:42:47Z",
-      "updatedAt": "2024-10-11T11:42:47Z",
+      "updatedAt": "2025-11-01T20:01:09Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Hi Tim, I feel like I'm missing some context on this issue. Could you elaborate a bit on what you're looking for please?",
+          "createdAt": "2025-11-01T19:55:32Z",
+          "updatedAt": "2025-11-01T19:55:32Z"
+        },
+        {
+          "author": "moonshiner",
+          "authorAssociation": "NONE",
+          "body": "Had to go look:\n\n> To facilitate evaluation of the intended work and to provide on-going\n> guidance to the working group, the charter must describe the problem\n> being solved and should discuss objectives and expected impact with\n> respect to:\n\nI feel there should be also sections for\n\n- Privacy \n- Security\n\nto go along with Architecture, Operations, etc. ",
+          "createdAt": "2025-11-01T20:01:09Z",
+          "updatedAt": "2025-11-01T20:01:09Z"
+        }
+      ]
     },
     {
       "number": 15,
@@ -323,15 +338,15 @@
       "id": "I_kwDOMaVM687IkvVN",
       "title": "should the sample WG charter be retained",
       "url": "https://github.com/ietf-wg-procon/2418bis/issues/22",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mcr",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "I don't know if the \tAppendix: Sample Working Group Charter is useful.\n",
       "createdAt": "2025-08-29T00:51:25Z",
-      "updatedAt": "2025-09-30T23:09:02Z",
-      "closedAt": null,
+      "updatedAt": "2025-11-01T20:37:38Z",
+      "closedAt": "2025-11-01T20:37:38Z",
       "comments": [
         {
           "author": "richsalz",
@@ -339,6 +354,13 @@
           "body": "See also #13 which points out some things its missing.",
           "createdAt": "2025-09-30T23:09:02Z",
           "updatedAt": "2025-09-30T23:09:02Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Closed by #29 ",
+          "createdAt": "2025-11-01T20:37:38Z",
+          "updatedAt": "2025-11-01T20:37:38Z"
         }
       ]
     },
