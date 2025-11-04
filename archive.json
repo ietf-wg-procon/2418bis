@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-02T01:47:01.521746+00:00",
+  "timestamp": "2025-11-04T01:42:13.529139+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -174,7 +174,7 @@
       "labels": [],
       "body": "discuss objectives and expected impact with respect to:\r\n\r\nPrivacy \r\n\r\nSecurity\r\n\r\n",
       "createdAt": "2024-10-11T11:42:47Z",
-      "updatedAt": "2025-11-01T20:01:09Z",
+      "updatedAt": "2025-11-03T16:36:01Z",
       "closedAt": null,
       "comments": [
         {
@@ -190,6 +190,27 @@
           "body": "Had to go look:\n\n> To facilitate evaluation of the intended work and to provide on-going\n> guidance to the working group, the charter must describe the problem\n> being solved and should discuss objectives and expected impact with\n> respect to:\n\nI feel there should be also sections for\n\n- Privacy \n- Security\n\nto go along with Architecture, Operations, etc. ",
           "createdAt": "2025-11-01T20:01:09Z",
           "updatedAt": "2025-11-01T20:01:09Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Thanks! It looks like the current list is:\n* Architecture\n* Operations\n* Security\n* Network management\n* Scaling\n* Transition (where applicable)\n\nSo, are you suggesting we just add a bullet for Privacy?\n\nWe could potentially lean on [RFC 6973](https://datatracker.ietf.org/doc/html/rfc6973) to make the case for this.",
+          "createdAt": "2025-11-03T15:46:55Z",
+          "updatedAt": "2025-11-03T15:46:55Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Maybe \"Security (including privacy issues)\" ?",
+          "createdAt": "2025-11-03T16:04:30Z",
+          "updatedAt": "2025-11-03T16:04:30Z"
+        },
+        {
+          "author": "moonshiner",
+          "authorAssociation": "NONE",
+          "body": "What Old Man Salz Said. ",
+          "createdAt": "2025-11-03T16:36:01Z",
+          "updatedAt": "2025-11-03T16:36:01Z"
         }
       ]
     },
@@ -255,7 +276,7 @@
       ],
       "body": "```\n   As in face-to-face sessions, occasionally one or more individuals may\n   engage in behavior on a mailing list that, in the opinion of the WG\n   chair, is disruptive to the WG process. \n```\n\nThis needs to be a new section.  Maybe a top-level section.\nI also think that this might even warrant a new document, because I think that our processes around disruptive individuals will change more.\nI'd prefer to rev another document rather than open 2418bis.\n\nreplace #15 ",
       "createdAt": "2025-08-29T00:46:43Z",
-      "updatedAt": "2025-10-07T18:06:26Z",
+      "updatedAt": "2025-11-03T18:23:21Z",
       "closedAt": null,
       "comments": [
         {
@@ -264,6 +285,13 @@
           "body": "Is this overtaken by MODPOD?  Should we just point to that?",
           "createdAt": "2025-10-07T18:00:27Z",
           "updatedAt": "2025-10-07T18:00:27Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Personal comment from Jari Arkko [on the list](https://mailarchive.ietf.org/arch/msg/procon/FHxd8FXHbETUaEFT3HxVf0gXjeQ/):\n\n> I think the right approach here is to refer to other documents, and perhaps optionally re-state the summary of the current stance according to those documents. I thought we were largely doing that already. Modpod doc is I guess just the latest in a series of documents on this topic. It seems likely (?) that this is done before we are done, so maybe we can refer to it.",
+          "createdAt": "2025-11-03T18:23:21Z",
+          "updatedAt": "2025-11-03T18:23:21Z"
         }
       ]
     },
@@ -329,9 +357,17 @@
       "labels": [],
       "body": "I think Design Teams needs more text. \nParticularly around record keeping as it affects IPR.\nDesign Teams need to keep some record of decisions, and who was present at meetings.\n\n",
       "createdAt": "2025-08-29T00:51:08Z",
-      "updatedAt": "2025-08-29T00:51:08Z",
+      "updatedAt": "2025-11-03T18:23:36Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Personal comment from Jari Arkko [on the list](https://mailarchive.ietf.org/arch/msg/procon/FHxd8FXHbETUaEFT3HxVf0gXjeQ/):\n\n> I guess one challenge here is that there are multiple kinds of design teams, as noted in the RFC already. So if we were to formalize this more, would this only apply to some kind of how would that work? One could of course set some guidelines on how official design teams work, e.g., for the conduct of the WG chairs or ADs in setting them up. And then leave the hallway designs teams alone...",
+          "createdAt": "2025-11-03T18:23:36Z",
+          "updatedAt": "2025-11-03T18:23:36Z"
+        }
+      ]
     },
     {
       "number": 22,
@@ -404,9 +440,17 @@
       ],
       "body": "From Brian E Carpenter on the mailing list:\n\n> Adoption is _not_ a formal step in the IETF process described by RFC 2026\n> and RFC 2418. Most newcomers seem to assume that it is, since it's\n> entrenched in common practice and in the tracker.\n\n> There is a question that the WG charter allows us to ask: should WG\n> adoption be mentioned in section 8.2 of 2418bis? That is distinct from\n> the longer term question of pursuing draft-carpenter-gendispatch-rfc7221bis.",
       "createdAt": "2025-09-23T16:26:53Z",
-      "updatedAt": "2025-10-07T16:13:14Z",
+      "updatedAt": "2025-11-03T18:22:21Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Personal comment from Jari Arkko [on the list](https://mailarchive.ietf.org/arch/msg/procon/FHxd8FXHbETUaEFT3HxVf0gXjeQ/):\n\n> We should, it is in our charter. Specifying this will fall somewhere between detailed process and laying out the principles. Personally I would maybe fall somewhere closer to the latter than the former, one could for instance talk about expecting WGs to be open to hearing adoption proposals for documents that are within their charter, WG participants' input being important here (including on the list) and the chairs making the final decision based on that input.",
+          "createdAt": "2025-11-03T18:22:21Z",
+          "updatedAt": "2025-11-03T18:22:21Z"
+        }
+      ]
     },
     {
       "number": 27,
@@ -422,7 +466,31 @@
       ],
       "body": "I think some clarification would be useful as to whether virtual interim (side)meetings count as BOFs.\n\n2418 speaks about 1 BOF, with 2 being an exception.\n2 BOFs is now very common, with one or more side meetings even occuring.\nBOF organizers/proponents often (particularly pandemic) have weekly to monthly organizing meetings.\nThis is done using ad-hoc meeting technology, which often results in problems accessing for some, lack of good records.  Many would prefer to use meetecho for this, but then there was push back that said if it used the official tool, then it would be a BOF.\nIf the reason to limit BOFs to <= 2 is due to time constraints for plenary week, then any time elsewhere (elsewhen?) should not count.\nIf there are other reasons to limit BOF, then they should be enumerated.\n\nThere is also now an IAB involvement in bringing new work.\n\nreplacing ietf-wg-procon/2026bis#19, and this issue should move to other repo.\n",
       "createdAt": "2025-08-29T00:42:21Z",
-      "updatedAt": "2025-10-07T16:01:17Z",
+      "updatedAt": "2025-11-03T18:22:53Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Personal comment from Jari Arkko [on the list](https://mailarchive.ietf.org/arch/msg/procon/FHxd8FXHbETUaEFT3HxVf0gXjeQ/):\n\n> Just an observation that this is a reality-alignment beyond the specific cases mentioned in our charter. That\u2019s ok, but let\u2019s remember that. I think we\u2019ve also slipped on the strictness of the hard BoF number limits. Maybe that's fair because typically the topic shifts during the discussion so BoF # 2 for instance may be quite different from BoF # 1. One option could be to soften the rule instead of starting to specify the application of the rule to the virtual case.",
+          "createdAt": "2025-11-03T18:22:53Z",
+          "updatedAt": "2025-11-03T18:22:53Z"
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "id": "I_kwDOMaVM687VjWg3",
+      "title": "Do we need to remove draft standard from 2418 text?",
+      "url": "https://github.com/ietf-wg-procon/2418bis/issues/31",
+      "state": "OPEN",
+      "author": "jariarkko",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "You\u2019ve recently changed 2026bis to be clear what the current standard levels are while also noting that the draft standard level is still out there for some documents. That\u2019s great, thank you. \n\nHere\u2019s the text you currently have:\n\nSpecifications that are intended to become Internet Standards evolve through a set of maturity levels known as the \"standards track\". These maturity levels -- \"Proposed Standard\" and \"Internet Standard\" -- are defined and discussed in Section 6.1. The way in which specifications move along the standards track is described in Section 8.\n\nThere used to be a status that came between Proposed Standard and Internet Standard called \"Draft Standard.\" As of the writing of this document, there still exist some RFCs at that status. Documents at Draft Standard may be advanced to Internet Standard, either via the procedure described in Section 8 (if they meet the requirements of Section 6.1.1) or with the consent of the IESG. The IESG may also decide to remove the Draft Standard status from a document and mark it as either Historic or Proposed Standard.\n\nBut it seems to me that the following texts in 2418bis are also something that should be impacted:\n\n5. Working Group Termination\n\nWorking groups are typically chartered to accomplish a specific task or tasks. After the tasks are complete, the group will be disbanded. However, if a WG produces a Proposed or Draft Standard, the WG will frequently become dormant rather than disband (i.e., the WG will no longer conduct formal activities, but the mailing list will remain available to review the work as it moves to Draft Standard and Standard status.)\n\n\u2026\n\n7.1. WG Chair\n\n...\n\nDocument implementations\n\nUnder the procedures described in [_2026bis], the Chair is responsible for documenting the specific implementations which qualify the specification for Draft or Internet Standard status along with documentation about testing of the interoperation of these implementations.\n\nOr am I missing something?",
+      "createdAt": "2025-11-03T16:27:57Z",
+      "updatedAt": "2025-11-03T16:27:57Z",
       "closedAt": null,
       "comments": []
     }
