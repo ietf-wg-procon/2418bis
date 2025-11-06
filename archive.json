@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-04T01:42:13.529139+00:00",
+  "timestamp": "2025-11-06T01:43:12.645364+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -276,7 +276,7 @@
       ],
       "body": "```\n   As in face-to-face sessions, occasionally one or more individuals may\n   engage in behavior on a mailing list that, in the opinion of the WG\n   chair, is disruptive to the WG process. \n```\n\nThis needs to be a new section.  Maybe a top-level section.\nI also think that this might even warrant a new document, because I think that our processes around disruptive individuals will change more.\nI'd prefer to rev another document rather than open 2418bis.\n\nreplace #15 ",
       "createdAt": "2025-08-29T00:46:43Z",
-      "updatedAt": "2025-11-03T18:23:21Z",
+      "updatedAt": "2025-11-04T22:34:17Z",
       "closedAt": null,
       "comments": [
         {
@@ -292,6 +292,13 @@
           "body": "Personal comment from Jari Arkko [on the list](https://mailarchive.ietf.org/arch/msg/procon/FHxd8FXHbETUaEFT3HxVf0gXjeQ/):\n\n> I think the right approach here is to refer to other documents, and perhaps optionally re-state the summary of the current stance according to those documents. I thought we were largely doing that already. Modpod doc is I guess just the latest in a series of documents on this topic. It seems likely (?) that this is done before we are done, so maybe we can refer to it.",
           "createdAt": "2025-11-03T18:23:21Z",
           "updatedAt": "2025-11-03T18:23:21Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This was discussed in the PROCON meeting at IETF 124. Since draft-ietf-modpod-group-processes updates 2418, it might be worth it for us to wait until draft-ietf-modpod-group-processes gets further along and then update 2418bis to reference it, deleting all the no-longer-relevant text.",
+          "createdAt": "2025-11-04T22:34:16Z",
+          "updatedAt": "2025-11-04T22:34:16Z"
         }
       ]
     },
@@ -333,7 +340,7 @@
       ],
       "body": "\n\nI've never seen the WG Facilitator role be formally enacted.\nNot sure it belongs anymore. We just do this as we need to.\n\nreplace #15 ",
       "createdAt": "2025-08-29T00:50:00Z",
-      "updatedAt": "2025-10-22T19:38:07Z",
+      "updatedAt": "2025-11-04T23:58:21Z",
       "closedAt": null,
       "comments": [
         {
@@ -342,6 +349,20 @@
           "body": "See also #12 ",
           "createdAt": "2025-10-22T19:38:07Z",
           "updatedAt": "2025-10-22T19:38:07Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This was discussed in the PROCON meeting at IETF 124. There was interested in the room to keep the facilitator role since it might still be useful even if it's unused. A concern was raised that the facilitator role might cause confusion. We'll take this to the issue/list",
+          "createdAt": "2025-11-04T22:35:27Z",
+          "updatedAt": "2025-11-04T22:39:38Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "NONE",
+          "body": "I hadn't seen this one, and I actually expanded it in #33, so I guess we have both directions to consider.",
+          "createdAt": "2025-11-04T23:58:08Z",
+          "updatedAt": "2025-11-04T23:58:21Z"
         }
       ]
     },
@@ -357,7 +378,7 @@
       "labels": [],
       "body": "I think Design Teams needs more text. \nParticularly around record keeping as it affects IPR.\nDesign Teams need to keep some record of decisions, and who was present at meetings.\n\n",
       "createdAt": "2025-08-29T00:51:08Z",
-      "updatedAt": "2025-11-03T18:23:36Z",
+      "updatedAt": "2025-11-04T22:39:10Z",
       "closedAt": null,
       "comments": [
         {
@@ -366,6 +387,20 @@
           "body": "Personal comment from Jari Arkko [on the list](https://mailarchive.ietf.org/arch/msg/procon/FHxd8FXHbETUaEFT3HxVf0gXjeQ/):\n\n> I guess one challenge here is that there are multiple kinds of design teams, as noted in the RFC already. So if we were to formalize this more, would this only apply to some kind of how would that work? One could of course set some guidelines on how official design teams work, e.g., for the conduct of the WG chairs or ADs in setting them up. And then leave the hallway designs teams alone...",
           "createdAt": "2025-11-03T18:23:36Z",
           "updatedAt": "2025-11-03T18:23:36Z"
+        },
+        {
+          "author": "mcr",
+          "authorAssociation": "NONE",
+          "body": "I prefer that we make it easier for WG chairs to establish design teams, and\nfor them to be able to use meetecho.   We need to get the recordings and blue\nsheets.  Some WGs in the past have had IPR issues and process issues because\nthe design teams did not keep any records of decisions.\n\nIf \"hallway\" design teams (I've not heard that term before, but it's\napt), sprawl beyond CC's between the listed authors, then they should be\nofficial so that people can find/join them.\n\n\n",
+          "createdAt": "2025-11-04T03:07:23Z",
+          "updatedAt": "2025-11-04T03:07:23Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This was discussed in the PROCON meeting at IETF 124. I'll write a PR to see what the change looks like",
+          "createdAt": "2025-11-04T22:39:10Z",
+          "updatedAt": "2025-11-04T22:39:10Z"
         }
       ]
     },
@@ -440,7 +475,7 @@
       ],
       "body": "From Brian E Carpenter on the mailing list:\n\n> Adoption is _not_ a formal step in the IETF process described by RFC 2026\n> and RFC 2418. Most newcomers seem to assume that it is, since it's\n> entrenched in common practice and in the tracker.\n\n> There is a question that the WG charter allows us to ask: should WG\n> adoption be mentioned in section 8.2 of 2418bis? That is distinct from\n> the longer term question of pursuing draft-carpenter-gendispatch-rfc7221bis.",
       "createdAt": "2025-09-23T16:26:53Z",
-      "updatedAt": "2025-11-03T18:22:21Z",
+      "updatedAt": "2025-11-04T17:46:19Z",
       "closedAt": null,
       "comments": [
         {
@@ -449,6 +484,13 @@
           "body": "Personal comment from Jari Arkko [on the list](https://mailarchive.ietf.org/arch/msg/procon/FHxd8FXHbETUaEFT3HxVf0gXjeQ/):\n\n> We should, it is in our charter. Specifying this will fall somewhere between detailed process and laying out the principles. Personally I would maybe fall somewhere closer to the latter than the former, one could for instance talk about expecting WGs to be open to hearing adoption proposals for documents that are within their charter, WG participants' input being important here (including on the list) and the chairs making the final decision based on that input.",
           "createdAt": "2025-11-03T18:22:21Z",
           "updatedAt": "2025-11-03T18:22:21Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This was discussed in the PROCON meeting at IETF 124. Feeling from the room was to loosely define the concept of adoption without going into too much detail",
+          "createdAt": "2025-11-04T17:46:19Z",
+          "updatedAt": "2025-11-04T17:46:19Z"
         }
       ]
     },
@@ -466,7 +508,7 @@
       ],
       "body": "I think some clarification would be useful as to whether virtual interim (side)meetings count as BOFs.\n\n2418 speaks about 1 BOF, with 2 being an exception.\n2 BOFs is now very common, with one or more side meetings even occuring.\nBOF organizers/proponents often (particularly pandemic) have weekly to monthly organizing meetings.\nThis is done using ad-hoc meeting technology, which often results in problems accessing for some, lack of good records.  Many would prefer to use meetecho for this, but then there was push back that said if it used the official tool, then it would be a BOF.\nIf the reason to limit BOFs to <= 2 is due to time constraints for plenary week, then any time elsewhere (elsewhen?) should not count.\nIf there are other reasons to limit BOF, then they should be enumerated.\n\nThere is also now an IAB involvement in bringing new work.\n\nreplacing ietf-wg-procon/2026bis#19, and this issue should move to other repo.\n",
       "createdAt": "2025-08-29T00:42:21Z",
-      "updatedAt": "2025-11-03T18:22:53Z",
+      "updatedAt": "2025-11-04T17:51:15Z",
       "closedAt": null,
       "comments": [
         {
@@ -475,6 +517,20 @@
           "body": "Personal comment from Jari Arkko [on the list](https://mailarchive.ietf.org/arch/msg/procon/FHxd8FXHbETUaEFT3HxVf0gXjeQ/):\n\n> Just an observation that this is a reality-alignment beyond the specific cases mentioned in our charter. That\u2019s ok, but let\u2019s remember that. I think we\u2019ve also slipped on the strictness of the hard BoF number limits. Maybe that's fair because typically the topic shifts during the discussion so BoF # 2 for instance may be quite different from BoF # 1. One option could be to soften the rule instead of starting to specify the application of the rule to the virtual case.",
           "createdAt": "2025-11-03T18:22:53Z",
           "updatedAt": "2025-11-03T18:22:53Z"
+        },
+        {
+          "author": "mcr",
+          "authorAssociation": "NONE",
+          "body": "BOF#2 was supposed to be a rare event in 2418.\nIt's anything but.  We established this rule because plenary time was\nexpensive, and we didn't have easy virtual meetings.  (It's even *MORE*\nexpensive now in my opinion)\n\nIn-person BOF sessions at the plenary are at the discretion of ADs/IESG, and so let's\njust let them decide.\nIn most cases, the virtual meetings are used to prepare.\nI'd prefer to be able to use meetecho for that; because recordings and NoteWell.\nThis has been denied because it would \"count\", and I'd rather we just didn't.\n\n",
+          "createdAt": "2025-11-04T03:07:26Z",
+          "updatedAt": "2025-11-04T03:07:26Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This was discussed in the PROCON meeting at IETF 124. Sense of the room was to remove the text saying that BoFs have to happen at plenary meetings. We would keep the two BoF limit and that would extend to all kinds of BoFs (in-person plenary, in-person out of cycle, virtual out of cycle, working-group forming, non-working group forming, etc). If we want to change the limit, that would be a specific issue - and might not be in charter.",
+          "createdAt": "2025-11-04T17:51:15Z",
+          "updatedAt": "2025-11-04T17:51:15Z"
         }
       ]
     },
@@ -1243,6 +1299,121 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 32,
+      "id": "PR_kwDOMaVM686xhQXT",
+      "title": "Gauge.",
+      "url": "https://github.com/ietf-wg-procon/2418bis/pull/32",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Oof, it has always been there.",
+      "createdAt": "2025-11-04T23:51:08Z",
+      "updatedAt": "2025-11-05T13:49:07Z",
+      "baseRepository": "ietf-wg-procon/2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "663e8694fe4da5e937127e0a441e82abf06314d5",
+      "headRepository": "sayrer/2418bis",
+      "headRefName": "gauge-typo",
+      "headRefOid": "6d2619dc53ba23014c8676263130f19ffb7d5d44",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687L-lV5",
+          "commit": {
+            "abbreviatedOid": "6d2619d"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Looks fine :). @DavidSchinazi is the lead on this draft now, so he can merge as he wants.",
+          "createdAt": "2025-11-05T13:49:07Z",
+          "updatedAt": "2025-11-05T13:49:07Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "id": "PR_kwDOMaVM686xhRzS",
+      "title": "Facilitator",
+      "url": "https://github.com/ietf-wg-procon/2418bis/pull/33",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Clean this up for modpod, since it is happening anyway.",
+      "createdAt": "2025-11-04T23:56:06Z",
+      "updatedAt": "2025-11-05T18:27:16Z",
+      "baseRepository": "ietf-wg-procon/2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "663e8694fe4da5e937127e0a441e82abf06314d5",
+      "headRepository": "sayrer/2418bis",
+      "headRefName": "facilitator",
+      "headRefOid": "cae99b999c71975c130be915463fd80c8d621e07",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Not sure if this captures the sentiment in the room. @DavidSchinazi ",
+          "createdAt": "2025-11-05T13:50:05Z",
+          "updatedAt": "2025-11-05T13:50:05Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "NONE",
+          "body": "I actually just got to this part in catching up in video. But this discussion is about an hour in, and I had only gotten through about 45 minutes when I filed this. It's definitely true that the people on the mic sounded split on this issue. Whether you like the term or not, the text is good:\r\n\r\n\"Their job is to oversee the nature, rather than the\r\n   content, of participant interactions.  That is, they attend to the\r\n   style of the discussion and to the schedule of the agenda, rather\r\n   than making direct technical contributions themselves.\"\r\n\r\nWe could just keep it and say \"WG Moderator\", since \"Facilitator\" is in-fact unused, even by people that really know the IETF well.",
+          "createdAt": "2025-11-05T18:27:16Z",
+          "updatedAt": "2025-11-05T18:27:16Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 34,
+      "id": "PR_kwDOMaVM686xrsIG",
+      "title": "RFC 7322 doesn't make requirements",
+      "url": "https://github.com/ietf-wg-procon/2418bis/pull/34",
+      "state": "OPEN",
+      "author": "paulehoffman",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "It's just a style guide. Many other RFCs list the requirements, but they don't all need to be listed here.",
+      "createdAt": "2025-11-05T15:31:06Z",
+      "updatedAt": "2025-11-05T15:38:18Z",
+      "baseRepository": "ietf-wg-procon/2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "663e8694fe4da5e937127e0a441e82abf06314d5",
+      "headRepository": "paulehoffman/2418bis",
+      "headRefName": "patch-1",
+      "headRefOid": "347103ccb6cb8eb6722cf794304a3dd5ee87812c",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Other reality-changes in that section are that the authors/editors work with the RPC",
+          "createdAt": "2025-11-05T15:38:18Z",
+          "updatedAt": "2025-11-05T15:38:18Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
