@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-06T01:43:12.645364+00:00",
+  "timestamp": "2025-11-09T01:46:02.294892+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -32,6 +32,11 @@
       "name": "wontfix",
       "description": "This will not be worked on",
       "color": "ffffff"
+    },
+    {
+      "name": "policy change",
+      "description": "A change in the current operating policy/procedures",
+      "color": "6e2030"
     }
   ],
   "issues": [
@@ -174,7 +179,7 @@
       "labels": [],
       "body": "discuss objectives and expected impact with respect to:\r\n\r\nPrivacy \r\n\r\nSecurity\r\n\r\n",
       "createdAt": "2024-10-11T11:42:47Z",
-      "updatedAt": "2025-11-03T16:36:01Z",
+      "updatedAt": "2025-11-07T21:39:57Z",
       "closedAt": null,
       "comments": [
         {
@@ -211,6 +216,13 @@
           "body": "What Old Man Salz Said. ",
           "createdAt": "2025-11-03T16:36:01Z",
           "updatedAt": "2025-11-03T16:36:01Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Ok for me",
+          "createdAt": "2025-11-07T21:39:57Z",
+          "updatedAt": "2025-11-07T21:39:57Z"
         }
       ]
     },
