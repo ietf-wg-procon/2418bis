@@ -258,7 +258,7 @@ When the prospective Chair(s), the Area Director and the IETF
 Secretariat are satisfied with the charter form and content, it
 becomes the basis for forming a working group. Note that an Area
 Director MAY require holding an exploratory Birds of a Feather (BOF)
-meeting, as described below, to gage the level of support for a
+meeting, as described below, to gauge the level of support for a
 working group before submitting the charter to the IESG and IAB for
 approval.
 
