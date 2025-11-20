@@ -7,8 +7,8 @@ Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                          D. Schinazi
 Updates: 7475, 7776, 8717, 9141 (if approved)                 Google LLC
 Intended status: Best Current Practice                        S. Bradner
-Expires: 18 April 2026                                             SOBCO
-                                                         15 October 2025
+Expires: 24 May 2026                                               SOBCO
+                                                        20 November 2025
 
 
               IETF Working Group Guidelines and Procedures
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 April 2026.
+   This Internet-Draft will expire on 24 May 2026.
 
 Copyright Notice
 
@@ -322,7 +322,7 @@ Table of Contents
    Secretariat are satisfied with the charter form and content, it
    becomes the basis for forming a working group.  Note that an Area
    Director MAY require holding an exploratory Birds of a Feather (BOF)
-   meeting, as described below, to gage the level of support for a
+   meeting, as described below, to gauge the level of support for a
    working group before submitting the charter to the IESG and IAB for
    approval.
 
@@ -1232,9 +1232,9 @@ Table of Contents
 
    [_2026bis] Salz, R. and S. O. Bradner, "The Internet Standards
               Process", Work in Progress, Internet-Draft, draft-ietf-
-              procon-2026bis-00, 30 September 2025,
+              procon-2026bis-01, 15 October 2025,
               <https://datatracker.ietf.org/doc/html/draft-ietf-procon-
-              2026bis-00>.
+              2026bis-01>.
 
 Acknowledgments
 
