@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-09T01:46:02.294892+00:00",
+  "timestamp": "2025-11-23T01:55:48.469172+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -558,9 +558,17 @@
       "labels": [],
       "body": "You\u2019ve recently changed 2026bis to be clear what the current standard levels are while also noting that the draft standard level is still out there for some documents. That\u2019s great, thank you. \n\nHere\u2019s the text you currently have:\n\nSpecifications that are intended to become Internet Standards evolve through a set of maturity levels known as the \"standards track\". These maturity levels -- \"Proposed Standard\" and \"Internet Standard\" -- are defined and discussed in Section 6.1. The way in which specifications move along the standards track is described in Section 8.\n\nThere used to be a status that came between Proposed Standard and Internet Standard called \"Draft Standard.\" As of the writing of this document, there still exist some RFCs at that status. Documents at Draft Standard may be advanced to Internet Standard, either via the procedure described in Section 8 (if they meet the requirements of Section 6.1.1) or with the consent of the IESG. The IESG may also decide to remove the Draft Standard status from a document and mark it as either Historic or Proposed Standard.\n\nBut it seems to me that the following texts in 2418bis are also something that should be impacted:\n\n5. Working Group Termination\n\nWorking groups are typically chartered to accomplish a specific task or tasks. After the tasks are complete, the group will be disbanded. However, if a WG produces a Proposed or Draft Standard, the WG will frequently become dormant rather than disband (i.e., the WG will no longer conduct formal activities, but the mailing list will remain available to review the work as it moves to Draft Standard and Standard status.)\n\n\u2026\n\n7.1. WG Chair\n\n...\n\nDocument implementations\n\nUnder the procedures described in [_2026bis], the Chair is responsible for documenting the specific implementations which qualify the specification for Draft or Internet Standard status along with documentation about testing of the interoperation of these implementations.\n\nOr am I missing something?",
       "createdAt": "2025-11-03T16:27:57Z",
-      "updatedAt": "2025-11-03T16:27:57Z",
+      "updatedAt": "2025-11-20T03:46:40Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I agree, we should just remove the two mentions of Draft Standard from that paragraph. The text is aspirational anyway",
+          "createdAt": "2025-11-20T03:46:40Z",
+          "updatedAt": "2025-11-20T03:46:40Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -1317,24 +1325,26 @@
       "id": "PR_kwDOMaVM686xhQXT",
       "title": "Gauge.",
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/32",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "sayrer",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "Oof, it has always been there.",
       "createdAt": "2025-11-04T23:51:08Z",
-      "updatedAt": "2025-11-05T13:49:07Z",
+      "updatedAt": "2025-11-20T03:34:33Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "663e8694fe4da5e937127e0a441e82abf06314d5",
       "headRepository": "sayrer/2418bis",
       "headRefName": "gauge-typo",
       "headRefOid": "6d2619dc53ba23014c8676263130f19ffb7d5d44",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-11-20T03:34:33Z",
+      "mergedAt": "2025-11-20T03:34:33Z",
+      "mergedBy": "DavidSchinazi",
+      "mergeCommit": {
+        "oid": "7a3d61cbc7b4a377fa741a1d4f712966dbfe08fd"
+      },
       "comments": [],
       "reviews": [
         {
@@ -1349,6 +1359,19 @@
           "createdAt": "2025-11-05T13:49:07Z",
           "updatedAt": "2025-11-05T13:49:07Z",
           "comments": []
+        },
+        {
+          "id": "PRR_kwDOMaVM687PwPLE",
+          "commit": {
+            "abbreviatedOid": "6d2619d"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-11-20T03:34:28Z",
+          "updatedAt": "2025-11-20T03:34:28Z",
+          "comments": []
         }
       ]
     },
@@ -1359,12 +1382,12 @@
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/33",
       "state": "OPEN",
       "author": "sayrer",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "Clean this up for modpod, since it is happening anyway.",
       "createdAt": "2025-11-04T23:56:06Z",
-      "updatedAt": "2025-11-05T18:27:16Z",
+      "updatedAt": "2025-11-21T00:02:39Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "663e8694fe4da5e937127e0a441e82abf06314d5",
@@ -1385,10 +1408,24 @@
         },
         {
           "author": "sayrer",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "I actually just got to this part in catching up in video. But this discussion is about an hour in, and I had only gotten through about 45 minutes when I filed this. It's definitely true that the people on the mic sounded split on this issue. Whether you like the term or not, the text is good:\r\n\r\n\"Their job is to oversee the nature, rather than the\r\n   content, of participant interactions.  That is, they attend to the\r\n   style of the discussion and to the schedule of the agenda, rather\r\n   than making direct technical contributions themselves.\"\r\n\r\nWe could just keep it and say \"WG Moderator\", since \"Facilitator\" is in-fact unused, even by people that really know the IETF well.",
           "createdAt": "2025-11-05T18:27:16Z",
           "updatedAt": "2025-11-05T18:27:16Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I felt like the room wanted to keep the status quo, which is our default for most things. I'm not sure whether this PR makes material changes, so I might leave things as-is?",
+          "createdAt": "2025-11-20T03:33:22Z",
+          "updatedAt": "2025-11-20T03:33:22Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "IMO it's a bug, but not a substantive change. The modpod document has to say \"For a working group, chairs are by default the administrators. They may delegate this responsibility in the same vein as [Section 6.4](https://rfc-editor.org/rfc/rfc2418#section-6.4) of [[RFC2418](https://larseggert.github.io/draft-ietf-modpod-group-processes/draft-ietf-modpod-group-processes.html#RFC2418)]\". So if you just make online in-bounds and change the name from \"Facilitator\", which no one ever uses, that's the only change.",
+          "createdAt": "2025-11-21T00:02:39Z",
+          "updatedAt": "2025-11-21T00:02:39Z"
         }
       ],
       "reviews": []
@@ -1405,7 +1442,7 @@
       "labels": [],
       "body": "It's just a style guide. Many other RFCs list the requirements, but they don't all need to be listed here.",
       "createdAt": "2025-11-05T15:31:06Z",
-      "updatedAt": "2025-11-05T15:38:18Z",
+      "updatedAt": "2025-11-20T03:43:14Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "663e8694fe4da5e937127e0a441e82abf06314d5",
@@ -1425,7 +1462,21 @@
           "updatedAt": "2025-11-05T15:38:18Z"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687PwSVZ",
+          "commit": {
+            "abbreviatedOid": "347103c"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "This seems reasonable to me",
+          "createdAt": "2025-11-20T03:43:14Z",
+          "updatedAt": "2025-11-20T03:43:14Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
