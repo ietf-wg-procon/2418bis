@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-23T01:55:48.469172+00:00",
+  "timestamp": "2025-12-14T01:56:00.512015+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -569,6 +569,22 @@
           "updatedAt": "2025-11-20T03:46:40Z"
         }
       ]
+    },
+    {
+      "number": 35,
+      "id": "I_kwDOMaVM687eCrUZ",
+      "title": "Quantifying consensus as 51% vs 99% is confusing",
+      "url": "https://github.com/ietf-wg-procon/2418bis/issues/35",
+      "state": "OPEN",
+      "author": "DavidSchinazi",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Brought up on [the list](https://mailarchive.ietf.org/arch/msg/procon/Ur9zSuCYDKnZTHvUV1aBKhu_QQM/) by @elear:\n\n> Based on recent experiences, at least one person has found the following \n> sentence to be unclear:\n> \n> >     Note\n> >     that 51% of the working group does not qualify as \"rough consensus\"\n> >     and 99% is better than rough.\n> \n> Referring to \"the working group\" as if membership can be measured is the \n> first issue.  The phrase should read, \u201c51% of those expressing a \n> viewpoint\".  While this might be obvious to us that those not expressing \n> any opinion should not be counted, it is clearly not obvious to everyone.\n> \n> Second, the statement itself conflicts somewhat with existing practice.  \n> As RFC 7282 demonstrates, rough consensus may exist with 51%, but may \n> not exist with 99%.  I would just assume see the sentence removed. The \n> \"dominant view of the working group...\" text seems sufficient.\n> \n> In addition, I suggest an informational reference to RFC 7282 as useful \n> guidance that chairs should consider.",
+      "createdAt": "2025-12-13T00:54:43Z",
+      "updatedAt": "2025-12-13T00:54:43Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
