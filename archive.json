@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-12-14T01:56:00.512015+00:00",
+  "timestamp": "2026-01-18T02:01:30.721134+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -37,6 +37,11 @@
       "name": "policy change",
       "description": "A change in the current operating policy/procedures",
       "color": "6e2030"
+    },
+    {
+      "name": "RFC-alignment",
+      "description": "",
+      "color": "4cc28b"
     }
   ],
   "issues": [
@@ -81,7 +86,7 @@
       ],
       "body": "The section titled \"Internet-Drafts\" has a bunch of outdated information\r\n\r\n- Says to submit via email\r\n- Says secretariat maintains boilerplate\r\n- refers to 1id-organization.txt file\r\n- refers to 1id-guidelines.txt file\r\n",
       "createdAt": "2024-08-30T17:07:23Z",
-      "updatedAt": "2025-10-07T16:17:48Z",
+      "updatedAt": "2026-01-15T22:48:43Z",
       "closedAt": null,
       "comments": [
         {
@@ -97,6 +102,13 @@
           "body": "The word \"adopt\" does not occur anywhere in this section, yet it is a _de facto_ part of WG process. I suggest that we should add a very brief definition of adoption something like:\n\nWorking Groups MAY formally adopt an Internet-Draft to indicate that it is being considered as a candidate for publication as an RFC.\n\n(Anything beyond that can be in a separate document; this is just an anchor.)",
           "createdAt": "2025-08-29T07:44:07Z",
           "updatedAt": "2025-08-29T07:44:07Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Context: This is an old issue, trying to address various aspects of outdated information about I-D format, etc. Not recently discussed.\nSuggestion by me: We should close this and open another new issue on the fact that the submission instruction is still sending mail to internet-drafts@ietf.org. That still works (I think) but that\u2019s not the preferred method. Maybe saying something more vague like \u201dinstructions for submission of Internet Drafts can be found on the IETF data tracker web site\u201d?\nAction: Editors to close/open the issues",
+          "createdAt": "2026-01-15T22:48:43Z",
+          "updatedAt": "2026-01-15T22:48:43Z"
         }
       ]
     },
@@ -139,9 +151,17 @@
       ],
       "body": "still talks of emailing agenda@ietf.org\r\n\r\nand may want to discuss newer tools to manage meetings. but maybe not",
       "createdAt": "2024-10-11T11:34:15Z",
-      "updatedAt": "2025-10-07T16:18:23Z",
+      "updatedAt": "2026-01-15T22:48:21Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Context: Not discussed, current draft still talks about sending mail to agenda@ietf.org\nAction: Editors to suggest text correction",
+          "createdAt": "2026-01-15T22:48:21Z",
+          "updatedAt": "2026-01-15T22:48:21Z"
+        }
+      ]
     },
     {
       "number": 12,
@@ -155,7 +175,7 @@
       "labels": [],
       "body": "These two feel very outdated\r\n\r\n Document Editor\r\n\r\nWG Facilitator\r\n\r\n\"Working Group Consultant\" is more like Adviser now from another area\r\n\r\n",
       "createdAt": "2024-10-11T11:35:29Z",
-      "updatedAt": "2025-08-29T01:01:59Z",
+      "updatedAt": "2026-01-15T22:47:53Z",
       "closedAt": null,
       "comments": [
         {
@@ -164,6 +184,13 @@
           "body": "also #19 ",
           "createdAt": "2025-08-29T01:01:59Z",
           "updatedAt": "2025-08-29T01:01:59Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Context: This issue makes several comments on different roles. Not recently discussed except for the Facilitator part.\nSuggestion by me: The Facilitator issue is separate (#20). The Document Editor should stay, we use that. And Working Group Consultant\u2026 we have not used this to my knowledge, and in cases where we have used that, it has been named differently (e.g., Security Advisor). Maybe either remove or rename.\nAction: Suggestion from WG (or the Editors) welcome.",
+          "createdAt": "2026-01-15T22:47:53Z",
+          "updatedAt": "2026-01-15T22:47:53Z"
         }
       ]
     },
@@ -176,10 +203,12 @@
       "author": "moonshiner",
       "authorAssociation": "NONE",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "discuss objectives and expected impact with respect to:\r\n\r\nPrivacy \r\n\r\nSecurity\r\n\r\n",
       "createdAt": "2024-10-11T11:42:47Z",
-      "updatedAt": "2025-11-07T21:39:57Z",
+      "updatedAt": "2026-01-17T01:50:56Z",
       "closedAt": null,
       "comments": [
         {
@@ -223,6 +252,13 @@
           "body": "Ok for me",
           "createdAt": "2025-11-07T21:39:57Z",
           "updatedAt": "2025-11-07T21:39:57Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Context: Not discussed. But the issue is asking the list of things to be considered in charters to be extended by adding.\nSuggestion by me: This seems reasonable, and I\u2019d classify it as editorial. One of the proposals was to change the current item Security to Security (including privacy)\nAction: Editors to add the editorial label\nQuestion: Is the proposal mentioned above OK for the WG? ",
+          "createdAt": "2026-01-15T22:47:34Z",
+          "updatedAt": "2026-01-15T22:47:34Z"
         }
       ]
     },
@@ -288,7 +324,7 @@
       ],
       "body": "```\n   As in face-to-face sessions, occasionally one or more individuals may\n   engage in behavior on a mailing list that, in the opinion of the WG\n   chair, is disruptive to the WG process. \n```\n\nThis needs to be a new section.  Maybe a top-level section.\nI also think that this might even warrant a new document, because I think that our processes around disruptive individuals will change more.\nI'd prefer to rev another document rather than open 2418bis.\n\nreplace #15 ",
       "createdAt": "2025-08-29T00:46:43Z",
-      "updatedAt": "2025-11-04T22:34:17Z",
+      "updatedAt": "2026-01-17T01:50:11Z",
       "closedAt": null,
       "comments": [
         {
@@ -311,6 +347,20 @@
           "body": "This was discussed in the PROCON meeting at IETF 124. Since draft-ietf-modpod-group-processes updates 2418, it might be worth it for us to wait until draft-ietf-modpod-group-processes gets further along and then update 2418bis to reference it, deleting all the no-longer-relevant text.",
           "createdAt": "2025-11-04T22:34:16Z",
           "updatedAt": "2025-11-04T22:34:16Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Context: to update or refer to newer documents? \nSuggestion by me: Isn\u2019t the right thing here to refer to the relevant newer documents (incl. modpod)? I also don\u2019t think we need to wait for the latter document to be an RFC.\nAction: Update the document to reflect the tools that chairs actually have at their disposal. Reference the relevant RFCs and MODPOD working group's output for currently relevant moderation tools and processes. Editors to propose text, WG to discuss on list",
+          "createdAt": "2026-01-15T22:47:10Z",
+          "updatedAt": "2026-01-15T22:47:10Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Will do.",
+          "createdAt": "2026-01-17T01:50:11Z",
+          "updatedAt": "2026-01-17T01:50:11Z"
         }
       ]
     },
@@ -326,7 +376,7 @@
       "labels": [],
       "body": "The word \"Staff\" implies to some that the people listed are employed by the IETF, rather than volunteers that serve at the whim of another layer of volunteer.\n\nI think that the WG Chair section needs further structure.\nI think that I would move all of the 7.x up a section to be section X.\n\nreplace #15 ",
       "createdAt": "2025-08-29T00:49:34Z",
-      "updatedAt": "2025-08-29T00:51:44Z",
+      "updatedAt": "2026-01-15T22:46:41Z",
       "closedAt": null,
       "comments": [
         {
@@ -335,6 +385,13 @@
           "body": "I think section 7.1 (WG Chairs) might perhaps be split up into two sections.\nI'm not quite sure about the titles yet.\n* WG Chair Responsabilities (Things they are uniquely empowered to do)\n* WG Chair Obligations (Things they need to coordinate/lead)\n\n",
           "createdAt": "2025-08-29T00:51:44Z",
           "updatedAt": "2025-08-29T00:51:44Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Context: Is staff the right word in this, and should the rest of the section be structured better, break down WG chair roles?\nSuggestion by me: I don\u2019t feel strongly about this.\nAction: Editors to make a proposal for a change, if they feel this is useful.",
+          "createdAt": "2026-01-15T22:46:41Z",
+          "updatedAt": "2026-01-15T22:46:41Z"
         }
       ]
     },
@@ -352,7 +409,7 @@
       ],
       "body": "\n\nI've never seen the WG Facilitator role be formally enacted.\nNot sure it belongs anymore. We just do this as we need to.\n\nreplace #15 ",
       "createdAt": "2025-08-29T00:50:00Z",
-      "updatedAt": "2025-11-04T23:58:21Z",
+      "updatedAt": "2026-01-16T06:43:55Z",
       "closedAt": null,
       "comments": [
         {
@@ -371,10 +428,24 @@
         },
         {
           "author": "sayrer",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "I hadn't seen this one, and I actually expanded it in #33, so I guess we have both directions to consider.",
           "createdAt": "2025-11-04T23:58:08Z",
           "updatedAt": "2025-11-04T23:58:21Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Context: In the meeting there were differing opinions about this, the role is not used but might be useful for modpod.\nAction: Discussion on list. Any further opinions than by those who said something about this in the meeting?",
+          "createdAt": "2026-01-15T22:46:21Z",
+          "updatedAt": "2026-01-15T22:46:21Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "It seems harmless but maybe it is unnecessary white noise.\n\nDoes the datatracker support this role? If not, it's probably unused and could be removed.",
+          "createdAt": "2026-01-16T06:43:55Z",
+          "updatedAt": "2026-01-16T06:43:55Z"
         }
       ]
     },
@@ -390,7 +461,7 @@
       "labels": [],
       "body": "I think Design Teams needs more text. \nParticularly around record keeping as it affects IPR.\nDesign Teams need to keep some record of decisions, and who was present at meetings.\n\n",
       "createdAt": "2025-08-29T00:51:08Z",
-      "updatedAt": "2025-11-04T22:39:10Z",
+      "updatedAt": "2026-01-17T01:49:42Z",
       "closedAt": null,
       "comments": [
         {
@@ -413,6 +484,20 @@
           "body": "This was discussed in the PROCON meeting at IETF 124. I'll write a PR to see what the change looks like",
           "createdAt": "2025-11-04T22:39:10Z",
           "updatedAt": "2025-11-04T22:39:10Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Context: Should design teams or requirements for them be specified more formally? Some say more would be useful, especially concerning IPR policies and clear contribution attribution.-\nOpinion by me: This feels like new process, maybe just label it and move on.\nAction: In the meeting David promised to propose text. WG can decide if this is new process or not after seeing that.",
+          "createdAt": "2026-01-15T22:45:38Z",
+          "updatedAt": "2026-01-15T22:45:38Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Will do.",
+          "createdAt": "2026-01-17T01:49:42Z",
+          "updatedAt": "2026-01-17T01:49:42Z"
         }
       ]
     },
@@ -487,7 +572,7 @@
       ],
       "body": "From Brian E Carpenter on the mailing list:\n\n> Adoption is _not_ a formal step in the IETF process described by RFC 2026\n> and RFC 2418. Most newcomers seem to assume that it is, since it's\n> entrenched in common practice and in the tracker.\n\n> There is a question that the WG charter allows us to ask: should WG\n> adoption be mentioned in section 8.2 of 2418bis? That is distinct from\n> the longer term question of pursuing draft-carpenter-gendispatch-rfc7221bis.",
       "createdAt": "2025-09-23T16:26:53Z",
-      "updatedAt": "2025-11-04T17:46:19Z",
+      "updatedAt": "2026-01-16T06:34:49Z",
       "closedAt": null,
       "comments": [
         {
@@ -503,6 +588,20 @@
           "body": "This was discussed in the PROCON meeting at IETF 124. Feeling from the room was to loosely define the concept of adoption without going into too much detail",
           "createdAt": "2025-11-04T17:46:19Z",
           "updatedAt": "2025-11-04T17:46:19Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Context: Whether to document the adoption calls and the adoption process. No firm conclusion. AI summary said \u201dThe document should mention adoption calls as a common, non-mandatory practice, without prescribing too much detail. Transparency in adoption calls is recommended.\"\nAction: Specific proposal(s) welcome.",
+          "createdAt": "2026-01-15T22:45:15Z",
+          "updatedAt": "2026-01-15T22:45:15Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "I suggested elsewhere (#5) just saying something factual, which doesn't make new policy, e.g.:\n\nWorking Groups MAY formally adopt an Internet-Draft to indicate that it is being considered as a candidate for publication as an RFC.\n\n",
+          "createdAt": "2026-01-16T06:34:49Z",
+          "updatedAt": "2026-01-16T06:34:49Z"
         }
       ]
     },
@@ -520,7 +619,7 @@
       ],
       "body": "I think some clarification would be useful as to whether virtual interim (side)meetings count as BOFs.\n\n2418 speaks about 1 BOF, with 2 being an exception.\n2 BOFs is now very common, with one or more side meetings even occuring.\nBOF organizers/proponents often (particularly pandemic) have weekly to monthly organizing meetings.\nThis is done using ad-hoc meeting technology, which often results in problems accessing for some, lack of good records.  Many would prefer to use meetecho for this, but then there was push back that said if it used the official tool, then it would be a BOF.\nIf the reason to limit BOFs to <= 2 is due to time constraints for plenary week, then any time elsewhere (elsewhen?) should not count.\nIf there are other reasons to limit BOF, then they should be enumerated.\n\nThere is also now an IAB involvement in bringing new work.\n\nreplacing ietf-wg-procon/2026bis#19, and this issue should move to other repo.\n",
       "createdAt": "2025-08-29T00:42:21Z",
-      "updatedAt": "2025-11-04T17:51:15Z",
+      "updatedAt": "2026-01-17T01:49:28Z",
       "closedAt": null,
       "comments": [
         {
@@ -543,6 +642,20 @@
           "body": "This was discussed in the PROCON meeting at IETF 124. Sense of the room was to remove the text saying that BoFs have to happen at plenary meetings. We would keep the two BoF limit and that would extend to all kinds of BoFs (in-person plenary, in-person out of cycle, virtual out of cycle, working-group forming, non-working group forming, etc). If we want to change the limit, that would be a specific issue - and might not be in charter.",
           "createdAt": "2025-11-04T17:51:15Z",
           "updatedAt": "2025-11-04T17:51:15Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Decision: Text implying BOFs only happen at plenary meetings will be removed. The 2-BOF limit applies regardless of virtual/physical format.\nAction: Editors to propose text, WG to discuss on list",
+          "createdAt": "2026-01-15T22:44:52Z",
+          "updatedAt": "2026-01-15T22:44:52Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Will do.",
+          "createdAt": "2026-01-17T01:49:28Z",
+          "updatedAt": "2026-01-17T01:49:28Z"
         }
       ]
     },
@@ -555,10 +668,12 @@
       "author": "jariarkko",
       "authorAssociation": "NONE",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "RFC-alignment"
+      ],
       "body": "You\u2019ve recently changed 2026bis to be clear what the current standard levels are while also noting that the draft standard level is still out there for some documents. That\u2019s great, thank you. \n\nHere\u2019s the text you currently have:\n\nSpecifications that are intended to become Internet Standards evolve through a set of maturity levels known as the \"standards track\". These maturity levels -- \"Proposed Standard\" and \"Internet Standard\" -- are defined and discussed in Section 6.1. The way in which specifications move along the standards track is described in Section 8.\n\nThere used to be a status that came between Proposed Standard and Internet Standard called \"Draft Standard.\" As of the writing of this document, there still exist some RFCs at that status. Documents at Draft Standard may be advanced to Internet Standard, either via the procedure described in Section 8 (if they meet the requirements of Section 6.1.1) or with the consent of the IESG. The IESG may also decide to remove the Draft Standard status from a document and mark it as either Historic or Proposed Standard.\n\nBut it seems to me that the following texts in 2418bis are also something that should be impacted:\n\n5. Working Group Termination\n\nWorking groups are typically chartered to accomplish a specific task or tasks. After the tasks are complete, the group will be disbanded. However, if a WG produces a Proposed or Draft Standard, the WG will frequently become dormant rather than disband (i.e., the WG will no longer conduct formal activities, but the mailing list will remain available to review the work as it moves to Draft Standard and Standard status.)\n\n\u2026\n\n7.1. WG Chair\n\n...\n\nDocument implementations\n\nUnder the procedures described in [_2026bis], the Chair is responsible for documenting the specific implementations which qualify the specification for Draft or Internet Standard status along with documentation about testing of the interoperation of these implementations.\n\nOr am I missing something?",
       "createdAt": "2025-11-03T16:27:57Z",
-      "updatedAt": "2025-11-20T03:46:40Z",
+      "updatedAt": "2026-01-17T01:48:45Z",
       "closedAt": null,
       "comments": [
         {
@@ -567,6 +682,20 @@
           "body": "I agree, we should just remove the two mentions of Draft Standard from that paragraph. The text is aspirational anyway",
           "createdAt": "2025-11-20T03:46:40Z",
           "updatedAt": "2025-11-20T03:46:40Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Context: The main parts about this have been removed from the document, but some places remain that may be further affected, e.g., WG termination section. Not discussed in the meeting, but issue posted on list, some agreement\nAction: Editors to propose text on list, WG to discuss on list. Also, label as RFC-alignment",
+          "createdAt": "2026-01-15T22:44:27Z",
+          "updatedAt": "2026-01-15T22:44:27Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Will do",
+          "createdAt": "2026-01-17T01:48:45Z",
+          "updatedAt": "2026-01-17T01:48:45Z"
         }
       ]
     },
@@ -579,10 +708,43 @@
       "author": "DavidSchinazi",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "Brought up on [the list](https://mailarchive.ietf.org/arch/msg/procon/Ur9zSuCYDKnZTHvUV1aBKhu_QQM/) by @elear:\n\n> Based on recent experiences, at least one person has found the following \n> sentence to be unclear:\n> \n> >     Note\n> >     that 51% of the working group does not qualify as \"rough consensus\"\n> >     and 99% is better than rough.\n> \n> Referring to \"the working group\" as if membership can be measured is the \n> first issue.  The phrase should read, \u201c51% of those expressing a \n> viewpoint\".  While this might be obvious to us that those not expressing \n> any opinion should not be counted, it is clearly not obvious to everyone.\n> \n> Second, the statement itself conflicts somewhat with existing practice.  \n> As RFC 7282 demonstrates, rough consensus may exist with 51%, but may \n> not exist with 99%.  I would just assume see the sentence removed. The \n> \"dominant view of the working group...\" text seems sufficient.\n> \n> In addition, I suggest an informational reference to RFC 7282 as useful \n> guidance that chairs should consider.",
       "createdAt": "2025-12-13T00:54:43Z",
-      "updatedAt": "2025-12-13T00:54:43Z",
+      "updatedAt": "2026-01-17T01:47:41Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Context: The text in the RFC about consensus levels is simplistic. Can it be improved?\nSuggestion by me: I think this feels editorial, label it as such\nAction: Editors to propose text on list",
+          "createdAt": "2026-01-15T22:43:55Z",
+          "updatedAt": "2026-01-15T22:43:55Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Will do.",
+          "createdAt": "2026-01-17T01:47:41Z",
+          "updatedAt": "2026-01-17T01:47:41Z"
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "id": "I_kwDOMaVM687jutt_",
+      "title": "Technical advisor?",
+      "url": "https://github.com/ietf-wg-procon/2418bis/issues/36",
+      "state": "OPEN",
+      "author": "becarpenter",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Various WGs have appointed Technical Advisors and the datatracker recognizes this role**. Should it be mentioned?\n\n** e.g. https://datatracker.ietf.org/wg/v6ops/about/",
+      "createdAt": "2026-01-16T06:46:30Z",
+      "updatedAt": "2026-01-16T06:46:30Z",
       "closedAt": null,
       "comments": []
     }
@@ -1403,7 +1565,7 @@
       "labels": [],
       "body": "Clean this up for modpod, since it is happening anyway.",
       "createdAt": "2025-11-04T23:56:06Z",
-      "updatedAt": "2025-11-21T00:02:39Z",
+      "updatedAt": "2026-01-17T01:52:49Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "663e8694fe4da5e937127e0a441e82abf06314d5",
@@ -1442,6 +1604,20 @@
           "body": "IMO it's a bug, but not a substantive change. The modpod document has to say \"For a working group, chairs are by default the administrators. They may delegate this responsibility in the same vein as [Section 6.4](https://rfc-editor.org/rfc/rfc2418#section-6.4) of [[RFC2418](https://larseggert.github.io/draft-ietf-modpod-group-processes/draft-ietf-modpod-group-processes.html#RFC2418)]\". So if you just make online in-bounds and change the name from \"Facilitator\", which no one ever uses, that's the only change.",
           "createdAt": "2025-11-21T00:02:39Z",
           "updatedAt": "2025-11-21T00:02:39Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Could this issue be folded into #20?",
+          "createdAt": "2026-01-15T22:49:39Z",
+          "updatedAt": "2026-01-15T22:49:39Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@jariarkko this isn't an issue, it's a PR meant to address issue #20",
+          "createdAt": "2026-01-17T01:52:49Z",
+          "updatedAt": "2026-01-17T01:52:49Z"
         }
       ],
       "reviews": []
