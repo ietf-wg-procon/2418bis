@@ -935,29 +935,11 @@ site.
 
 ## Internet-Drafts (I-D)
 
-The Internet-Drafts directory is provided to working groups as a
-resource for posting and disseminating in-process copies of working
-group documents. This repository is replicated at various locations
-around the Internet. It is encouraged that draft documents be posted
-as soon as they become reasonably stable.
-
-It is stressed here that Internet-Drafts are working documents and
-have no official standards status whatsoever. They may, eventually,
-turn into a standards-track document or they may sink from sight.
-Internet-Drafts are submitted to: internet-drafts@ietf.org
-
-The format of an Internet-Draft is mostly the same as for an RFC
-{{?RFC7322, Section 4}}; details can also be found at
-<https://authors.ietf.org>. In addition, an I-D must contain:
-
-- The I-D filename; and
-
-- The expiration date for the I-D.
-
-- Standard boilerplate which can be found in Section 6 of the
-[Trust Legal Provisions](https://trustee.ietf.org/documentation/trust-legal-provisions)
-
-The tooling available to authors automates most the above.
+Internet-Drafts are primarily described in {{2026bis, Section 4.2}}. The
+Internet-Drafts mechanism is provided to working groups as a resource for
+posting and disseminating in-process copies of working group documents. It is
+encouraged that draft documents be posted as soon as they become reasonably
+stable.
 
 ## Request For Comments (RFC) {#rfc-doc}
 
