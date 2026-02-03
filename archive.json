@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-01-18T02:01:30.721134+00:00",
+  "timestamp": "2026-02-03T02:24:58.129997+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -745,6 +745,22 @@
       "body": "Various WGs have appointed Technical Advisors and the datatracker recognizes this role**. Should it be mentioned?\n\n** e.g. https://datatracker.ietf.org/wg/v6ops/about/",
       "createdAt": "2026-01-16T06:46:30Z",
       "updatedAt": "2026-01-16T06:46:30Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 37,
+      "id": "I_kwDOMaVM687npA3o",
+      "title": "Reconcile internet-drafts text with 2026bis",
+      "url": "https://github.com/ietf-wg-procon/2418bis/issues/37",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Please see https://github.com/ietf-wg-procon/2026bis/issues/52. This is the 2418bis part of that.",
+      "createdAt": "2026-02-02T14:39:16Z",
+      "updatedAt": "2026-02-02T14:39:16Z",
       "closedAt": null,
       "comments": []
     }
@@ -1669,6 +1685,40 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 38,
+      "id": "PR_kwDOMaVM687A70-Y",
+      "title": "Reconile 2418bis nd 2026bis I-D texts",
+      "url": "https://github.com/ietf-wg-procon/2418bis/pull/38",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Work by Brian Carpenter\r\n\r\nFixes: #37",
+      "createdAt": "2026-02-02T14:45:13Z",
+      "updatedAt": "2026-02-02T20:02:32Z",
+      "baseRepository": "ietf-wg-procon/2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "7a3d61cbc7b4a377fa741a1d4f712966dbfe08fd",
+      "headRepository": "ietf-wg-procon/2418bis",
+      "headRefName": "fix-37",
+      "headRefOid": "18b0c4f0145a891aa0fbc170bb48d47496cd84c8",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "WFM, thanks",
+          "createdAt": "2026-02-02T20:02:32Z",
+          "updatedAt": "2026-02-02T20:02:32Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
