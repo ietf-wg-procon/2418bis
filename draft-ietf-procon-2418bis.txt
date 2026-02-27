@@ -7,8 +7,8 @@ Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                          D. Schinazi
 Updates: 7475, 7776, 8717, 9141 (if approved)                 Google LLC
 Intended status: Best Current Practice                        S. Bradner
-Expires: 24 May 2026                                               SOBCO
-                                                        20 November 2025
+Expires: 31 August 2026                                            SOBCO
+                                                        27 February 2026
 
 
               IETF Working Group Guidelines and Procedures
@@ -56,11 +56,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 May 2026.
+   This Internet-Draft will expire on 31 August 2026.
 
 Copyright Notice
 
-   Copyright (c) 2025 IETF Trust and the persons identified as the
+   Copyright (c) 2026 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -96,7 +96,7 @@ Table of Contents
      7.1.  WG Chair
      7.2.  WG Secretary
      7.3.  Document Editor
-     7.4.  WG Facilitator
+     7.4.  WG Facilitator or Moderator
      7.5.  Design teams
      7.6.  Working Group Consultant
      7.7.  Area Director
@@ -931,16 +931,18 @@ Table of Contents
    resulting documents accurately reflect the consensus of the working
    group and that all processes are followed.
 
-7.4.  WG Facilitator
+7.4.  WG Facilitator or Moderator
 
    When meetings tend to become distracted or divisive, it often is
    helpful to assign the task of "process management" to one
    participant.  Their job is to oversee the nature, rather than the
    content, of participant interactions.  That is, they attend to the
    style of the discussion and to the schedule of the agenda, rather
-   than making direct technical contributions themselves.  They may need
-   to consult with the Ombudsteam (see Section 7.8) if they feel
-   harassment is involved.
+   than making direct technical contributions themselves.  They can be
+   called upon in online fora as well as in-person meetings.
+
+   They may need to consult with the Ombudsteam (see Section 7.8) if
+   they feel harassment is involved.
 
 7.5.  Design teams
 
@@ -1232,9 +1234,9 @@ Table of Contents
 
    [_2026bis] Salz, R. and S. O. Bradner, "The Internet Standards
               Process", Work in Progress, Internet-Draft, draft-ietf-
-              procon-2026bis-01, 15 October 2025,
+              procon-2026bis-05, 2 February 2026,
               <https://datatracker.ietf.org/doc/html/draft-ietf-procon-
-              2026bis-01>.
+              2026bis-05>.
 
 Acknowledgments
 
