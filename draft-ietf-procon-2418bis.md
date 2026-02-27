@@ -833,7 +833,7 @@ agreed to by the WG (see {{doc-editor}}).
 - Document publication
 
 The Chair and/or Document Editor will work with the RFC Editor to
-ensure document conformance with RFC publication requirements {{?RFC7322}} and
+ensure document meets RFC publication requirements and
 to coordinate any editorial changes suggested by the RFC Editor.  A
 particular concern is that all participants are working from the same
 version of a document at the same time.
