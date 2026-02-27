@@ -867,14 +867,16 @@ positions are filled by different individuals to help ensure that the
 resulting documents accurately reflect the consensus of the working
 group and that all processes are followed.
 
-## WG Facilitator
+## WG Facilitator or Moderator
 
 When meetings tend to become distracted or divisive, it often is
 helpful to assign the task of "process management" to one participant.
 Their job is to oversee the nature, rather than the content, of
 participant interactions.  That is, they attend to the style of the
 discussion and to the schedule of the agenda, rather than making
-direct technical contributions themselves.
+direct technical contributions themselves. They can be called upon
+in online fora as well as in-person meetings.
+
 They may need to consult with the Ombudsteam (see {{ombudsteam}})
 if they feel harassment is involved.
 
