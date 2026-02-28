@@ -619,10 +619,10 @@ working group shall prevail.  (However, it must be noted that
 "dominance" is not to be determined on the basis of volume or
 persistence, but rather a more general sense of agreement.) Consensus
 can be determined by a show of hands, humming, or any other means on
-which the WG agrees (by rough consensus, of course).  Note that 51% of
-the working group does not qualify as "rough consensus" and 99% is
-better than rough.  It is up to the Chair to determine if rough
-consensus has been reached.
+which the WG agrees (by rough consensus, of course). Note that
+{{?RFC7282}} provides some examples that help describe the nuances
+of consensus in the IETF. It is up to the Chair to determine if
+rough consensus has been reached.
 
 It can be particularly challenging to gauge the level of consensus on
 a mailing list.  There are two different cases where a working group
