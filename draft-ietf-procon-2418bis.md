@@ -400,9 +400,8 @@ person who requests the BOF may be asked to serve as Chair of the BOF.
 
 The Chair of the BOF is also responsible for providing a report on the
 outcome of the BOF.  If the Area Director approves, the BOF is then
-scheduled by submitting a request to agenda@ietf.org with copies to
-the Area Director(s). A BOF description and agenda are required
-before a BOF can be scheduled.
+scheduled by submitting a request to the secretariat. A BOF
+description and agenda are required before a BOF can be scheduled.
 
 Available time for BOFs is limited, and BOFs are held at the
 discretion of the ADs for an area.  The AD(s) may require additional
@@ -484,8 +483,7 @@ should contain at least:
 read before the session in order to be well prepared.
 
 Publication of the working group agenda shall include sending a copy
-of the agenda to the working group mailing list and to
-agenda@ietf.org.
+of the agenda to the working group mailing list.
 
 All working group actions shall be taken in a public forum, and wide
 participation is encouraged. A working group will conduct much of its
@@ -534,7 +532,7 @@ facilitate schedule coordination for WGs requiring the same set of
 experts.
 
 The application for a WG session at an IETF meeting MUST be made to
-the IETF Secretariat at the address agenda@ietf.org.  Some Area
+the IETF Secretariat.  Some Area
 Directors may want to coordinate WG sessions in their area and request
 that time slots be coordinated through them.  If this is the case it
 will be noted in the IETF meeting announcement. A WG scheduling
@@ -932,7 +930,7 @@ important that working group members have adequate time to review all
 documents, granting such an exception should only be done under
 unusual conditions.  The final session agenda should be posted to the
 working group mailing list at least two weeks before the session and
-sent at that time to agenda@ietf.org for publication on the IETF web
+sent at that time to the Secretariat for publication on the IETF web
 site.
 
 ## Internet-Drafts (I-D)
