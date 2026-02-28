@@ -4,10 +4,11 @@
 
 procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
-Obsoletes: 2418, 3934 (if approved)                           S. Bradner
-Updates: 7475, 7776, 8717, 9141 (if approved)                      SOBCO
-Intended status: Best Current Practice                  28 February 2026
-Expires: 1 September 2026
+Obsoletes: 2418, 3934 (if approved)                          D. Schinazi
+Updates: 7475, 7776, 8717, 9141 (if approved)                 Google LLC
+Intended status: Best Current Practice                        S. Bradner
+Expires: 1 September 2026                                          SOBCO
+                                                        28 February 2026
 
 
               IETF Working Group Guidelines and Procedures
@@ -95,7 +96,7 @@ Table of Contents
      7.1.  WG Chair
      7.2.  WG Secretary
      7.3.  Document Editor
-     7.4.  WG Facilitator
+     7.4.  WG Facilitator or Moderator
      7.5.  Design teams
      7.6.  Working Group Consultant
      7.7.  Area Director
@@ -110,18 +111,15 @@ Table of Contents
    10. Security Considerations
    11. IANA Considerations
    12. Change Log
+     12.1.  Working group draft
+     12.2.  Individual draft
    13. References
      13.1.  Normative References
      13.2.  Informative References
-   Appendix: Sample Working Group Charter
    Acknowledgments
    Authors' Addresses
 
 1.  Introduction
-
-       NOTE: This document started with the raw text of RFC 2418, and
-       subsequent drafts each incorporated the text of RFC 3934, RFC
-       7475, RFC 7776, RFC 8717, and RFC 9141.
 
    The Internet, a loosely-organized international collaboration of
    autonomous, interconnected networks, supports host-to-host
@@ -167,12 +165,12 @@ Table of Contents
    is described in [RFC8713].
 
    The area directors sitting as a body, along with the IETF Chair,
-   comprise the Internet Engineering Steering Group (IESG).  The IAB
-   Chair and the IETF Executive Director are ex-officio members of the
-   IESG.  There are also liaisons from IANA, the RFC Production Center,
-   the Secretariat, and a second member of the IAB.  The IESG approves
-   IETF Standards and approves the publication of other IETF documents.
-   (See [_2026bis].)
+   comprise the Internet Engineering Steering Group (IESG).  The
+   Internet Architecture Board (IAB) Chair and the IETF Executive
+   Director are ex-officio members of the IESG.  There are also liaisons
+   from IANA, the RFC Production Center, the Secretariat, and the IAB.
+   The IESG approves IETF Standards and approves the publication of
+   other IETF documents.  (See [_2026bis].)
 
    The IETF Secretariat provides staff and administrative support for
    the operation of the IETF.
@@ -308,9 +306,8 @@ Table of Contents
    The formation of a working group requires a charter which is
    primarily negotiated between a prospective working group Chair and
    the relevant Area Director(s), although final approval is made by the
-   IESG with advice from the Internet Architecture Board (IAB).  A
-   charter is a contract between a working group and the IETF to perform
-   a set of tasks.  A charter:
+   IESG with advice from the IAB.  A charter is a contract between a
+   working group and the IETF to perform a set of tasks.  A charter:
 
    1.  Lists relevant administrative information for the working group;
 
@@ -318,22 +315,22 @@ Table of Contents
        describes the approach that will be taken to achieve the goals;
        and
 
-   3.  Enumerates a set of milestones together with time frames for
-       their completion.
+   3.  Optionally enumerates a set of milestones together with time
+       frames for their completion.
 
    When the prospective Chair(s), the Area Director and the IETF
    Secretariat are satisfied with the charter form and content, it
    becomes the basis for forming a working group.  Note that an Area
    Director MAY require holding an exploratory Birds of a Feather (BOF)
-   meeting, as described below, to gage the level of support for a
+   meeting, as described below, to gauge the level of support for a
    working group before submitting the charter to the IESG and IAB for
    approval.
 
    Charters may be renegotiated periodically to reflect the current
    status, organization or goals of the working group (see Section 6).
    Hence, a charter is a contract between the IETF and the working group
-   which is committing to meet explicit milestones and delivering
-   specific "products".
+   which is committing to a scope for the work and optionally also to
+   meet explicit milestones and delivering specific "products".
 
    Specifically, each charter consists of the following sections:
 
@@ -397,20 +394,17 @@ Table of Contents
 
    *  Transition (where applicable)
 
-   Goals and milestones  The working group charter MUST establish a
+   Goals and milestones  The working group charter SHOULD establish a
       timetable for specific work items.  While this may be renegotiated
       over time, the list of milestones and dates facilitates the Area
       Director's tracking of working group progress and status, and it
-      is indispensable to potential participants identifying the
-      critical moments for input.  Milestones shall consist of
-      deliverables that can be qualified as showing specific
-      achievement; e.g., "Internet-Draft finished" is fine, but "discuss
-      via email" is not.  It is helpful to specify milestones for every
-      3-6 months, so that progress can be gauged easily.  This milestone
-      list is expected to be updated periodically (see Section 6).
-
-   An example of a WG charter is included as Appendix "Appendix: Sample
-   Working Group Charter".
+      can facilitate potential participants identifying the critical
+      moments for input.  Milestones shall consist of deliverables that
+      can be qualified as showing specific achievement; e.g., "Internet-
+      Draft finished" is fine, but "discuss via email" is not.  It is
+      helpful to specify milestones for every 3-6 months, so that
+      progress can be gauged easily.  This milestone list is expected to
+      be updated periodically (see Section 6).
 
 3.3.  Charter review & approval
 
@@ -442,6 +436,20 @@ Table of Contents
    the approved charter to the IETF Secretariat who records and enters
    the information into the IETF tracking database.  The working group
    is announced to the IETF-announce a by the IETF Secretariat.
+
+   While chartering a new working group, the IESG will decide whether
+   milestones are initially enabled or disabled for this working group,
+   and if enabled whether there are dates included, and at what
+   granularity.  Examples of granularity include months, quarters, half-
+   years, IETF meetings, and sooner-vs-later.  The responsible Area
+   Director is empowered to change these details without formal updates
+   to the charter.  The Area Director is encouraged to discuss these
+   choices with the working group chairs, as the success of milestones
+   is predicated on the chairs updating them in a timely manner.
+   Updating the date attached to a milestone is under the authority of
+   the working group chairs and does not require pre-approval of the
+   Area Director.  However, in the case of a disagreement the final
+   decision lies with the Area Director.
 
 3.4.  Birds of a Feather (BOF)
 
@@ -517,7 +525,7 @@ Table of Contents
    participation, reaching closure, etc.  The core rule for operation is
    that acceptance or agreement is achieved via working group "rough
    consensus".  WG participants should specifically note the
-   requirements for disclosure of conflicts of interest in [RFC9281].
+   requirements around intellectual property in [_2026bis].
 
    A number of procedural questions and issues will arise over time, and
    it is the function of the Working Group Chair(s) to manage the group
@@ -574,7 +582,7 @@ Table of Contents
 4.2.  Session venue
 
    Each working group will determine the balance of email and face-to-
-   face sessions that is appropriate for achieving its milestones.
+   face sessions that is appropriate for achieving its goals.
    Electronic mail permits the widest participation; face-to-face
    meetings often permit better focus and therefore can be more
    efficient for reaching a consensus among a core of the working group
@@ -625,6 +633,11 @@ Table of Contents
    inappropriate material, or who, in the opinion of the Chair is
    disrupting the WG process.  The Chair should consult with the Area
    Director(s) if the individual persists in disruptive behavior.
+
+   For working groups where milestones are enabled, chairs are expected
+   to keep milestones up to date.  Chairs are expected to review
+   milestones at least once per IETF meeting (every four months) to
+   ensure they are accurate.
 
 4.2.2.  On-line
 
@@ -786,16 +799,18 @@ Table of Contents
 
    Updated milestones are renegotiated with the Area Director and the
    IESG, as needed, and then are submitted to the IESG Secretariat:
-   iesg-secretary@ietf.org.
+   iesg-secretary@ietf.org.  Similarly, the Area Director can enable or
+   disable milestones, or enable or disable dates, or change the
+   granularity of dates, all without a formal recharter.
 
-   Rechartering (other than revising milestones) a working group follows
-   the same procedures that the initial chartering does (see Section 3).
-   The revised charter must be submitted to the IESG and IAB for
-   approval.  As with the initial chartering, the IESG may approve new
-   charter as-is, it may request that changes be made in the new charter
-   (including having the Working Group continue to use the old charter),
-   or it may decline to approve the rechartered working group.  In the
-   latter case, the working group is disbanded.
+   Rechartering (other than changes to milestones) a working group
+   follows the same procedures that the initial chartering does (see
+   Section 3).  The revised charter must be submitted to the IESG and
+   IAB for approval.  As with the initial chartering, the IESG may
+   approve new charter as-is, it may request that changes be made in the
+   new charter (including having the Working Group continue to use the
+   old charter), or it may decline to approve the rechartered working
+   group.  In the latter case, the working group is disbanded.
 
 7.  Staff Roles
 
@@ -825,15 +840,15 @@ Table of Contents
    *  Ensure WG process and content management
 
    The Chair has ultimate responsibility for ensuring that a working
-   group achieves forward progress and meets its milestones.  The Chair
-   is also responsible to ensure that the working group operates in an
-   open and fair manner.  For some working groups, this can be
-   accomplished by having the Chair perform all management-related
-   activities.  In other working groups -- particularly those with large
-   or divisive participation -- it is helpful to allocate process and/or
-   secretarial functions to other participants.  Process management
-   pertains strictly to the style of working group interaction and not
-   to its content.  It ensures fairness and detects redundancy.  The
+   group achieves forward progress and meets its goals.  The Chair is
+   also responsible to ensure that the working group operates in an open
+   and fair manner.  For some working groups, this can be accomplished
+   by having the Chair perform all management-related activities.  In
+   other working groups -- particularly those with large or divisive
+   participation -- it is helpful to allocate process and/or secretarial
+   functions to other participants.  Process management pertains
+   strictly to the style of working group interaction and not to its
+   content.  It ensures fairness and detects redundancy.  The
    secretarial function encompasses document editing.  It is quite
    common for a working group to assign the task of specification Editor
    to one or two participants.  Sometimes, they also are part of the
@@ -884,10 +899,10 @@ Table of Contents
    *  Document publication
 
    The Chair and/or Document Editor will work with the RFC Editor to
-   ensure document conformance with RFC publication requirements
-   [RFC7322] and to coordinate any editorial changes suggested by the
-   RFC Editor.  A particular concern is that all participants are
-   working from the same version of a document at the same time.
+   ensure document meets RFC publication requirements and to coordinate
+   any editorial changes suggested by the RFC Editor.  A particular
+   concern is that all participants are working from the same version of
+   a document at the same time.
 
    *  Document implementations
 
@@ -918,16 +933,18 @@ Table of Contents
    resulting documents accurately reflect the consensus of the working
    group and that all processes are followed.
 
-7.4.  WG Facilitator
+7.4.  WG Facilitator or Moderator
 
    When meetings tend to become distracted or divisive, it often is
    helpful to assign the task of "process management" to one
    participant.  Their job is to oversee the nature, rather than the
    content, of participant interactions.  That is, they attend to the
    style of the discussion and to the schedule of the agenda, rather
-   than making direct technical contributions themselves.  They may need
-   to consult with the Ombudsteam (see Section 7.8) if they feel
-   harassment is involved.
+   than making direct technical contributions themselves.  They can be
+   called upon in online fora as well as in-person meetings.
+
+   They may need to consult with the Ombudsteam (see Section 7.8) if
+   they feel harassment is involved.
 
 7.5.  Design teams
 
@@ -986,31 +1003,11 @@ Table of Contents
 
 8.2.  Internet-Drafts (I-D)
 
-   The Internet-Drafts directory is provided to working groups as a
+   Internet-Drafts are primarily described in [_2026bis], Section 4.2.
+   The Internet-Drafts mechanism is provided to working groups as a
    resource for posting and disseminating in-process copies of working
-   group documents.  This repository is replicated at various locations
-   around the Internet.  It is encouraged that draft documents be posted
-   as soon as they become reasonably stable.
-
-   It is stressed here that Internet-Drafts are working documents and
-   have no official standards status whatsoever.  They may, eventually,
-   turn into a standards-track document or they may sink from sight.
-   Internet-Drafts are submitted to: internet-drafts@ietf.org
-
-   The format of an Internet-Draft is mostly the same as for an RFC
-   [RFC7322], Section 4; details can also be found at
-   https://authors.ietf.org (https://authors.ietf.org).  In addition, an
-   I-D must contain:
-
-   *  The I-D filename; and
-
-   *  The expiration date for the I-D.
-
-   *  Standard boilerplate which can be found in Section 6 of the Trust
-      Legal Provisions (https://trustee.ietf.org/documentation/trust-
-      legal-provisions)
-
-   The tooling available to authors automates most the above.
+   group documents.  It is encouraged that draft documents be posted as
+   soon as they become reasonably stable.
 
 8.3.  Request For Comments (RFC)
 
@@ -1140,6 +1137,15 @@ Table of Contents
 
 12.  Change Log
 
+12.1.  Working group draft
+
+   *  Draft 0: Adopted by PROCON WG
+
+   *  Draft 1: Removed sample charter.  Fix "conflict of interest" text.
+      Make milestones optional.  Clarify IAB liaison to IESG.
+
+12.2.  Individual draft
+
    *  Draft 0: Translated the nroff source of RFC 2418 into markdown.
       Changed the intellectual proper notices the current ones.
 
@@ -1197,10 +1203,6 @@ Table of Contents
               Mailing Lists", BCP 83, RFC 3683, DOI 10.17487/RFC3683,
               March 2004, <https://www.rfc-editor.org/rfc/rfc3683>.
 
-   [RFC7322]  Flanagan, H. and S. Ginoza, "RFC Style Guide", RFC 7322,
-              DOI 10.17487/RFC7322, September 2014,
-              <https://www.rfc-editor.org/rfc/rfc7322>.
-
    [RFC8713]  Kucherawy, M., Ed., Hinden, R., Ed., and J. Livingood,
               Ed., "IAB, IESG, IETF Trust, and IETF LLC Selection,
               Confirmation, and Recall Process: Operation of the IETF
@@ -1213,89 +1215,6 @@ Table of Contents
               procon-2026bis-05, 2 February 2026,
               <https://datatracker.ietf.org/doc/html/draft-ietf-procon-
               2026bis-05>.
-
-Appendix: Sample Working Group Charter
-
-  Working Group Name:
-      IP Telephony (iptel)
-
-  IETF Area:
-      Transport Area
-
-  Chair(s):
-      Jonathan Rosenberg <jdrosen@bell-labs.com>
-
-  Transport Area Director(s):
-      Scott Bradner <sob@harvard.edu>
-      Allyn Romanow <allyn@mci.net>
-
-  Responsible Area Director:
-      Allyn Romanow <allyn@mci.net>
-
-  Mailing Lists:
-      General Discussion:iptel@lists.research.bell-labs.com
-      To Subscribe: iptel-request@lists.research.bell-labs.com
-      Archive: http://www.bell-labs.com/mailing-lists/siptel
-
-  Description of Working Group:
-
-  Before Internet telephony can become a widely deployed service, a
-  number of protocols must be deployed. These include signaling and
-  capabilities exchange, but also include a number of "peripheral"
-  protocols for providing related services.
-
-  The primary purpose of this working group is to develop two such
-  supportive protocols and a framework document. They are:
-
-  1. Call Processing Syntax. When a call is setup between two endpoints,
-  the signaling will generally pass through several servers (such as an
-  H.323 gatekeeper) which are responsible for forwarding, redirecting,
-  or proxying the signaling messages. For example, a user may make a
-  call to j.doe@bigcompany.com. The signaling message to initiate the
-  call will arrive at some server at bigcompany. This server can inform
-  the caller that the callee is busy, forward the call initiation
-  request to another server closer to the user, or drop the call
-  completely (among other possibilities). It is very desirable to allow
-  the callee to provide input to this process, guiding the server in its
-  decision on how to act. This can enable a wide variety of advanced
-  personal mobility and call agent services.
-
-  Such preferences can be expressed in a call processing syntax, which
-  can be authored by the user (or generated automatically by some tool),
-  and then uploaded to the server. The group will develop this syntax,
-  and specify means of securely transporting and extending it. The
-  result will be a single standards track RFC.
-
-  2. In addition, the group will write a service model document, which
-  describes the services that are enabled by the call processing syntax,
-  and discusses how the syntax can be used. This document will result in
-  a single RFC.
-
-  3. Gateway Attribute Distribution Protocol. When making a call between
-  an IP host and a PSTN user, a telephony gateway must be used. The
-  selection of such gateways can be based on many criteria, including
-  client expressed preferences, service provider preferences, and
-  availability of gateways, in addition to destination telephone number.
-  Since gateways outside of the hosts' administrative domain might be
-  used, a protocol is required to allow gateways in remote domains to
-  distribute their attributes (such as PSTN connectivity, supported
-  codecs, etc.) to entities in other domains which must make a selection
-  of a gateway. The protocol must allow for scalable, bandwidth
-  efficient, and very secure transmission of these attributes. The group
-  will investigate and design a protocol for this purpose, generate an
-  Internet Draft, and advance it to RFC as appropriate.
-
-  Goals and Milestones:
-
-  May 98    Issue first Internet-Draft on service framework
-  Jul 98    Submit framework ID to IESG for publication as an RFC.
-  Aug 98    Issue first Internet-Draft on Call Processing Syntax
-  Oct 98    Submit Call processing syntax to IESG for consideration
-        as a Proposed Standard.
-  Dec 98    Achieve consensus on basics of gateway attribute
-        distribution protocol
-  Jan 99    Submit Gateway Attribute Distribution protocol to IESG
-        for consideration as a RFC (info, exp, stds track TB
 
 Acknowledgments
 
@@ -1314,6 +1233,11 @@ Authors' Addresses
    Rich Salz
    Akamai Technologies
    Email: rsalz@akamai.com
+
+
+   David Schinazi
+   Google LLC
+   Email: dschinazi.ietf@gmail.com
 
 
    Scott Bradner
