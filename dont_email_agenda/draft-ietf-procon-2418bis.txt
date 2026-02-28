@@ -96,7 +96,7 @@ Table of Contents
      7.1.  WG Chair
      7.2.  WG Secretary
      7.3.  Document Editor
-     7.4.  WG Facilitator
+     7.4.  WG Facilitator or Moderator
      7.5.  Design teams
      7.6.  Working Group Consultant
      7.7.  Area Director
@@ -165,12 +165,12 @@ Table of Contents
    is described in [RFC8713].
 
    The area directors sitting as a body, along with the IETF Chair,
-   comprise the Internet Engineering Steering Group (IESG).  The IAB
-   Chair and the IETF Executive Director are ex-officio members of the
-   IESG.  There are also liaisons from IANA, the RFC Production Center,
-   the Secretariat, and a second member of the IAB.  The IESG approves
-   IETF Standards and approves the publication of other IETF documents.
-   (See [_2026bis].)
+   comprise the Internet Engineering Steering Group (IESG).  The
+   Internet Architecture Board (IAB) Chair and the IETF Executive
+   Director are ex-officio members of the IESG.  There are also liaisons
+   from IANA, the RFC Production Center, the Secretariat, and the IAB.
+   The IESG approves IETF Standards and approves the publication of
+   other IETF documents.  (See [_2026bis].)
 
    The IETF Secretariat provides staff and administrative support for
    the operation of the IETF.
@@ -306,9 +306,8 @@ Table of Contents
    The formation of a working group requires a charter which is
    primarily negotiated between a prospective working group Chair and
    the relevant Area Director(s), although final approval is made by the
-   IESG with advice from the Internet Architecture Board (IAB).  A
-   charter is a contract between a working group and the IETF to perform
-   a set of tasks.  A charter:
+   IESG with advice from the IAB.  A charter is a contract between a
+   working group and the IETF to perform a set of tasks.  A charter:
 
    1.  Lists relevant administrative information for the working group;
 
@@ -323,7 +322,7 @@ Table of Contents
    Secretariat are satisfied with the charter form and content, it
    becomes the basis for forming a working group.  Note that an Area
    Director MAY require holding an exploratory Birds of a Feather (BOF)
-   meeting, as described below, to gage the level of support for a
+   meeting, as described below, to gauge the level of support for a
    working group before submitting the charter to the IESG and IAB for
    approval.
 
@@ -895,10 +894,10 @@ Table of Contents
    *  Document publication
 
    The Chair and/or Document Editor will work with the RFC Editor to
-   ensure document conformance with RFC publication requirements
-   [RFC7322] and to coordinate any editorial changes suggested by the
-   RFC Editor.  A particular concern is that all participants are
-   working from the same version of a document at the same time.
+   ensure document meets RFC publication requirements and to coordinate
+   any editorial changes suggested by the RFC Editor.  A particular
+   concern is that all participants are working from the same version of
+   a document at the same time.
 
    *  Document implementations
 
@@ -929,16 +928,18 @@ Table of Contents
    resulting documents accurately reflect the consensus of the working
    group and that all processes are followed.
 
-7.4.  WG Facilitator
+7.4.  WG Facilitator or Moderator
 
    When meetings tend to become distracted or divisive, it often is
    helpful to assign the task of "process management" to one
    participant.  Their job is to oversee the nature, rather than the
    content, of participant interactions.  That is, they attend to the
    style of the discussion and to the schedule of the agenda, rather
-   than making direct technical contributions themselves.  They may need
-   to consult with the Ombudsteam (see Section 7.8) if they feel
-   harassment is involved.
+   than making direct technical contributions themselves.  They can be
+   called upon in online fora as well as in-person meetings.
+
+   They may need to consult with the Ombudsteam (see Section 7.8) if
+   they feel harassment is involved.
 
 7.5.  Design teams
 
@@ -997,31 +998,11 @@ Table of Contents
 
 8.2.  Internet-Drafts (I-D)
 
-   The Internet-Drafts directory is provided to working groups as a
+   Internet-Drafts are primarily described in [_2026bis], Section 4.2.
+   The Internet-Drafts mechanism is provided to working groups as a
    resource for posting and disseminating in-process copies of working
-   group documents.  This repository is replicated at various locations
-   around the Internet.  It is encouraged that draft documents be posted
-   as soon as they become reasonably stable.
-
-   It is stressed here that Internet-Drafts are working documents and
-   have no official standards status whatsoever.  They may, eventually,
-   turn into a standards-track document or they may sink from sight.
-   Internet-Drafts are submitted to: internet-drafts@ietf.org
-
-   The format of an Internet-Draft is mostly the same as for an RFC
-   [RFC7322], Section 4; details can also be found at
-   https://authors.ietf.org (https://authors.ietf.org).  In addition, an
-   I-D must contain:
-
-   *  The I-D filename; and
-
-   *  The expiration date for the I-D.
-
-   *  Standard boilerplate which can be found in Section 6 of the Trust
-      Legal Provisions (https://trustee.ietf.org/documentation/trust-
-      legal-provisions)
-
-   The tooling available to authors automates most the above.
+   group documents.  It is encouraged that draft documents be posted as
+   soon as they become reasonably stable.
 
 8.3.  Request For Comments (RFC)
 
@@ -1216,10 +1197,6 @@ Table of Contents
    [RFC3683]  Rose, M., "A Practice for Revoking Posting Rights to IETF
               Mailing Lists", BCP 83, RFC 3683, DOI 10.17487/RFC3683,
               March 2004, <https://www.rfc-editor.org/rfc/rfc3683>.
-
-   [RFC7322]  Flanagan, H. and S. Ginoza, "RFC Style Guide", RFC 7322,
-              DOI 10.17487/RFC7322, September 2014,
-              <https://www.rfc-editor.org/rfc/rfc7322>.
 
    [RFC8713]  Kucherawy, M., Ed., Hinden, R., Ed., and J. Livingood,
               Ed., "IAB, IESG, IETF Trust, and IETF LLC Selection,
