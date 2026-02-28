@@ -880,7 +880,7 @@ in online fora as well as in-person meetings.
 They may need to consult with the Ombudsteam (see {{ombudsteam}})
 if they feel harassment is involved.
 
-## Design teams
+## Design Teams
 
 It is often useful, and perhaps inevitable, for a sub-group of a
 working group to develop a proposal to solve a particular problem.
@@ -891,6 +891,11 @@ between people in a hallway to a formal set of expert volunteers that
 the WG chair or AD appoints to attack a controversial problem.  The
 output of a design team is always subject to approval, rejection or
 modification by the WG as a whole.
+
+Design teams MUST produce public records of their contributions and
+members to the Working Group, to ensure that any contributions made
+within design teams follow the IETF's Intellectual Property Rights
+policies ({{?BCP79}}).
 
 ## Working Group Consultant {#wg-consultant}
 
