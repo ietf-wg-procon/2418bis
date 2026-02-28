@@ -423,8 +423,8 @@ charter prior to holding a BOF.
 Internet-Draft describing the proposed technology has been published
 so it can be used as a basis for discussion in the BOF.
 
-In general, a BOF on a particular topic is held only once (ONE slot at
-one IETF Plenary meeting). Under unusual circumstances Area Directors
+In general, a BOF on a particular topic is held only once.
+Under unusual circumstances Area Directors
 may, at their discretion, allow a BOF to meet for a second time. BOFs
 are not permitted to meet three times.  Note that all other things
 being equal, WGs will be given priority for meeting space over BOFs.
