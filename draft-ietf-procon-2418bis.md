@@ -584,31 +584,9 @@ attend.
 
 As in face-to-face sessions, occasionally one or more individuals may
 engage in behavior on a mailing list that, in the opinion of the WG
-chair, is disruptive to the WG process.  Unless the disruptive
-behavior is severe enough that it must be stopped immediately, the
-WG chair should attempt to discourage the disruptive behavior by
-communicating directly with the offending individual.  If the
-behavior persists, the WG chair should send at least one public
-warning on the WG mailing list.  As a last resort and typically after
-one or more explicit warnings and consultation with the responsible
-Area Director, the WG chair may suspend the mailing list posting
-privileges of the disruptive individual for a period of not more than
-30 days.  Even while posting privileges are suspended, the individual
-must not be prevented from receiving messages posted to the
-list.  Like all other WG chair decisions, any suspension of posting
-privileges is subject to appeal, as described in {{2026bis}}.
-
-This mechanism is intended to permit a WG chair to suspend posting
-privileges of a disruptive individual for a short period of
-time.  This mechanism does not permit WG chairs to suspend an individual's
-posting privileges for a period longer than 30 days regardless of the
-type or severity of the disruptive incident.  However, further
-disruptive behavior by the same individual will be considered
-separately and may result in further warnings or suspensions.  Other
-methods of mailing list control, including longer suspensions, must
-be carried out in accordance with other IETF-approved procedures.  See
-{{?RFC3683}} for one set of procedures already defined and
-accepted by the community.
+chair, is disruptive to the WG process. The chairs and moderators
+have a range of tools at their disposal to handle such cases, as
+documented in {{?BCP245}};
 
 ## Session management
 
