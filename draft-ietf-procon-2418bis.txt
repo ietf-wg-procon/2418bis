@@ -92,8 +92,8 @@ Table of Contents
      4.4.  Contention and appeals
    5.  Working Group Termination
    6.  Rechartering a Working Group
-   7.  Staff Roles
-     7.1.  WG Chair
+   7.  Working Group Roles
+     7.1.  Working Group Chair
      7.2.  WG Secretary
      7.3.  Document Editor
      7.4.  WG Facilitator or Moderator
@@ -809,7 +809,7 @@ Table of Contents
    old charter), or it may decline to approve the rechartered working
    group.  In the latter case, the working group is disbanded.
 
-7.  Staff Roles
+7.  Working Group Roles
 
    Working groups require considerable care and feeding.  In addition to
    general participation, successful working groups benefit from the
@@ -818,7 +818,7 @@ Table of Contents
    and Working Group Consultant roles, and they serve at the discretion
    of the Area Director.
 
-7.1.  WG Chair
+7.1.  Working Group Chair
 
    The Working Group Chair is concerned with making forward progress
    through a fair and open process, and has wide discretion in the
@@ -827,10 +827,10 @@ Table of Contents
 
    The Chair has the responsibility and the authority to make decisions,
    on behalf of the working group, regarding all matters of working
-   group process and staffing, in conformance with the rules of the
-   IETF.  The AD has the authority and the responsibility to assist in
-   making those decisions at the request of the Chair or when
-   circumstances warrant such an intervention.
+   group process and roles, in conformance with the rules of the IETF.
+   The AD has the authority and the responsibility to assist in making
+   those decisions at the request of the Chair or when circumstances
+   warrant such an intervention.
 
    The Chair's responsibility encompasses at least the following:
 
