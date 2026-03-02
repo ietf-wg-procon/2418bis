@@ -614,15 +614,15 @@ accepted by the community.
 
 Working groups make decisions through a "rough consensus" process.
 IETF consensus does not require that all participants agree although
-this is, of course, preferred.  In general, the dominant view of the
+this is preferred.  In general, the dominant view of the
 working group shall prevail.  (However, it must be noted that
 "dominance" is not to be determined on the basis of volume or
 persistence, but rather a more general sense of agreement.) Consensus
 can be determined by a show of hands, humming, or any other means on
-which the WG agrees (by rough consensus, of course). Note that
-{{?RFC7282}} provides some examples that help describe the nuances
-of consensus in the IETF. It is up to the Chair to determine if
-rough consensus has been reached.
+which the WG agrees (by rough consensus). Note that {{?RFC7282}}
+provides some examples that help describe the nuances of consensus in
+the IETF. It is up to the Chair to determine if rough consensus has
+been reached.
 
 It can be particularly challenging to gauge the level of consensus on
 a mailing list.  There are two different cases where a working group
