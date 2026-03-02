@@ -7,8 +7,8 @@ Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                          D. Schinazi
 Updates: 7475, 7776, 8717, 9141 (if approved)                 Google LLC
 Intended status: Best Current Practice                        S. Bradner
-Expires: 1 September 2026                                          SOBCO
-                                                        28 February 2026
+Expires: 3 September 2026                                          SOBCO
+                                                            2 March 2026
 
 
               IETF Working Group Guidelines and Procedures
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 1 September 2026.
+   This Internet-Draft will expire on 3 September 2026.
 
 Copyright Notice
 
@@ -958,8 +958,10 @@ Table of Contents
 
    Design teams MUST produce public records of their contributions and
    members to the Working Group, to ensure that any contributions made
-   within design teams follow the IETF's Intellectual Property Rights
-   policies ([BCP79]).
+   within design teams properly follow IETF procedures.  For example,
+   any contribution made within a design team is still considered an
+   IETF contribution, and is therefore subject to the IETF's
+   Intellectual Property Rights policies ([BCP79]).
 
 7.6.  Working Group Consultant
 
