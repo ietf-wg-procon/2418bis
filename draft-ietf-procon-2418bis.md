@@ -744,7 +744,7 @@ charter as-is, it may request that changes be made in the new charter
 or it may decline to approve the rechartered working group.  In the
 latter case, the working group is disbanded.
 
-# Staff Roles
+# Working Group Roles
 
 Working groups require considerable care and feeding.  In addition to
 general participation, successful working groups benefit from the
@@ -753,7 +753,7 @@ Director must agree to the specific people performing the WG Chair,
 and Working Group Consultant roles, and they serve at the discretion
 of the Area Director.
 
-## WG Chair
+## Working Group Chair
 
 The Working Group Chair is concerned with making forward progress
 through a fair and open process, and has wide discretion in the
@@ -762,7 +762,7 @@ are performed, either directly or by others assigned to the tasks.
 
 The Chair has the responsibility and the authority to make decisions,
 on behalf of the working group, regarding all matters of working group
-process and staffing, in conformance with the rules of the IETF.  The
+process and roles, in conformance with the rules of the IETF.  The
 AD has the authority and the responsibility to assist in making those
 decisions at the request of the Chair or when circumstances warrant
 such an intervention.
