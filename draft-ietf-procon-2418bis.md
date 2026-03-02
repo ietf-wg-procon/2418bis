@@ -894,8 +894,10 @@ modification by the WG as a whole.
 
 Design teams MUST produce public records of their contributions and
 members to the Working Group, to ensure that any contributions made
-within design teams follow the IETF's Intellectual Property Rights
-policies ({{?BCP79}}).
+within design teams properly follow IETF procedures. For example,
+any contribution made within a design team is still considered an
+IETF contribution, and is therefore subject to the IETF's
+Intellectual Property Rights policies ({{?BCP79}}).
 
 ## Working Group Consultant {#wg-consultant}
 
