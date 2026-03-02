@@ -323,6 +323,8 @@ respect to:
 
 - Security
 
+- Privacy
+
 - Network management
 
 - Scaling
