@@ -386,6 +386,8 @@ Table of Contents
 
    *  Security
 
+   *  Privacy
+
    *  Network management
 
    *  Scaling
