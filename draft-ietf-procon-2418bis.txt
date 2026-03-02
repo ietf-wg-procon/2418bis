@@ -652,31 +652,9 @@ Table of Contents
 
    As in face-to-face sessions, occasionally one or more individuals may
    engage in behavior on a mailing list that, in the opinion of the WG
-   chair, is disruptive to the WG process.  Unless the disruptive
-   behavior is severe enough that it must be stopped immediately, the WG
-   chair should attempt to discourage the disruptive behavior by
-   communicating directly with the offending individual.  If the
-   behavior persists, the WG chair should send at least one public
-   warning on the WG mailing list.  As a last resort and typically after
-   one or more explicit warnings and consultation with the responsible
-   Area Director, the WG chair may suspend the mailing list posting
-   privileges of the disruptive individual for a period of not more than
-   30 days.  Even while posting privileges are suspended, the individual
-   must not be prevented from receiving messages posted to the list.
-   Like all other WG chair decisions, any suspension of posting
-   privileges is subject to appeal, as described in [_2026bis].
-
-   This mechanism is intended to permit a WG chair to suspend posting
-   privileges of a disruptive individual for a short period of time.
-   This mechanism does not permit WG chairs to suspend an individual's
-   posting privileges for a period longer than 30 days regardless of the
-   type or severity of the disruptive incident.  However, further
-   disruptive behavior by the same individual will be considered
-   separately and may result in further warnings or suspensions.  Other
-   methods of mailing list control, including longer suspensions, must
-   be carried out in accordance with other IETF-approved procedures.
-   See [RFC3683] for one set of procedures already defined and accepted
-   by the community.
+   chair, is disruptive to the WG process.  The chairs and moderators
+   have a range of tools at their disposal to handle such cases, as
+   documented in [BCP245];
 
 4.3.  Session management
 
@@ -1188,6 +1166,14 @@ Table of Contents
 
 13.2.  Informative References
 
+   [BCP245]   Best Current Practice 245,
+              <https://www.rfc-editor.org/info/bcp245>.
+              At the time of writing, this BCP comprises the following:
+
+              Eggert, L., Ed. and E. Lear, Ed., "IETF Community
+              Moderation", BCP 245, RFC 9945, DOI 10.17487/RFC9945,
+              February 2026, <https://www.rfc-editor.org/info/rfc9945>.
+
    [RFC1796]  Huitema, C., Postel, J., and S. Crocker, "Not All RFCs are
               Standards", RFC 1796, DOI 10.17487/RFC1796, April 1995,
               <https://www.rfc-editor.org/rfc/rfc1796>.
@@ -1195,10 +1181,6 @@ Table of Contents
    [RFC2418]  Bradner, S., "IETF Working Group Guidelines and
               Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
               September 1998, <https://www.rfc-editor.org/rfc/rfc2418>.
-
-   [RFC3683]  Rose, M., "A Practice for Revoking Posting Rights to IETF
-              Mailing Lists", BCP 83, RFC 3683, DOI 10.17487/RFC3683,
-              March 2004, <https://www.rfc-editor.org/rfc/rfc3683>.
 
    [RFC8713]  Kucherawy, M., Ed., Hinden, R., Ed., and J. Livingood,
               Ed., "IAB, IESG, IETF Trust, and IETF LLC Selection,
