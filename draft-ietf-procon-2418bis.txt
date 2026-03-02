@@ -749,11 +749,6 @@ Table of Contents
 
    Working groups are typically chartered to accomplish a specific task
    or tasks.  After the tasks are complete, the group will be disbanded.
-   However, if a WG produces a Proposed or Draft Standard, the WG will
-   frequently become dormant rather than disband (i.e., the WG will no
-   longer conduct formal activities, but the mailing list will remain
-   available to review the work as it moves to Draft Standard and
-   Standard status.)
 
    If, at some point, it becomes evident that a working group is unable
    to complete the work outlined in the charter, or if the assumptions
@@ -883,8 +878,8 @@ Table of Contents
 
    Under the procedures described in [_2026bis], the Chair is
    responsible for documenting the specific implementations which
-   qualify the specification for Draft or Internet Standard status along
-   with documentation about testing of the interoperation of these
+   qualify the specification for Internet Standard status along with
+   documentation about testing of the interoperation of these
    implementations.
 
 7.2.  WG Secretary
