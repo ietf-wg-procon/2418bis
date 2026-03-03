@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-03-01T02:32:24.719650+00:00",
+  "timestamp": "2026-03-03T02:24:47.128466+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -148,18 +148,19 @@
       "id": "I_kwDOMaVM686Z2UfB",
       "title": "Draft currently mentions outdated email address agenda@ietf.org",
       "url": "https://github.com/ietf-wg-procon/2418bis/issues/11",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "moonshiner",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [
         "bug",
+        "editorial",
         "reality"
       ],
       "body": "still talks of emailing agenda@ietf.org\r\n\r\nand may want to discuss newer tools to manage meetings. but maybe not",
       "createdAt": "2024-10-11T11:34:15Z",
-      "updatedAt": "2026-02-28T02:44:37Z",
-      "closedAt": null,
+      "updatedAt": "2026-03-02T03:59:50Z",
+      "closedAt": "2026-03-02T03:59:50Z",
       "comments": [
         {
           "author": "jariarkko",
@@ -213,7 +214,7 @@
       "id": "I_kwDOMaVM686Z2afq",
       "title": "Update Charter to add Privacy and Security ",
       "url": "https://github.com/ietf-wg-procon/2418bis/issues/13",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "moonshiner",
       "authorAssociation": "NONE",
       "assignees": [],
@@ -222,8 +223,8 @@
       ],
       "body": "discuss objectives and expected impact with respect to:\r\n\r\nPrivacy \r\n\r\nSecurity\r\n\r\n",
       "createdAt": "2024-10-11T11:42:47Z",
-      "updatedAt": "2026-01-17T01:50:56Z",
-      "closedAt": null,
+      "updatedAt": "2026-03-02T04:00:28Z",
+      "closedAt": "2026-03-02T04:00:28Z",
       "comments": [
         {
           "author": "DavidSchinazi",
@@ -329,7 +330,7 @@
       "id": "I_kwDOMaVM687Ikt32",
       "title": "split up section 4.2.2 (posting privileges)",
       "url": "https://github.com/ietf-wg-procon/2418bis/issues/18",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mcr",
       "authorAssociation": "NONE",
       "assignees": [],
@@ -338,8 +339,8 @@
       ],
       "body": "```\n   As in face-to-face sessions, occasionally one or more individuals may\n   engage in behavior on a mailing list that, in the opinion of the WG\n   chair, is disruptive to the WG process. \n```\n\nThis needs to be a new section.  Maybe a top-level section.\nI also think that this might even warrant a new document, because I think that our processes around disruptive individuals will change more.\nI'd prefer to rev another document rather than open 2418bis.\n\nreplace #15 ",
       "createdAt": "2025-08-29T00:46:43Z",
-      "updatedAt": "2026-01-17T01:50:11Z",
-      "closedAt": null,
+      "updatedAt": "2026-03-02T04:01:17Z",
+      "closedAt": "2026-03-02T04:01:17Z",
       "comments": [
         {
           "author": "richsalz",
@@ -383,15 +384,15 @@
       "id": "I_kwDOMaVM687Ikuon",
       "title": "rework Staff Role section",
       "url": "https://github.com/ietf-wg-procon/2418bis/issues/19",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mcr",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "The word \"Staff\" implies to some that the people listed are employed by the IETF, rather than volunteers that serve at the whim of another layer of volunteer.\n\nI think that the WG Chair section needs further structure.\nI think that I would move all of the 7.x up a section to be section X.\n\nreplace #15 ",
       "createdAt": "2025-08-29T00:49:34Z",
-      "updatedAt": "2026-01-15T22:46:41Z",
-      "closedAt": null,
+      "updatedAt": "2026-03-02T04:01:01Z",
+      "closedAt": "2026-03-02T04:01:01Z",
       "comments": [
         {
           "author": "mcr",
@@ -423,7 +424,7 @@
       ],
       "body": "\n\nI've never seen the WG Facilitator role be formally enacted.\nNot sure it belongs anymore. We just do this as we need to.\n\nreplace #15 ",
       "createdAt": "2025-08-29T00:50:00Z",
-      "updatedAt": "2026-02-27T22:37:34Z",
+      "updatedAt": "2026-03-02T22:23:11Z",
       "closedAt": "2026-02-27T22:37:33Z",
       "comments": [
         {
@@ -467,6 +468,48 @@
           "body": "Closed by #33 ",
           "createdAt": "2026-02-27T22:37:34Z",
           "updatedAt": "2026-02-27T22:37:34Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "#33 is not aligned with RFC9945. RFC9945 doesn't for see a wg moderator role but assumes the chairs to take this role (and agree to this approach as a split of responsibilities would be counter-productive). If such a role would be useful it should be defined by RFC9945 or in modpod. Further this group is not charter to invent new things but to update to reality. If this role is to used and available in the datatracker, that's the simply reality.",
+          "createdAt": "2026-03-02T10:49:52Z",
+          "updatedAt": "2026-03-02T10:49:52Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "> [#33](https://github.com/ietf-wg-procon/2418bis/pull/33) is not aligned with RFC9945. RFC9945 doesn't for see a wg moderator role but assumes the chairs to take this role (and agree to this approach as a split of responsibilities would be counter-productive). If such a role would be useful it should be defined by RFC9945 or in modpod. Further this group is not charter to invent new things but to update to reality. If this role is to used and available in the datatracker, that's the simply reality.\n\nHmm, I think we're OK here. From [RFC9945 Section 3](https://www.rfc-editor.org/rfc/rfc9945.html#name-scope-and-responsibilities):\n\n\"For a working group, chairs are by default the administrators. They may delegate this responsibility in the same vein as [Section 6.4](https://rfc-editor.org/rfc/rfc2418#section-6.4)...\"",
+          "createdAt": "2026-03-02T18:38:45Z",
+          "updatedAt": "2026-03-02T18:53:53Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I missed this reference from rfc9945. That\u2019s actually very unfortunate from point of view.\n\nHowever it is not aligned with rfc9945 to call this role moderator because a moderator is a member of the moderation team in rfc9945. Maybe we should change this section to simple talk about the possibility for chairs to delegate without naming a specific role name?\n\nActually isn\u2019t there\u2019s delegate role in the datatracker that is solely used to give someone the chairs buttons in meetecho if both chaired are remote?",
+          "createdAt": "2026-03-02T19:05:22Z",
+          "updatedAt": "2026-03-02T19:05:22Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@mirjak can you open a new issue for this please? I'd like to separate that discussion from the Facilitator role here, especially now that we've merged #33 and #47 ",
+          "createdAt": "2026-03-02T19:13:30Z",
+          "updatedAt": "2026-03-02T19:13:30Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "This was a subject of much debate in modpod, but it's only captured by the entire section.\n\n> For a working group, chairs are by default the administrators. They may delegate this responsibility in the same vein as [Section 6.4](https://rfc-editor.org/rfc/rfc2418#section-6.4) of [[RFC2418](https://www.rfc-editor.org/rfc/rfc9945.html#RFC2418)], but they must always accept, acknowledge, and keep track of complaints of disruptive behavior. **Forum administrators should perform moderation in a way that obviates the need for moderator team involvement.**\n\nEmphasis mine. Later, it says:\n\n> Moderators may take actions when administrators do not respond to reports in a timely fashion. Their first action should generally be to attempt to contact and advise the relevant administrators. They should only take moderation actions when administrators are not responsive or when someone disrupts multiple fora at the same time.\n\nSo, they can both delegate it (perhaps to the general mod team) and the moderators can still step in anyway. But, yes, new issue.",
+          "createdAt": "2026-03-02T19:14:36Z",
+          "updatedAt": "2026-03-02T19:14:36Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "Seems to me that 2418bis should simply defer to 9945 on this. Any duplication should be avoided.",
+          "createdAt": "2026-03-02T20:08:27Z",
+          "updatedAt": "2026-03-02T20:08:27Z"
         }
       ]
     },
@@ -475,15 +518,15 @@
       "id": "I_kwDOMaVM687IkvP4",
       "title": "more structure around Design Teams",
       "url": "https://github.com/ietf-wg-procon/2418bis/issues/21",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mcr",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "I think Design Teams needs more text. \nParticularly around record keeping as it affects IPR.\nDesign Teams need to keep some record of decisions, and who was present at meetings.\n\n",
       "createdAt": "2025-08-29T00:51:08Z",
-      "updatedAt": "2026-01-17T01:49:42Z",
-      "closedAt": null,
+      "updatedAt": "2026-03-02T17:44:01Z",
+      "closedAt": "2026-03-02T17:44:01Z",
       "comments": [
         {
           "author": "DavidSchinazi",
@@ -584,7 +627,7 @@
       "id": "I_kwDOMaVM687NZO0i",
       "title": "Codify call for adoption?",
       "url": "https://github.com/ietf-wg-procon/2418bis/issues/24",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -593,8 +636,8 @@
       ],
       "body": "From Brian E Carpenter on the mailing list:\n\n> Adoption is _not_ a formal step in the IETF process described by RFC 2026\n> and RFC 2418. Most newcomers seem to assume that it is, since it's\n> entrenched in common practice and in the tracker.\n\n> There is a question that the WG charter allows us to ask: should WG\n> adoption be mentioned in section 8.2 of 2418bis? That is distinct from\n> the longer term question of pursuing draft-carpenter-gendispatch-rfc7221bis.",
       "createdAt": "2025-09-23T16:26:53Z",
-      "updatedAt": "2026-01-16T06:34:49Z",
-      "closedAt": null,
+      "updatedAt": "2026-03-02T04:03:20Z",
+      "closedAt": "2026-03-02T04:03:20Z",
       "comments": [
         {
           "author": "DavidSchinazi",
@@ -685,7 +728,7 @@
       "id": "I_kwDOMaVM687VjWg3",
       "title": "Do we need to remove draft standard from 2418 text?",
       "url": "https://github.com/ietf-wg-procon/2418bis/issues/31",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "jariarkko",
       "authorAssociation": "NONE",
       "assignees": [],
@@ -694,8 +737,8 @@
       ],
       "body": "You\u2019ve recently changed 2026bis to be clear what the current standard levels are while also noting that the draft standard level is still out there for some documents. That\u2019s great, thank you. \n\nHere\u2019s the text you currently have:\n\nSpecifications that are intended to become Internet Standards evolve through a set of maturity levels known as the \"standards track\". These maturity levels -- \"Proposed Standard\" and \"Internet Standard\" -- are defined and discussed in Section 6.1. The way in which specifications move along the standards track is described in Section 8.\n\nThere used to be a status that came between Proposed Standard and Internet Standard called \"Draft Standard.\" As of the writing of this document, there still exist some RFCs at that status. Documents at Draft Standard may be advanced to Internet Standard, either via the procedure described in Section 8 (if they meet the requirements of Section 6.1.1) or with the consent of the IESG. The IESG may also decide to remove the Draft Standard status from a document and mark it as either Historic or Proposed Standard.\n\nBut it seems to me that the following texts in 2418bis are also something that should be impacted:\n\n5. Working Group Termination\n\nWorking groups are typically chartered to accomplish a specific task or tasks. After the tasks are complete, the group will be disbanded. However, if a WG produces a Proposed or Draft Standard, the WG will frequently become dormant rather than disband (i.e., the WG will no longer conduct formal activities, but the mailing list will remain available to review the work as it moves to Draft Standard and Standard status.)\n\n\u2026\n\n7.1. WG Chair\n\n...\n\nDocument implementations\n\nUnder the procedures described in [_2026bis], the Chair is responsible for documenting the specific implementations which qualify the specification for Draft or Internet Standard status along with documentation about testing of the interoperation of these implementations.\n\nOr am I missing something?",
       "createdAt": "2025-11-03T16:27:57Z",
-      "updatedAt": "2026-01-17T01:48:45Z",
-      "closedAt": null,
+      "updatedAt": "2026-03-02T04:03:37Z",
+      "closedAt": "2026-03-02T04:03:37Z",
       "comments": [
         {
           "author": "DavidSchinazi",
@@ -725,7 +768,7 @@
       "id": "I_kwDOMaVM687eCrUZ",
       "title": "Quantifying consensus as 51% vs 99% is confusing",
       "url": "https://github.com/ietf-wg-procon/2418bis/issues/35",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "DavidSchinazi",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -734,8 +777,8 @@
       ],
       "body": "Brought up on [the list](https://mailarchive.ietf.org/arch/msg/procon/Ur9zSuCYDKnZTHvUV1aBKhu_QQM/) by @elear:\n\n> Based on recent experiences, at least one person has found the following \n> sentence to be unclear:\n> \n> >     Note\n> >     that 51% of the working group does not qualify as \"rough consensus\"\n> >     and 99% is better than rough.\n> \n> Referring to \"the working group\" as if membership can be measured is the \n> first issue.  The phrase should read, \u201c51% of those expressing a \n> viewpoint\".  While this might be obvious to us that those not expressing \n> any opinion should not be counted, it is clearly not obvious to everyone.\n> \n> Second, the statement itself conflicts somewhat with existing practice.  \n> As RFC 7282 demonstrates, rough consensus may exist with 51%, but may \n> not exist with 99%.  I would just assume see the sentence removed. The \n> \"dominant view of the working group...\" text seems sufficient.\n> \n> In addition, I suggest an informational reference to RFC 7282 as useful \n> guidance that chairs should consider.",
       "createdAt": "2025-12-13T00:54:43Z",
-      "updatedAt": "2026-01-17T01:47:41Z",
-      "closedAt": null,
+      "updatedAt": "2026-03-02T04:09:51Z",
+      "closedAt": "2026-03-02T04:09:51Z",
       "comments": [
         {
           "author": "jariarkko",
@@ -806,6 +849,30 @@
       "updatedAt": "2026-02-27T22:36:56Z",
       "closedAt": "2026-02-27T22:36:56Z",
       "comments": []
+    },
+    {
+      "number": 48,
+      "id": "I_kwDOMaVM687vP95h",
+      "title": "Moderators and Facilitators in relation to RFC 9945",
+      "url": "https://github.com/ietf-wg-procon/2418bis/issues/48",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "[RFC 9945](https://www.rfc-editor.org/rfc/rfc9945.html) has moderators, and explicitly refers to [Section 6.4](https://rfc-editor.org/rfc/rfc2418#section-6.4) of [[RFC2418](https://www.rfc-editor.org/rfc/rfc9945.html#RFC2418)], \"Facilitators\".\n\nI've never seen \"Facilitator\" used in 20 years of IETF experience. It may be that we, as a community, have been mistaken in skipping that part.\n\nHere, we must be careful not to make new rules beyond what RFC 9945 does. It seems possible. The trade-off I'd highlight is chair autonomy vs behavior that drives people away. See #20.",
+      "createdAt": "2026-03-02T23:54:15Z",
+      "updatedAt": "2026-03-03T00:04:11Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Thanks Rob, that's super helpful - I hadn't realized that 9945 linked back to the Facilitators section here.\n\nFor context, [Section3 of RFC 9945 says](https://www.rfc-editor.org/rfc/rfc9945.html#section-3-3.2.2):\n> For a working group, chairs are by default the administrators. They may delegate this responsibility in the same vein as [Section 6.4 of RFC2418](https://rfc-editor.org/rfc/rfc2418#section-6.4), but they must always accept, acknowledge, and keep track of complaints of disruptive behavior. Forum administrators should perform moderation in a way that obviates the need for moderator team involvement.\n\nI'll write a followup PR that tweaks the Facilitators section again, perhaps we should mention the term \"administrator\" instead of \"moderator\" and mention 9945 here too.",
+          "createdAt": "2026-03-03T00:01:10Z",
+          "updatedAt": "2026-03-03T00:04:11Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -1804,50 +1871,68 @@
       "id": "PR_kwDOMaVM687G9kNw",
       "title": "Remove outdated mentions of agenda@ietf.org",
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/39",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "DavidSchinazi",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes #11",
       "createdAt": "2026-02-28T02:44:48Z",
-      "updatedAt": "2026-02-28T03:00:05Z",
+      "updatedAt": "2026-03-02T04:00:01Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "0ba6debbc2b10983b814f2c4cf3ae9fed230dd7e",
       "headRepository": "ietf-wg-procon/2418bis",
       "headRefName": "dont_email_agenda",
       "headRefOid": "4160a9d7fd4e7a0e3c5d2c16a77823bb562db6f3",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2026-03-02T03:59:49Z",
+      "mergedAt": "2026-03-02T03:59:49Z",
+      "mergedBy": "DavidSchinazi",
+      "mergeCommit": {
+        "oid": "1d0c89fb912960ca5bd09ac0617d90844a6956fb"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687m3hfp",
+          "commit": {
+            "abbreviatedOid": "4160a9d"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-03-01T19:47:36Z",
+          "updatedAt": "2026-03-01T19:47:36Z",
+          "comments": []
+        }
+      ]
     },
     {
       "number": 40,
       "id": "PR_kwDOMaVM687G9lWX",
       "title": "Add Privacy to important topics in charters",
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/40",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "DavidSchinazi",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes #13",
       "createdAt": "2026-02-28T02:49:16Z",
-      "updatedAt": "2026-02-28T10:41:13Z",
+      "updatedAt": "2026-03-02T04:00:31Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "0ba6debbc2b10983b814f2c4cf3ae9fed230dd7e",
       "headRepository": "ietf-wg-procon/2418bis",
       "headRefName": "charter_privacy",
       "headRefOid": "f93bc0a0218a54163fa351a418bfa99816fc9ef6",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2026-03-02T04:00:27Z",
+      "mergedAt": "2026-03-02T04:00:27Z",
+      "mergedBy": "DavidSchinazi",
+      "mergeCommit": {
+        "oid": "d09b2dcbfb08a005d511f31387471181e084a262"
+      },
       "comments": [],
       "reviews": [
         {
@@ -1861,6 +1946,19 @@
           "body": "",
           "createdAt": "2026-02-28T10:41:13Z",
           "updatedAt": "2026-02-28T10:41:13Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOMaVM687m3h_i",
+          "commit": {
+            "abbreviatedOid": "f93bc0a"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-03-01T19:48:44Z",
+          "updatedAt": "2026-03-01T19:48:44Z",
           "comments": []
         }
       ]
@@ -1877,7 +1975,7 @@
       "labels": [],
       "body": "Fixes #27 ",
       "createdAt": "2026-02-28T02:51:21Z",
-      "updatedAt": "2026-02-28T10:40:25Z",
+      "updatedAt": "2026-03-02T04:11:11Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "0ba6debbc2b10983b814f2c4cf3ae9fed230dd7e",
@@ -1895,59 +1993,98 @@
           "body": "I'm not sure this makes sense.  Let's understand the purpose of the stricture.  Is it there to save slots in plenary meetings or to limit the number of times a \"Bad Idea\" can be considered?  For the latter, I would prefer language that talks not holding another BoF until the issues that caused the previous one not to succeed are addressed to {an AD's/the IESG's} satisfaction.",
           "createdAt": "2026-02-28T10:40:25Z",
           "updatedAt": "2026-02-28T10:40:25Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Sounds good, let's discuss this one at IETF 125",
+          "createdAt": "2026-03-02T04:11:11Z",
+          "updatedAt": "2026-03-02T04:11:11Z"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687m3kRg",
+          "commit": {
+            "abbreviatedOid": "3740f8c"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "I think the larger issue of \"only one BoF\" should be discussed, so I'd rather hold back on this one.",
+          "createdAt": "2026-03-01T19:56:19Z",
+          "updatedAt": "2026-03-01T19:56:19Z",
+          "comments": []
+        }
+      ]
     },
     {
       "number": 42,
       "id": "PR_kwDOMaVM687G9oET",
       "title": "Remove word staff",
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/42",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "DavidSchinazi",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes #19 ",
       "createdAt": "2026-02-28T02:58:21Z",
-      "updatedAt": "2026-02-28T02:59:37Z",
+      "updatedAt": "2026-03-02T04:01:00Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "0ba6debbc2b10983b814f2c4cf3ae9fed230dd7e",
       "headRepository": "ietf-wg-procon/2418bis",
       "headRefName": "staff",
       "headRefOid": "49e6a937384079c17c2a7752f1685f3b3672aa61",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2026-03-02T04:01:00Z",
+      "mergedAt": "2026-03-02T04:01:00Z",
+      "mergedBy": "DavidSchinazi",
+      "mergeCommit": {
+        "oid": "47bde5268d44753acd23390ebf43a34e9f3cfeae"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687m3iKh",
+          "commit": {
+            "abbreviatedOid": "49e6a93"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-03-01T19:49:14Z",
+          "updatedAt": "2026-03-01T19:49:14Z",
+          "comments": []
+        }
+      ]
     },
     {
       "number": 43,
       "id": "PR_kwDOMaVM687G9qf3",
       "title": "Remove outdated text about dormant groups waiting to improve standards level",
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/43",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "DavidSchinazi",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes #31",
       "createdAt": "2026-02-28T03:05:17Z",
-      "updatedAt": "2026-02-28T10:36:52Z",
+      "updatedAt": "2026-03-02T04:03:41Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "0ba6debbc2b10983b814f2c4cf3ae9fed230dd7e",
       "headRepository": "ietf-wg-procon/2418bis",
       "headRefName": "no_draft_std",
       "headRefOid": "a55c36646dc0c94bd1df95b580dc76b999cd24ec",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2026-03-02T04:03:36Z",
+      "mergedAt": "2026-03-02T04:03:36Z",
+      "mergedBy": "DavidSchinazi",
+      "mergeCommit": {
+        "oid": "3ff5f9b5cc131e843c5dae3fdeadadef77485b2e"
+      },
       "comments": [],
       "reviews": [
         {
@@ -1962,6 +2099,19 @@
           "createdAt": "2026-02-28T10:36:52Z",
           "updatedAt": "2026-02-28T10:36:52Z",
           "comments": []
+        },
+        {
+          "id": "PRR_kwDOMaVM687m3kIf",
+          "commit": {
+            "abbreviatedOid": "a55c366"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-03-01T19:55:32Z",
+          "updatedAt": "2026-03-01T19:55:32Z",
+          "comments": []
         }
       ]
     },
@@ -1970,24 +2120,26 @@
       "id": "PR_kwDOMaVM687G9rup",
       "title": "Lean on RFC 7282 to describe the nuances of rough consensus",
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/44",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "DavidSchinazi",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes #35",
       "createdAt": "2026-02-28T03:10:05Z",
-      "updatedAt": "2026-02-28T10:36:12Z",
+      "updatedAt": "2026-03-02T04:09:50Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "0ba6debbc2b10983b814f2c4cf3ae9fed230dd7e",
       "headRepository": "ietf-wg-procon/2418bis",
       "headRefName": "rough_consensus",
-      "headRefOid": "fada099a6cf449c7d05cb81f8d0d5a0826de5ab8",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "b508176fb77a39494bc3bf7e37c02d622f8bbe20",
+      "closedAt": "2026-03-02T04:09:50Z",
+      "mergedAt": "2026-03-02T04:09:50Z",
+      "mergedBy": "DavidSchinazi",
+      "mergeCommit": {
+        "oid": "806d13ec49c613e6836d640db0e00698238fb8e0"
+      },
       "comments": [],
       "reviews": [
         {
@@ -2009,6 +2161,79 @@
               "updatedAt": "2026-02-28T10:36:12Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687m3DGt",
+          "commit": {
+            "abbreviatedOid": "fada099"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-03-01T19:05:48Z",
+          "updatedAt": "2026-03-01T19:05:48Z",
+          "comments": [
+            {
+              "originalPosition": 9,
+              "body": "7282 is an Informative RFC and is not in the downref registry, so we can't reference it normatively from this BCP, unless the IESG were to decide that this warrants addition to the downref registry. I don't think we want though. 7282 was always about guidance more than formal requirements, so an informative reference makes sense to me.",
+              "createdAt": "2026-03-01T19:05:48Z",
+              "updatedAt": "2026-03-01T19:05:48Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687m3kd2",
+          "commit": {
+            "abbreviatedOid": "fada099"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-03-01T19:57:25Z",
+          "updatedAt": "2026-03-01T19:57:25Z",
+          "comments": [
+            {
+              "originalPosition": 9,
+              "body": "Agree to leave 7282 as informative.  Not thrilled with \"of course\" but approved either way.",
+              "createdAt": "2026-03-01T19:57:25Z",
+              "updatedAt": "2026-03-01T19:57:25Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687m3khQ",
+          "commit": {
+            "abbreviatedOid": "fada099"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-03-01T19:57:40Z",
+          "updatedAt": "2026-03-01T19:57:40Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOMaVM687m6Aa4",
+          "commit": {
+            "abbreviatedOid": "fada099"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-03-02T04:09:34Z",
+          "updatedAt": "2026-03-02T04:09:34Z",
+          "comments": [
+            {
+              "originalPosition": 9,
+              "body": "I also don't like the \"of course\" there, so I've removed it",
+              "createdAt": "2026-03-02T04:09:34Z",
+              "updatedAt": "2026-03-02T04:09:34Z"
+            }
+          ]
         }
       ]
     },
@@ -2017,50 +2242,95 @@
       "id": "PR_kwDOMaVM687G9uEt",
       "title": "Loosely define document adoption",
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/45",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "DavidSchinazi",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes #24",
       "createdAt": "2026-02-28T03:17:41Z",
-      "updatedAt": "2026-02-28T03:17:41Z",
+      "updatedAt": "2026-03-02T04:03:22Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "0ba6debbc2b10983b814f2c4cf3ae9fed230dd7e",
       "headRepository": "ietf-wg-procon/2418bis",
       "headRefName": "adoption",
       "headRefOid": "6d6f7f74a94d68eb360602905f864be1120f9f58",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2026-03-02T04:03:19Z",
+      "mergedAt": "2026-03-02T04:03:19Z",
+      "mergedBy": "DavidSchinazi",
+      "mergeCommit": {
+        "oid": "4a1f0ad30d2f4fc449ea4dfa73fb1e1a52e4e0f1"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687m3iwL",
+          "commit": {
+            "abbreviatedOid": "6d6f7f7"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-03-01T19:50:36Z",
+          "updatedAt": "2026-03-01T19:54:55Z",
+          "comments": [
+            {
+              "originalPosition": 4,
+              "body": "MAY *have a process to* ?  Either way, approved.",
+              "createdAt": "2026-03-01T19:50:36Z",
+              "updatedAt": "2026-03-01T19:54:55Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687m59-T",
+          "commit": {
+            "abbreviatedOid": "6d6f7f7"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-03-02T04:03:14Z",
+          "updatedAt": "2026-03-02T04:03:14Z",
+          "comments": [
+            {
+              "originalPosition": 4,
+              "body": "I think I prefer the original wording, it ends up conveying the same concept but I feel it's simpler to follow",
+              "createdAt": "2026-03-02T04:03:14Z",
+              "updatedAt": "2026-03-02T04:03:14Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 46,
       "id": "PR_kwDOMaVM687G9v6M",
       "title": "Codify design teams",
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/46",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "DavidSchinazi",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes #21",
       "createdAt": "2026-02-28T03:24:33Z",
-      "updatedAt": "2026-02-28T10:34:49Z",
+      "updatedAt": "2026-03-02T17:44:00Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "0ba6debbc2b10983b814f2c4cf3ae9fed230dd7e",
       "headRepository": "ietf-wg-procon/2418bis",
       "headRefName": "design_team",
-      "headRefOid": "aab707d4e53d547b1ffd86defb259a31b8de1b5b",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "058999e6c7375d5cedc84f3f0f708bc507f60b78",
+      "closedAt": "2026-03-02T17:44:00Z",
+      "mergedAt": "2026-03-02T17:44:00Z",
+      "mergedBy": "DavidSchinazi",
+      "mergeCommit": {
+        "oid": "a519d74f8404288b0df8434d6025310042d906ed"
+      },
       "comments": [
         {
           "author": "elear",
@@ -2090,6 +2360,39 @@
               "updatedAt": "2026-02-28T10:34:49Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687m3j5d",
+          "commit": {
+            "abbreviatedOid": "aab707d"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Approved whether or not you decide Eliot's change is adds redundancy or is a useful reminder.",
+          "createdAt": "2026-03-01T19:54:26Z",
+          "updatedAt": "2026-03-01T19:54:26Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOMaVM687nISw1",
+          "commit": {
+            "abbreviatedOid": "058999e"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-03-02T17:43:44Z",
+          "updatedAt": "2026-03-02T17:43:44Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "I reworked that sentence taking inspiration from this suggestion",
+              "createdAt": "2026-03-02T17:43:44Z",
+              "updatedAt": "2026-03-02T17:43:44Z"
+            }
+          ]
         }
       ]
     },
@@ -2098,24 +2401,26 @@
       "id": "PR_kwDOMaVM687G9yC8",
       "title": "Defer to MODPOD RFC for moderation",
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/47",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "DavidSchinazi",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes #18",
       "createdAt": "2026-02-28T03:30:06Z",
-      "updatedAt": "2026-02-28T10:28:42Z",
+      "updatedAt": "2026-03-02T04:01:19Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "0ba6debbc2b10983b814f2c4cf3ae9fed230dd7e",
       "headRepository": "ietf-wg-procon/2418bis",
       "headRefName": "moderation",
       "headRefOid": "5337d85bc642e2bd54b1f10d01da528b9c27ce22",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2026-03-02T04:01:16Z",
+      "mergedAt": "2026-03-02T04:01:16Z",
+      "mergedBy": "DavidSchinazi",
+      "mergeCommit": {
+        "oid": "f347f15a9a30b6c8a1168b2e33e8aa48246e258d"
+      },
       "comments": [
         {
           "author": "elear",
@@ -2137,6 +2442,19 @@
           "body": "",
           "createdAt": "2026-02-28T10:28:42Z",
           "updatedAt": "2026-02-28T10:28:42Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOMaVM687m3jpW",
+          "commit": {
+            "abbreviatedOid": "5337d85"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-03-01T19:53:09Z",
+          "updatedAt": "2026-03-01T19:53:09Z",
           "comments": []
         }
       ]
