@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-03-03T02:24:47.128466+00:00",
+  "timestamp": "2026-03-10T02:10:09.906770+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -808,7 +808,7 @@
       "labels": [],
       "body": "Various WGs have appointed Technical Advisors and the datatracker recognizes this role**. Should it be mentioned?\n\n** e.g. https://datatracker.ietf.org/wg/v6ops/about/",
       "createdAt": "2026-01-16T06:46:30Z",
-      "updatedAt": "2026-02-28T04:14:18Z",
+      "updatedAt": "2026-03-08T20:12:09Z",
       "closedAt": null,
       "comments": [
         {
@@ -831,6 +831,13 @@
           "body": "That sounds like a good solution to me. Let's discuss that at IETF 125.",
           "createdAt": "2026-02-28T04:14:18Z",
           "updatedAt": "2026-02-28T04:14:18Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Strongly support Brian's suggestion.",
+          "createdAt": "2026-03-08T20:11:57Z",
+          "updatedAt": "2026-03-08T20:12:09Z"
         }
       ]
     },
@@ -873,6 +880,38 @@
           "updatedAt": "2026-03-03T00:04:11Z"
         }
       ]
+    },
+    {
+      "number": 49,
+      "id": "I_kwDOMaVM687w9-gO",
+      "title": "Fix changelog",
+      "url": "https://github.com/ietf-wg-procon/2418bis/issues/49",
+      "state": "OPEN",
+      "author": "DavidSchinazi",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "@becarpenter correctly points out on the list that I forgot to update the changelog. I'll do that",
+      "createdAt": "2026-03-09T01:23:33Z",
+      "updatedAt": "2026-03-09T01:23:33Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 50,
+      "id": "I_kwDOMaVM687w9_Ob",
+      "title": "Mention that mailing lists can stay open",
+      "url": "https://github.com/ietf-wg-procon/2418bis/issues/50",
+      "state": "OPEN",
+      "author": "DavidSchinazi",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "@becarpenter mentions on the list:\n\n> > 5.  Working Group Termination\n> I agree with the deletion of part of this section, but it would match reality if we added\n> \", but the mailing list may remain available.\"\n\nI agree, I'll make that change.",
+      "createdAt": "2026-03-09T01:24:37Z",
+      "updatedAt": "2026-03-09T01:24:37Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
