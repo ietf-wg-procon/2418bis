@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-03-10T02:10:09.906770+00:00",
+  "timestamp": "2026-03-12T02:22:53.486210+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -808,7 +808,7 @@
       "labels": [],
       "body": "Various WGs have appointed Technical Advisors and the datatracker recognizes this role**. Should it be mentioned?\n\n** e.g. https://datatracker.ietf.org/wg/v6ops/about/",
       "createdAt": "2026-01-16T06:46:30Z",
-      "updatedAt": "2026-03-08T20:12:09Z",
+      "updatedAt": "2026-03-10T19:41:48Z",
       "closedAt": null,
       "comments": [
         {
@@ -838,6 +838,20 @@
           "body": "Strongly support Brian's suggestion.",
           "createdAt": "2026-03-08T20:11:57Z",
           "updatedAt": "2026-03-08T20:12:09Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "I also agree!\n\nPerhaps this could be classified as editorial.\n",
+          "createdAt": "2026-03-10T14:27:31Z",
+          "updatedAt": "2026-03-10T14:28:05Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "Just to note that Technical Advisors are typically appointed by an AD (thanks Joel and @mirjak) so are strictly speaking out of scope for appointments by WG Chairs. Adding this would be a non-editorial change.",
+          "createdAt": "2026-03-10T19:41:48Z",
+          "updatedAt": "2026-03-10T19:41:48Z"
         }
       ]
     },
@@ -869,7 +883,7 @@
       "labels": [],
       "body": "[RFC 9945](https://www.rfc-editor.org/rfc/rfc9945.html) has moderators, and explicitly refers to [Section 6.4](https://rfc-editor.org/rfc/rfc2418#section-6.4) of [[RFC2418](https://www.rfc-editor.org/rfc/rfc9945.html#RFC2418)], \"Facilitators\".\n\nI've never seen \"Facilitator\" used in 20 years of IETF experience. It may be that we, as a community, have been mistaken in skipping that part.\n\nHere, we must be careful not to make new rules beyond what RFC 9945 does. It seems possible. The trade-off I'd highlight is chair autonomy vs behavior that drives people away. See #20.",
       "createdAt": "2026-03-02T23:54:15Z",
-      "updatedAt": "2026-03-03T00:04:11Z",
+      "updatedAt": "2026-03-10T14:40:27Z",
       "closedAt": null,
       "comments": [
         {
@@ -878,6 +892,13 @@
           "body": "Thanks Rob, that's super helpful - I hadn't realized that 9945 linked back to the Facilitators section here.\n\nFor context, [Section3 of RFC 9945 says](https://www.rfc-editor.org/rfc/rfc9945.html#section-3-3.2.2):\n> For a working group, chairs are by default the administrators. They may delegate this responsibility in the same vein as [Section 6.4 of RFC2418](https://rfc-editor.org/rfc/rfc2418#section-6.4), but they must always accept, acknowledge, and keep track of complaints of disruptive behavior. Forum administrators should perform moderation in a way that obviates the need for moderator team involvement.\n\nI'll write a followup PR that tweaks the Facilitators section again, perhaps we should mention the term \"administrator\" instead of \"moderator\" and mention 9945 here too.",
           "createdAt": "2026-03-03T00:01:10Z",
           "updatedAt": "2026-03-03T00:04:11Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Here we still have some work to do. As Rob Sayre in #48 and Mirja in issue #20 observe, 9945 defines moderators, but also refers to administrators and without using the term facilitator also refers to Section 6.4. of RFC 2418 about facilitators. Current text in -02 labels the section as Facilitators or Moderators, and the text is about managing divisive discussion. RFC 9945 isn\u2019t referred in this text at all, only earlier in 2.4.4 when talking about online interaction.\n\nAre the terms clear in the text, and are we clearly enough pointing to RFC 9945? One problem is that 9945 talks about administrators whereas we do not. Another problem is that the document is silent about 9945 when it comes to the mailing list moderator or WG facilitator parts.\n\nA strawman proposed change below (changes marked with asterisks). But this could be simplified if #36 is adopted. I feel that the current WG chair and WG facilitator sections have overlap, unnecessarily talk about interaction with ombudsteam etc. twice. Anyway, here\u2019s the strawman before considering #36:\n\n7.1. Working Group Chair\n...\nModerate the WG email list\n\nThe Chair should attempt to ensure that the discussions on this list are relevant and that they converge to consensus agreements. The Chair should make sure that discussions on the list are summarized and that the outcome is well documented (to avoid repetition). They may need to consult with the Ombudsteam (see Section 7.8) if they feel harassment is involved. *The chairs also need to work with the IETF Moderation Team [BCP245] if there is disruptive behavior. Per [BCP245] the chairs are by default the administrators of their fora, such as the mailing list or other resources used by the working group. The chairs are therefore responsible for managing their fora in accordance with procedures developed by the moderators and approved by the IESG.*\n...\n\n7.4. WG Facilitator\n\nWhen meetings tend to become distracted or divisive, it often is helpful to assign the task of \"process management\" to one participant. Their job is to oversee the nature, rather than the content, of participant interactions. That is, they attend to the style of the discussion and to the schedule of the agenda, rather than making direct technical contributions themselves. *WG chairs are the default administrators of their fora as discussed in Section 7.1 and [BCP245], but they can delegate this role to a dedicated Facilitator.* They can be called upon in online fora as well as in-person meetings.\n\n*Facilitators* may need to consult with the Ombudsteam (see Section 7.8) if they feel harassment is involved*, as well as operator per guidelines from [BCP245]*.\n",
+          "createdAt": "2026-03-10T14:40:27Z",
+          "updatedAt": "2026-03-10T14:40:27Z"
         }
       ]
     },
@@ -893,9 +914,17 @@
       "labels": [],
       "body": "@becarpenter correctly points out on the list that I forgot to update the changelog. I'll do that",
       "createdAt": "2026-03-09T01:23:33Z",
-      "updatedAt": "2026-03-09T01:23:33Z",
+      "updatedAt": "2026-03-10T12:32:33Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Agree. Mark as editorial.",
+          "createdAt": "2026-03-10T12:23:37Z",
+          "updatedAt": "2026-03-10T12:32:33Z"
+        }
+      ]
     },
     {
       "number": 50,
@@ -909,7 +938,31 @@
       "labels": [],
       "body": "@becarpenter mentions on the list:\n\n> > 5.  Working Group Termination\n> I agree with the deletion of part of this section, but it would match reality if we added\n> \", but the mailing list may remain available.\"\n\nI agree, I'll make that change.",
       "createdAt": "2026-03-09T01:24:37Z",
-      "updatedAt": "2026-03-09T01:24:37Z",
+      "updatedAt": "2026-03-10T12:24:59Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Agree. And please add the reality alignment label.",
+          "createdAt": "2026-03-10T12:24:08Z",
+          "updatedAt": "2026-03-10T12:24:59Z"
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "id": "I_kwDOMaVM687xhtV2",
+      "title": "Expand mailing list responsibility to other fora?",
+      "url": "https://github.com/ietf-wg-procon/2418bis/issues/51",
+      "state": "OPEN",
+      "author": "jariarkko",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "It seems to me that RFC 9945 concept of broadening mailing list discussion foras to other things like GitHub is reality and now RFC-approved practice. The RFC says:\n\nFor example, working group chairs are administrators of all the public fora that their working groups use, which typically includes mailing lists and chat groups, but might also include collaborative tools such as GitHub or GitLab.\n\nShould this influence 2418bis, e.g., when it comes to the section on responsibilities of WG chairs?\n",
+      "createdAt": "2026-03-10T14:20:35Z",
+      "updatedAt": "2026-03-10T14:20:35Z",
       "closedAt": null,
       "comments": []
     }
