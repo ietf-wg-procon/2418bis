@@ -586,7 +586,7 @@ As in face-to-face sessions, occasionally one or more individuals may
 engage in behavior on a mailing list that, in the opinion of the WG
 chair, is disruptive to the WG process. The chairs and moderators
 have a range of tools at their disposal to handle such cases, as
-documented in {{?BCP245}};
+documented in {{?BCP245}}.
 
 ## Session management
 
