@@ -1061,6 +1061,13 @@ This document has no IANA actions.
 - Draft 1: Removed sample charter. Fix "conflict of interest" text. Make
 milestones optional. Clarify IAB liaison to IESG.
 
+- Draft 2: Mention moderator role. Remove RFC 7322 reference.
+Remove description of individual drafts and instead reference 2026bis.
+Remove references to agenda@ietf.org. Mention privacy in charters.
+Remove word "staff". Defer to BCP 245 for disruptive behavior.
+Loosely define WG adoption. Remove draft standard. Use RFC 7282 to
+explain rough consensus. Require design team keep public records.
+
 ## Individual draft
 
 - Draft 0: Translated the nroff source of RFC 2418 into markdown. Changed
