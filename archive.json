@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-03-12T02:22:53.486210+00:00",
+  "timestamp": "2026-03-15T02:37:18.074959+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -2550,6 +2550,32 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 52,
+      "id": "PR_kwDOMaVM687KrZjr",
+      "title": "Add changelog for -02",
+      "url": "https://github.com/ietf-wg-procon/2418bis/pull/52",
+      "state": "OPEN",
+      "author": "DavidSchinazi",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes #49 ",
+      "createdAt": "2026-03-15T02:36:16Z",
+      "updatedAt": "2026-03-15T02:36:17Z",
+      "baseRepository": "ietf-wg-procon/2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "a519d74f8404288b0df8434d6025310042d906ed",
+      "headRepository": "ietf-wg-procon/2418bis",
+      "headRefName": "changelog02",
+      "headRefOid": "4a029724cca6bcdd041bc1071fa3715d89365943",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
