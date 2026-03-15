@@ -759,14 +759,19 @@ for a working group to assign the task of specification Editor to one
 or two participants.  Sometimes, they also are part of the design
 team, described below.
 
-- Moderate the WG email list
+- Moderate public fora
 
-The Chair should attempt to ensure that the discussions on this list
+The Chair should attempt to ensure that the discussions on public fora
+(such as the WG email list, chat groups, other collaborative tools
+such as GitHub or GitLab, etc)
 are relevant and that they converge to consensus agreements. The Chair
-should make sure that discussions on the list are summarized and that
+should make sure that discussions on these fora are summarized and that
 the outcome is well documented (to avoid repetition).
 They may need to consult with the Ombudsteam (see {{ombudsteam}}) if they
 feel harassment is involved.
+The process for handling disruptive behavior on online fora is
+documented in {{BCP245}}.
+
 The Chair also
 may choose to schedule organized on-line "sessions" with agenda and
 deliverables.  These can be structured as true meetings, conducted
@@ -819,12 +824,26 @@ specification for Internet Standard status along with
 documentation about testing of the interoperation of these
 implementations.
 
-## WG Secretary
+## Chair Delegation
+
+Working chairs can delegate portions of their authority.
 
 Taking minutes and editing working group documents often is performed
-by a specifically-designated participant or set of participants.  In
-this role, the Secretary's job is to record WG decisions, rather than
-to perform basic specification.
+by a specifically-designated participant or set of participants. They
+are named "WG Secretary". In this role, the Secretary's job is to
+record WG decisions, rather than to perform basic specification.
+
+When meetings tend to become distracted or divisive, it often is
+helpful to assign the task of "process management" to one participant.
+This can be achieved by naming a "WG facilitator".
+Their job is to oversee the nature, rather than the content, of
+participant interactions.  That is, they attend to the style of the
+discussion and to the schedule of the agenda, rather than making
+direct technical contributions themselves. They can be called upon
+in online fora as well as in-person meetings.
+
+Similarly, chairs can delegate the role of administrator for online
+fora; see {{BCP245}}.
 
 ## Document Editor {#doc-editor}
 
@@ -839,19 +858,6 @@ As a general practice, the Working Group Chair and Document Editor
 positions are filled by different individuals to help ensure that the
 resulting documents accurately reflect the consensus of the working
 group and that all processes are followed.
-
-## WG Facilitator or Moderator
-
-When meetings tend to become distracted or divisive, it often is
-helpful to assign the task of "process management" to one participant.
-Their job is to oversee the nature, rather than the content, of
-participant interactions.  That is, they attend to the style of the
-discussion and to the schedule of the agenda, rather than making
-direct technical contributions themselves. They can be called upon
-in online fora as well as in-person meetings.
-
-They may need to consult with the Ombudsteam (see {{ombudsteam}})
-if they feel harassment is involved.
 
 ## Design Teams
 
@@ -874,7 +880,8 @@ Intellectual Property Rights policies ({{?BCP79}}).
 
 ## Working Group Consultant {#wg-consultant}
 
-At the discretion of the Area Director, a Consultant may be assigned
+At the discretion of the Area Director, a Consultant (sometimes also
+named "Technical Advisor") may be assigned
 to a working group.  Consultants have specific technical background
 appropriate to the WG and experience in Internet architecture and IETF
 process.
