@@ -7,8 +7,8 @@ Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                          D. Schinazi
 Updates: 7475, 7776, 8717, 9141 (if approved)                 Google LLC
 Intended status: Best Current Practice                        S. Bradner
-Expires: 3 September 2026                                          SOBCO
-                                                            2 March 2026
+Expires: 17 September 2026                                         SOBCO
+                                                           16 March 2026
 
 
               IETF Working Group Guidelines and Procedures
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 September 2026.
+   This Internet-Draft will expire on 17 September 2026.
 
 Copyright Notice
 
@@ -654,7 +654,7 @@ Table of Contents
    engage in behavior on a mailing list that, in the opinion of the WG
    chair, is disruptive to the WG process.  The chairs and moderators
    have a range of tools at their disposal to handle such cases, as
-   documented in [BCP245];
+   documented in [BCP245].
 
 4.3.  Session management
 
