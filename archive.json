@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-03-15T02:37:18.074959+00:00",
+  "timestamp": "2026-03-17T02:23:08.149993+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -907,15 +907,17 @@
       "id": "I_kwDOMaVM687w9-gO",
       "title": "Fix changelog",
       "url": "https://github.com/ietf-wg-procon/2418bis/issues/49",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "DavidSchinazi",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "@becarpenter correctly points out on the list that I forgot to update the changelog. I'll do that",
       "createdAt": "2026-03-09T01:23:33Z",
-      "updatedAt": "2026-03-10T12:32:33Z",
-      "closedAt": null,
+      "updatedAt": "2026-03-16T01:15:52Z",
+      "closedAt": "2026-03-16T01:15:52Z",
       "comments": [
         {
           "author": "jariarkko",
@@ -935,10 +937,12 @@
       "author": "DavidSchinazi",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "reality"
+      ],
       "body": "@becarpenter mentions on the list:\n\n> > 5.  Working Group Termination\n> I agree with the deletion of part of this section, but it would match reality if we added\n> \", but the mailing list may remain available.\"\n\nI agree, I'll make that change.",
       "createdAt": "2026-03-09T01:24:37Z",
-      "updatedAt": "2026-03-10T12:24:59Z",
+      "updatedAt": "2026-03-16T00:38:14Z",
       "closedAt": null,
       "comments": [
         {
@@ -947,6 +951,20 @@
           "body": "Agree. And please add the reality alignment label.",
           "createdAt": "2026-03-10T12:24:08Z",
           "updatedAt": "2026-03-10T12:24:59Z"
+        },
+        {
+          "author": "mcr",
+          "authorAssociation": "NONE",
+          "body": "It seems that reality is that the ML almost ALWAYS remains available.\n",
+          "createdAt": "2026-03-15T23:46:57Z",
+          "updatedAt": "2026-03-15T23:46:57Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "But \"amost always\" isn't \"always\", so saying \"may remain\" is the right thing to do unless we are now going to mandate that it is always.",
+          "createdAt": "2026-03-16T00:38:14Z",
+          "updatedAt": "2026-03-16T00:38:14Z"
         }
       ]
     },
@@ -959,10 +977,44 @@
       "author": "jariarkko",
       "authorAssociation": "NONE",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "reality"
+      ],
       "body": "It seems to me that RFC 9945 concept of broadening mailing list discussion foras to other things like GitHub is reality and now RFC-approved practice. The RFC says:\n\nFor example, working group chairs are administrators of all the public fora that their working groups use, which typically includes mailing lists and chat groups, but might also include collaborative tools such as GitHub or GitLab.\n\nShould this influence 2418bis, e.g., when it comes to the section on responsibilities of WG chairs?\n",
       "createdAt": "2026-03-10T14:20:35Z",
-      "updatedAt": "2026-03-10T14:20:35Z",
+      "updatedAt": "2026-03-15T06:46:29Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 56,
+      "id": "I_kwDOMaVM687zOGsI",
+      "title": "Revert change to RFC 7278",
+      "url": "https://github.com/ietf-wg-procon/2418bis/issues/56",
+      "state": "OPEN",
+      "author": "ekr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I think we should revert the text in S 4.3 that removes the existing 51%/99% text and instead cites RFC 7278. The actual contents of 7278 don't really have consensus.",
+      "createdAt": "2026-03-16T06:41:38Z",
+      "updatedAt": "2026-03-16T06:41:38Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 57,
+      "id": "I_kwDOMaVM687zORtx",
+      "title": "NiTs for draft-ietf-procon-2418bis-02",
+      "url": "https://github.com/ietf-wg-procon/2418bis/issues/57",
+      "state": "OPEN",
+      "author": "gorryfair",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I read rev -02, and have a few comments on the text, please use if useful:\n\n(i) \u201can Area Director may assign a Consultant from among the ranks of senior IETF participants.\u201d\n- \u2026 what is the meaning of \u201csenior\u201d, and why not \u201cexperienced\u201d? If we use seniority as a metric, what does this mean. Is it experience, length of service, track record within the IETF, \n\n(ii) \u201cAvailable time for BOFs is limited, \u201c - I expect this refers to limited meeting time?  Later, I like the phrase: \u201cSession time is a scarce resource at IETF meetings\u201d\n\n(iii) \u201cThe Area Director MAY require that there be a draft of the WG charter prior to holding a BOF.\u201d - Could this be said simpler, e.g., as: \u201cThe Area Director MAY require a draft of the WG charter prior to holding a BOF.\u201d\n\n(iv) \u201c Some Area Directors may want to coordinate WG sessions in their area\u201d. - I don\u2019t understand/like the subtleness of \u201cSome\u201d here, isn\u2019t it clear to say simple \u201cArea Directors may coordinate WG sessions in their area\u201d\u2026?\n\n(v) Oragnisation in section 6: The first paragraph of section 6 on \u201cRechartering a Working Group\u201d  is about changing milestones, this seems odd to me, because the process of changing milestones has been refactored over time - and it seems to me that this is not at the same level as chartering, both in terms of oversight - but also in the range of ways a WG might use milestones - does this warrant a specific subsection? or a section title that covers both ?\n\n(vi) \u201cUpdated milestones are renegotiated with the Area Director and the IESG\u201d - Is that still the process - I thought that the Chairs may now manage the milestones, with the AD having final say? \n\n(vii) Section 7: I have had good personal experience in the role of \u201cSecretary\u201d :-) - but this role seems to only appear late in the document, ought it to be mentioned earlier at another point?\n\n(viii) The curent text says: \u201cSince it is important that working group members have adequate time to review all documents, granting such an exception should only be done under unusual conditions. \u201c -  What is intended by the \u201cexception\u201d that can be given?\n\n(ix) Section 8: Document submission says: \u201cThe WG Chair MUST send email to the relevant Area Director.\u201d - That might be one way, but the more normal process would be contact the secretariat. (I think issue may be caught elsewhere?)",
+      "createdAt": "2026-03-16T06:55:05Z",
+      "updatedAt": "2026-03-16T06:55:05Z",
       "closedAt": null,
       "comments": []
     }
@@ -2067,7 +2119,7 @@
       "labels": [],
       "body": "Fixes #27 ",
       "createdAt": "2026-02-28T02:51:21Z",
-      "updatedAt": "2026-03-02T04:11:11Z",
+      "updatedAt": "2026-03-15T16:52:34Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "0ba6debbc2b10983b814f2c4cf3ae9fed230dd7e",
@@ -2106,6 +2158,19 @@
           "body": "I think the larger issue of \"only one BoF\" should be discussed, so I'd rather hold back on this one.",
           "createdAt": "2026-03-01T19:56:19Z",
           "updatedAt": "2026-03-01T19:56:19Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOMaVM687rdiJQ",
+          "commit": {
+            "abbreviatedOid": "3740f8c"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-03-15T16:52:34Z",
+          "updatedAt": "2026-03-15T16:52:34Z",
           "comments": []
         }
       ]
@@ -2556,26 +2621,213 @@
       "id": "PR_kwDOMaVM687KrZjr",
       "title": "Add changelog for -02",
       "url": "https://github.com/ietf-wg-procon/2418bis/pull/52",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "DavidSchinazi",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes #49 ",
       "createdAt": "2026-03-15T02:36:16Z",
-      "updatedAt": "2026-03-15T02:36:17Z",
+      "updatedAt": "2026-03-16T01:15:50Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "a519d74f8404288b0df8434d6025310042d906ed",
       "headRepository": "ietf-wg-procon/2418bis",
       "headRefName": "changelog02",
       "headRefOid": "4a029724cca6bcdd041bc1071fa3715d89365943",
+      "closedAt": "2026-03-16T01:15:50Z",
+      "mergedAt": "2026-03-16T01:15:50Z",
+      "mergedBy": "DavidSchinazi",
+      "mergeCommit": {
+        "oid": "6f57ee3430bee7fa409d4c7ab483b0e10045a41a"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687rc2d8",
+          "commit": {
+            "abbreviatedOid": "4a02972"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-03-15T14:08:07Z",
+          "updatedAt": "2026-03-15T14:08:07Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "id": "PR_kwDOMaVM687KsZFP",
+      "title": "Mailing lists can stay open after working groups are closed",
+      "url": "https://github.com/ietf-wg-procon/2418bis/pull/53",
+      "state": "OPEN",
+      "author": "DavidSchinazi",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes #50 ",
+      "createdAt": "2026-03-15T06:44:09Z",
+      "updatedAt": "2026-03-15T16:30:31Z",
+      "baseRepository": "ietf-wg-procon/2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "a519d74f8404288b0df8434d6025310042d906ed",
+      "headRepository": "ietf-wg-procon/2418bis",
+      "headRefName": "fix50",
+      "headRefOid": "97432688b481163abcb8d94a54c4b8457bfd4ec3",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687rdbhT",
+          "commit": {
+            "abbreviatedOid": "9743268"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "\"disbanded\" jars a bit.  Maybe \"closed\" but that needs a definition... Whatever.",
+          "createdAt": "2026-03-15T16:30:31Z",
+          "updatedAt": "2026-03-15T16:30:31Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "id": "PR_kwDOMaVM687KsbI1",
+      "title": "Fix typo",
+      "url": "https://github.com/ietf-wg-procon/2418bis/pull/54",
+      "state": "MERGED",
+      "author": "DavidSchinazi",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "",
+      "createdAt": "2026-03-15T06:52:07Z",
+      "updatedAt": "2026-03-16T01:15:35Z",
+      "baseRepository": "ietf-wg-procon/2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "a519d74f8404288b0df8434d6025310042d906ed",
+      "headRepository": "ietf-wg-procon/2418bis",
+      "headRefName": "typo0315",
+      "headRefOid": "f59172f1ff06ec410c704af0cd1c64ddea4045bf",
+      "closedAt": "2026-03-16T01:15:35Z",
+      "mergedAt": "2026-03-16T01:15:35Z",
+      "mergedBy": "DavidSchinazi",
+      "mergeCommit": {
+        "oid": "d7d123df80e798d34a0320998f2b235c1b134028"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687rddnN",
+          "commit": {
+            "abbreviatedOid": "f59172f"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Maybe change the settings so that fixing a typo doesn't need review, and be careful?  Or add other reviewers?  ",
+          "createdAt": "2026-03-15T16:36:46Z",
+          "updatedAt": "2026-03-15T16:36:46Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "id": "PR_kwDOMaVM687Ksp7J",
+      "title": "Refactor chair delegation roles",
+      "url": "https://github.com/ietf-wg-procon/2418bis/pull/55",
+      "state": "OPEN",
+      "author": "DavidSchinazi",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes #36 \r\nFixes #48 \r\nFixes #51 ",
+      "createdAt": "2026-03-15T07:40:02Z",
+      "updatedAt": "2026-03-16T04:32:58Z",
+      "baseRepository": "ietf-wg-procon/2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "a519d74f8404288b0df8434d6025310042d906ed",
+      "headRepository": "ietf-wg-procon/2418bis",
+      "headRefName": "moderation_refactor",
+      "headRefOid": "c2253491ac17eaa6a1bc4d28a304babf4f8620ff",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMaVM687rdhGQ",
+          "commit": {
+            "abbreviatedOid": "c225349"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "one nit.  still approved if you make that change.",
+          "createdAt": "2026-03-15T16:47:25Z",
+          "updatedAt": "2026-03-15T16:51:55Z",
+          "comments": [
+            {
+              "originalPosition": 9,
+              "body": "add an \"and\" before \"other collaborative tools\"",
+              "createdAt": "2026-03-15T16:47:25Z",
+              "updatedAt": "2026-03-15T16:51:55Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687rg8n8",
+          "commit": {
+            "abbreviatedOid": "c225349"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-03-16T03:48:38Z",
+          "updatedAt": "2026-03-16T03:48:38Z",
+          "comments": [
+            {
+              "originalPosition": 9,
+              "body": "I think that's redundant with the `, etc` on the next line?",
+              "createdAt": "2026-03-16T03:48:38Z",
+              "updatedAt": "2026-03-16T03:48:39Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687rhSHm",
+          "commit": {
+            "abbreviatedOid": "c225349"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-03-16T04:32:54Z",
+          "updatedAt": "2026-03-16T04:32:58Z",
+          "comments": [
+            {
+              "originalPosition": 9,
+              "body": "ok.",
+              "createdAt": "2026-03-16T04:32:54Z",
+              "updatedAt": "2026-03-16T04:32:58Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
