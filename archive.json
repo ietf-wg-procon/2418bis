@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-03-17T02:23:08.149993+00:00",
+  "timestamp": "2026-03-19T02:28:54.334095+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -2754,7 +2754,7 @@
       "labels": [],
       "body": "Fixes #36 \r\nFixes #48 \r\nFixes #51 ",
       "createdAt": "2026-03-15T07:40:02Z",
-      "updatedAt": "2026-03-16T04:32:58Z",
+      "updatedAt": "2026-03-17T17:01:34Z",
       "baseRepository": "ietf-wg-procon/2418bis",
       "baseRefName": "main",
       "baseRefOid": "a519d74f8404288b0df8434d6025310042d906ed",
@@ -2824,6 +2824,26 @@
               "body": "ok.",
               "createdAt": "2026-03-16T04:32:54Z",
               "updatedAt": "2026-03-16T04:32:58Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMaVM687sLMgX",
+          "commit": {
+            "abbreviatedOid": "c225349"
+          },
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-03-17T17:01:34Z",
+          "updatedAt": "2026-03-17T17:01:34Z",
+          "comments": [
+            {
+              "originalPosition": 17,
+              "body": "I think it's \"in online\" fora. Both could work, but I think this is a bit better, and you avoid \"on on...\"\n\nI'll show myself out...",
+              "createdAt": "2026-03-17T17:01:34Z",
+              "updatedAt": "2026-03-17T17:01:34Z"
             }
           ]
         }
