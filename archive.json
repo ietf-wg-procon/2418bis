@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-03-19T02:28:54.334095+00:00",
+  "timestamp": "2026-03-29T02:38:52.892544+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -808,7 +808,7 @@
       "labels": [],
       "body": "Various WGs have appointed Technical Advisors and the datatracker recognizes this role**. Should it be mentioned?\n\n** e.g. https://datatracker.ietf.org/wg/v6ops/about/",
       "createdAt": "2026-01-16T06:46:30Z",
-      "updatedAt": "2026-03-10T19:41:48Z",
+      "updatedAt": "2026-03-27T22:29:24Z",
       "closedAt": null,
       "comments": [
         {
@@ -852,6 +852,13 @@
           "body": "Just to note that Technical Advisors are typically appointed by an AD (thanks Joel and @mirjak) so are strictly speaking out of scope for appointments by WG Chairs. Adding this would be a non-editorial change.",
           "createdAt": "2026-03-10T19:41:48Z",
           "updatedAt": "2026-03-10T19:41:48Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "We can still use Brian's suggestion: \"Maybe a better approach would be a single section stating that WG Chairs or the ISG, may, [if they wish,] appoint assistants for particular aspects of the WG's job, without details?\"",
+          "createdAt": "2026-03-27T22:29:24Z",
+          "updatedAt": "2026-03-27T22:29:24Z"
         }
       ]
     },
@@ -998,9 +1005,17 @@
       "labels": [],
       "body": "I think we should revert the text in S 4.3 that removes the existing 51%/99% text and instead cites RFC 7278. The actual contents of 7278 don't really have consensus.",
       "createdAt": "2026-03-16T06:41:38Z",
-      "updatedAt": "2026-03-16T06:41:38Z",
+      "updatedAt": "2026-03-26T14:38:16Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I think pointing out 7278 as a source of examples is okay, but would not feel too bad if it were removed. I feel more strongly that being vague on the definition of \"rough consensus\", with close to zero examples in this doc, is a more correct approach.",
+          "createdAt": "2026-03-26T14:38:16Z",
+          "updatedAt": "2026-03-26T14:38:16Z"
+        }
+      ]
     },
     {
       "number": 57,
