@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-03-29T02:38:52.892544+00:00",
+  "timestamp": "2026-03-31T02:35:44.085941+00:00",
   "repo": "ietf-wg-procon/2418bis",
   "labels": [
     {
@@ -808,7 +808,7 @@
       "labels": [],
       "body": "Various WGs have appointed Technical Advisors and the datatracker recognizes this role**. Should it be mentioned?\n\n** e.g. https://datatracker.ietf.org/wg/v6ops/about/",
       "createdAt": "2026-01-16T06:46:30Z",
-      "updatedAt": "2026-03-27T22:29:24Z",
+      "updatedAt": "2026-03-29T21:41:57Z",
       "closedAt": null,
       "comments": [
         {
@@ -859,6 +859,20 @@
           "body": "We can still use Brian's suggestion: \"Maybe a better approach would be a single section stating that WG Chairs or the ISG, may, [if they wish,] appoint assistants for particular aspects of the WG's job, without details?\"",
           "createdAt": "2026-03-27T22:29:24Z",
           "updatedAt": "2026-03-27T22:29:24Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "Yes. Too lazy to do a PR so:\n\nDelete sections \"WG Secretary\" \"WG Facilitator or Moderator\" and \"Working Group Consultant\". Replace by something like:\n\n## Working Group Support Roles\n\nWG Chairs may appoint (and dismiss) specific participants to support roles such as WG Secretary, WG Facilitator, WG Moderator, etc., if needed. Similarly, Area Directors may appoint (and dismiss) WG Technical Advisors, WG Consultants, etc. Such roles do not alter the process of making WG decisions by consensus and do not diminish the underlying responsibilities of WG Chairs and Area Directors.\n\n",
+          "createdAt": "2026-03-29T03:53:25Z",
+          "updatedAt": "2026-03-29T03:53:25Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "See #58",
+          "createdAt": "2026-03-29T21:41:57Z",
+          "updatedAt": "2026-03-29T21:41:57Z"
         }
       ]
     },
@@ -2863,6 +2877,40 @@
           ]
         }
       ]
+    },
+    {
+      "number": 58,
+      "id": "PR_kwDOMaVM687Obbtc",
+      "title": "Replace specific roles with generic paragraph",
+      "url": "https://github.com/ietf-wg-procon/2418bis/pull/58",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Text by Brian Carpenter.\r\n\r\nFixes: #36",
+      "createdAt": "2026-03-29T21:41:42Z",
+      "updatedAt": "2026-03-29T22:12:30Z",
+      "baseRepository": "ietf-wg-procon/2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "6f57ee3430bee7fa409d4c7ab483b0e10045a41a",
+      "headRepository": "ietf-wg-procon/2418bis",
+      "headRefName": "fix-36",
+      "headRefOid": "9992af715c11d9df5f9306584d3e9089cde5a24d",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "WFM",
+          "createdAt": "2026-03-29T22:12:30Z",
+          "updatedAt": "2026-03-29T22:12:30Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
