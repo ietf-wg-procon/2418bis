@@ -768,7 +768,7 @@ should make sure that discussions on these fora are summarized and that
 the outcome is well documented (to avoid repetition).
 They may need to consult with the Ombudsteam (see {{ombudsteam}}) if they
 feel harassment is involved.
-The process for handling disruptive behavior on online fora is
+The process for handling disruptive behavior in online fora is
 documented in {{BCP245}}.
 
 The Chair also
