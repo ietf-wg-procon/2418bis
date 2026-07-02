@@ -584,7 +584,8 @@ As in face-to-face sessions, occasionally one or more individuals may
 engage in behavior on a mailing list that, in the opinion of the WG
 chair, is disruptive to the WG process. The chairs and moderators
 have a range of tools at their disposal to handle such cases, as
-documented in {{?BCP245}}.
+documented in {{?BCP245}}. They may need to consult with the
+Ombudsteam (see {{ombudsteam}}) if they feel harassment is involved.
 
 ## Session management
 
@@ -595,10 +596,8 @@ working group shall prevail.  (However, it must be noted that
 "dominance" is not to be determined on the basis of volume or
 persistence, but rather a more general sense of agreement.) Consensus
 can be determined by a show of hands, humming, or any other means on
-which the WG agrees (by rough consensus). Note that {{?RFC7282}}
-provides some examples that help describe the nuances of consensus in
-the IETF. It is up to the Chair to determine if rough consensus has
-been reached.
+which the WG agrees (by rough consensus). It is up to the Chair to
+determine if rough consensus has been reached.
 
 It can be particularly challenging to gauge the level of consensus on
 a mailing list.  There are two different cases where a working group
@@ -764,8 +763,6 @@ The Chair should attempt to ensure that the discussions on public fora
 are relevant and that they converge to consensus agreements. The Chair
 should make sure that discussions on these fora are summarized and that
 the outcome is well documented (to avoid repetition).
-They may need to consult with the Ombudsteam (see {{ombudsteam}}) if they
-feel harassment is involved.
 The process for handling disruptive behavior in online fora is
 documented in {{BCP245}}.
 
@@ -854,14 +851,9 @@ and private meetings.  Design teams may range from an informal chat
 between people in a hallway to a formal set of expert volunteers that
 the WG chair or AD appoints to attack a controversial problem.  The
 output of a design team is always subject to approval, rejection or
-modification by the WG as a whole.
-
-Design teams MUST produce public records of their contributions and
-members to the Working Group, to ensure that any contributions made
-within design teams properly follow IETF procedures. For example,
-any contribution made within a design team is still considered an
-IETF contribution, and is therefore subject to the IETF's
-Intellectual Property Rights policies ({{?BCP79}}).
+modification by the WG as a whole. Contributions made inside design
+teams are considered contributions to the WG, and need to follow
+IETF procedures accordingly.
 
 ## Area Director
 
