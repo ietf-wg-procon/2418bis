@@ -350,9 +350,7 @@ participants who are not familiar with the history of Internet
 architecture or IETF processes.  This can, unfortunately, lead to good
 working group consensus about a bad design.  To facilitate working
 group efforts, an Area Director may assign a Consultant from among the
-ranks of senior IETF participants.  (Consultants are described in
-{{wg-consultant}}.)  At the discretion of the Area Director, approval of a new
-WG may be withheld in the absence of sufficient consultant resources.
+ranks of senior IETF participants (see {[wg-support}}).
 
 Once the Area Director (and the Area Directorate, as the Area Director
 deems appropriate) has approved the working group charter, the charter
@@ -820,12 +818,14 @@ specification for Internet Standard status along with
 documentation about testing of the interoperation of these
 implementations.
 
-## WG Secretary
+## Working Group Support Roles {#wc-support}
 
-Taking minutes and editing working group documents often is performed
-by a specifically-designated participant or set of participants.  In
-this role, the Secretary's job is to record WG decisions, rather than
-to perform basic specification.
+WG Chairs may appoint (and dismiss) specific participants to support roles
+such as WG Secretary, WG Facilitator, WG Moderator, etc., if needed.
+Similarly, Area Directors may appoint (and dismiss) WG Technical Advisors, WG
+Consultants, etc. Such roles do not alter the process of making WG decisions
+by consensus and do not diminish the underlying responsibilities of WG Chairs
+and Area Directors.
 
 ## Document Editor {#doc-editor}
 
@@ -840,19 +840,6 @@ As a general practice, the Working Group Chair and Document Editor
 positions are filled by different individuals to help ensure that the
 resulting documents accurately reflect the consensus of the working
 group and that all processes are followed.
-
-## WG Facilitator or Moderator
-
-When meetings tend to become distracted or divisive, it often is
-helpful to assign the task of "process management" to one participant.
-Their job is to oversee the nature, rather than the content, of
-participant interactions.  That is, they attend to the style of the
-discussion and to the schedule of the agenda, rather than making
-direct technical contributions themselves. They can be called upon
-in online fora as well as in-person meetings.
-
-They may need to consult with the Ombudsteam (see {{ombudsteam}})
-if they feel harassment is involved.
 
 ## Design Teams
 
@@ -872,13 +859,6 @@ within design teams properly follow IETF procedures. For example,
 any contribution made within a design team is still considered an
 IETF contribution, and is therefore subject to the IETF's
 Intellectual Property Rights policies ({{?BCP79}}).
-
-## Working Group Consultant {#wg-consultant}
-
-At the discretion of the Area Director, a Consultant may be assigned
-to a working group.  Consultants have specific technical background
-appropriate to the WG and experience in Internet architecture and IETF
-process.
 
 ## Area Director
 
@@ -1068,6 +1048,8 @@ Remove references to agenda@ietf.org. Mention privacy in charters.
 Remove word "staff". Defer to BCP 245 for disruptive behavior.
 Loosely define WG adoption. Remove draft standard. Use RFC 7282 to
 explain rough consensus. Require design team keep public records.
+
+- Draft 3: Use generic text for WG roles, not Moderator, Consultant, etc.
 
 ## Individual draft
 
