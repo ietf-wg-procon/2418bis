@@ -350,7 +350,7 @@ participants who are not familiar with the history of Internet
 architecture or IETF processes.  This can, unfortunately, lead to good
 working group consensus about a bad design.  To facilitate working
 group efforts, an Area Director may assign a Consultant from among the
-ranks of senior IETF participants (see {[wg-support}}).
+ranks of experienced IETF participants (see {[wg-support}}).
 
 Once the Area Director (and the Area Directorate, as the Area Director
 deems appropriate) has approved the working group charter, the charter
@@ -403,7 +403,7 @@ outcome of the BOF.  If the Area Director approves, the BOF is then
 scheduled by submitting a request to the secretariat. A BOF
 description and agenda are required before a BOF can be scheduled.
 
-Available time for BOFs is limited, and BOFs are held at the
+BOFs are held at the
 discretion of the ADs for an area.  The AD(s) may require additional
 assurances before authorizing a BOF.  For example,
 
@@ -415,8 +415,8 @@ time spent in the BOF more productive.
 - The Area Director MAY require that a BOF be held, prior to
 establishing a working group (see {{sec22}}).
 
-- The Area Director MAY require that there be a draft of the WG
-charter prior to holding a BOF.
+- The Area Director MAY require a draft of the WG charter prior to
+holding a BOF.
 
 - The Area Director MAY require that a BOF not be held until an
 Internet-Draft describing the proposed technology has been published
@@ -532,7 +532,7 @@ facilitate schedule coordination for WGs requiring the same set of
 experts.
 
 The application for a WG session at an IETF meeting MUST be made to
-the IETF Secretariat.  Some Area
+the IETF Secretariat.  Area
 Directors may want to coordinate WG sessions in their area and request
 that time slots be coordinated through them.  If this is the case it
 will be noted in the IETF meeting announcement. A WG scheduling
@@ -701,12 +701,6 @@ appeal to the IESG (see {{appeals}}).
 
 # Rechartering a Working Group {#sec5}
 
-Updated milestones are renegotiated with the Area Director and the
-IESG, as needed, and then are submitted to the IESG Secretariat:
-iesg-secretary@ietf.org. Similarly, the Area Director can enable or
-disable milestones, or enable or disable dates, or change the granularity
-of dates, all without a formal recharter.
-
 Rechartering (other than changes to milestones) a working group follows
 the same procedures that the initial chartering does (see {{sec2}}).
 The revised charter must be submitted to the IESG and IAB for
@@ -715,6 +709,11 @@ charter as-is, it may request that changes be made in the new charter
 (including having the Working Group continue to use the old charter),
 or it may decline to approve the rechartered working group.  In the
 latter case, the working group is disbanded.
+
+Updated milestones are renegotiated with the Area Director and the
+IESG, as needed. Similarly, the Area Director can enable or disable
+milestones, or enable or disable dates, or change the granularity of
+dates, all without a formal recharter.
 
 # Working Group Roles
 
@@ -894,7 +893,7 @@ session starts.  Any document which does not meet this publication
 deadline can only be discussed in a working group session with the
 specific approval of the working group chair(s).  Since it is
 important that working group members have adequate time to review all
-documents, granting such an exception should only be done under
+documents, granting an exception to this rule should only be done under
 unusual conditions.  The final session agenda should be posted to the
 working group mailing list at least two weeks before the session and
 sent at that time to the Secretariat for publication on the IETF web
