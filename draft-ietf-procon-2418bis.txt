@@ -94,13 +94,11 @@ Table of Contents
    6.  Rechartering a Working Group
    7.  Working Group Roles
      7.1.  Working Group Chair
-     7.2.  WG Secretary
+     7.2.  Working Group Support Roles
      7.3.  Document Editor
-     7.4.  WG Facilitator or Moderator
-     7.5.  Design Teams
-     7.6.  Working Group Consultant
-     7.7.  Area Director
-     7.8.  Ombudsteam
+     7.4.  Design Teams
+     7.5.  Area Director
+     7.6.  Ombudsteam
    8.  Working Group Documents
      8.1.  Session documents
      8.2.  Internet-Drafts (I-D)
@@ -413,10 +411,7 @@ Table of Contents
    architecture or IETF processes.  This can, unfortunately, lead to
    good working group consensus about a bad design.  To facilitate
    working group efforts, an Area Director may assign a Consultant from
-   among the ranks of senior IETF participants.  (Consultants are
-   described in Section 7.6.)  At the discretion of the Area Director,
-   approval of a new WG may be withheld in the absence of sufficient
-   consultant resources.
+   among the ranks of senior IETF participants (see {[wg-support}}).
 
    Once the Area Director (and the Area Directorate, as the Area
    Director deems appropriate) has approved the working group charter,
@@ -831,7 +826,7 @@ Table of Contents
    are relevant and that they converge to consensus agreements.  The
    Chair should make sure that discussions on the list are summarized
    and that the outcome is well documented (to avoid repetition).  They
-   may need to consult with the Ombudsteam (see Section 7.8) if they
+   may need to consult with the Ombudsteam (see Section 7.6) if they
    feel harassment is involved.  The Chair also may choose to schedule
    organized on-line "sessions" with agenda and deliverables.  These can
    be structured as true meetings, conducted over the course of several
@@ -883,12 +878,14 @@ Table of Contents
    documentation about testing of the interoperation of these
    implementations.
 
-7.2.  WG Secretary
+7.2.  Working Group Support Roles
 
-   Taking minutes and editing working group documents often is performed
-   by a specifically-designated participant or set of participants.  In
-   this role, the Secretary's job is to record WG decisions, rather than
-   to perform basic specification.
+   WG Chairs may appoint (and dismiss) specific participants to support
+   roles such as WG Secretary, WG Facilitator, WG Moderator, etc., if
+   needed.  Similarly, Area Directors may appoint (and dismiss) WG
+   Technical Advisors, WG Consultants, etc.  Such roles do not alter the
+   process of making WG decisions by consensus and do not diminish the
+   underlying responsibilities of WG Chairs and Area Directors.
 
 7.3.  Document Editor
 
@@ -904,20 +901,7 @@ Table of Contents
    resulting documents accurately reflect the consensus of the working
    group and that all processes are followed.
 
-7.4.  WG Facilitator or Moderator
-
-   When meetings tend to become distracted or divisive, it often is
-   helpful to assign the task of "process management" to one
-   participant.  Their job is to oversee the nature, rather than the
-   content, of participant interactions.  That is, they attend to the
-   style of the discussion and to the schedule of the agenda, rather
-   than making direct technical contributions themselves.  They can be
-   called upon in online fora as well as in-person meetings.
-
-   They may need to consult with the Ombudsteam (see Section 7.8) if
-   they feel harassment is involved.
-
-7.5.  Design Teams
+7.4.  Design Teams
 
    It is often useful, and perhaps inevitable, for a sub-group of a
    working group to develop a proposal to solve a particular problem.
@@ -936,21 +920,14 @@ Table of Contents
    IETF contribution, and is therefore subject to the IETF's
    Intellectual Property Rights policies ([BCP79]).
 
-7.6.  Working Group Consultant
-
-   At the discretion of the Area Director, a Consultant may be assigned
-   to a working group.  Consultants have specific technical background
-   appropriate to the WG and experience in Internet architecture and
-   IETF process.
-
-7.7.  Area Director
+7.5.  Area Director
 
    Area Directors are responsible for ensuring that working groups in
    their area produce coherent, coordinated, architecturally consistent
    and timely output as a contribution to the overall results of the
    IETF.
 
-7.8.  Ombudsteam
+7.6.  Ombudsteam
 
    As noted in [RFC7776]:
 
@@ -1137,6 +1114,9 @@ Table of Contents
       disruptive behavior.  Loosely define WG adoption.  Remove draft
       standard.  Use RFC 7282 to explain rough consensus.  Require
       design team keep public records.
+
+   *  Draft 3: Use generic text for WG roles, not Moderator, Consultant,
+      etc.
 
 12.2.  Individual draft
 
