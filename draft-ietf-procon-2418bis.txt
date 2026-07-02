@@ -820,17 +820,22 @@ Table of Contents
    to one or two participants.  Sometimes, they also are part of the
    design team, described below.
 
-   *  Moderate the WG email list
+   *  Moderate public fora
 
-   The Chair should attempt to ensure that the discussions on this list
-   are relevant and that they converge to consensus agreements.  The
-   Chair should make sure that discussions on the list are summarized
-   and that the outcome is well documented (to avoid repetition).  They
-   may need to consult with the Ombudsteam (see Section 7.6) if they
-   feel harassment is involved.  The Chair also may choose to schedule
-   organized on-line "sessions" with agenda and deliverables.  These can
-   be structured as true meetings, conducted over the course of several
-   days (to allow participation across the Internet).
+   The Chair should attempt to ensure that the discussions on public
+   fora (such as the WG email list, chat groups, other collaborative
+   tools, etc) are relevant and that they converge to consensus
+   agreements.  The Chair should make sure that discussions on these
+   fora are summarized and that the outcome is well documented (to avoid
+   repetition).  They may need to consult with the Ombudsteam (see
+   Section 7.6) if they feel harassment is involved.  The process for
+   handling disruptive behavior in online fora is documented in
+   [BCP245].
+
+   The Chair also may choose to schedule organized on-line "sessions"
+   with agenda and deliverables.  These can be structured as true
+   meetings, conducted over the course of several days (to allow
+   participation across the Internet).
 
    Organize, prepare and chair face-to-face and on-line formal sessions.
 
