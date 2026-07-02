@@ -909,10 +909,8 @@ encouraged that draft documents be posted as soon as they become reasonably
 stable.
 
 Working Groups MAY formally adopt an Internet-Draft to indicate that
-it is being considered as a candidate for publication as an RFC. The
-main difference between a draft owned by an individual and one
-adopted by a working group is that the adoption process hands over
-change control to the working group. Once a document is adopted,
+it is being considered as a candidate for publication as an RFC.
+Once a document is adopted,
 Document Editors are tasked with documenting the consensus of the
 Working Group.
 
