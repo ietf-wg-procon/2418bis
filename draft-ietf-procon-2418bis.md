@@ -854,14 +854,9 @@ and private meetings.  Design teams may range from an informal chat
 between people in a hallway to a formal set of expert volunteers that
 the WG chair or AD appoints to attack a controversial problem.  The
 output of a design team is always subject to approval, rejection or
-modification by the WG as a whole.
-
-Design teams MUST produce public records of their contributions and
-members to the Working Group, to ensure that any contributions made
-within design teams properly follow IETF procedures. For example,
-any contribution made within a design team is still considered an
-IETF contribution, and is therefore subject to the IETF's
-Intellectual Property Rights policies ({{?BCP79}}).
+modification by the WG as a whole. Contributions made inside design
+teams are considered contributions to the WG, and need to follow
+IETF procedures accordingly.
 
 ## Area Director
 
