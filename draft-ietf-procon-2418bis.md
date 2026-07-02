@@ -908,10 +908,10 @@ posting and disseminating in-process copies of working group documents. It is
 encouraged that draft documents be posted as soon as they become reasonably
 stable.
 
-Working Groups formally adopt Internet-Drafts to indicate that it will be
-the basis for one of the working group's work items. Once a document is
-adopted, Document Editors are tasked with documenting the consensus of
-the Working Group.
+Working Groups can formally adopt Internet-Drafts to indicate that it
+will be the basis for one of the working group's work items. Once a
+document is adopted, Document Editors are tasked with documenting the
+consensus of the Working Group.
 
 ## Request For Comments (RFC) {#rfc-doc}
 
