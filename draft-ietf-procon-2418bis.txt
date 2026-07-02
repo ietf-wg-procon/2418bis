@@ -915,14 +915,9 @@ Table of Contents
    between people in a hallway to a formal set of expert volunteers that
    the WG chair or AD appoints to attack a controversial problem.  The
    output of a design team is always subject to approval, rejection or
-   modification by the WG as a whole.
-
-   Design teams MUST produce public records of their contributions and
-   members to the Working Group, to ensure that any contributions made
-   within design teams properly follow IETF procedures.  For example,
-   any contribution made within a design team is still considered an
-   IETF contribution, and is therefore subject to the IETF's
-   Intellectual Property Rights policies ([BCP79]).
+   modification by the WG as a whole.  Contributions made inside design
+   teams are considered contributions to the WG, and need to follow IETF
+   procedures accordingly.
 
 7.5.  Area Director
 
@@ -1168,15 +1163,6 @@ Table of Contents
               2022, <https://www.rfc-editor.org/rfc/rfc9281>.
 
 13.2.  Informative References
-
-   [BCP79]    Best Current Practice 79,
-              <https://www.rfc-editor.org/info/bcp79>.
-              At the time of writing, this BCP comprises the following:
-
-              Bradner, S. and J. Contreras, "Intellectual Property
-              Rights in IETF Technology", BCP 79, RFC 8179,
-              DOI 10.17487/RFC8179, May 2017,
-              <https://www.rfc-editor.org/info/rfc8179>.
 
    [BCP245]   Best Current Practice 245,
               <https://www.rfc-editor.org/info/bcp245>.
