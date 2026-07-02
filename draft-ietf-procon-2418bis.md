@@ -350,9 +350,7 @@ participants who are not familiar with the history of Internet
 architecture or IETF processes.  This can, unfortunately, lead to good
 working group consensus about a bad design.  To facilitate working
 group efforts, an Area Director may assign a Consultant from among the
-ranks of senior IETF participants.  (Consultants are described in
-{{wg-consultant}}.)  At the discretion of the Area Director, approval of a new
-WG may be withheld in the absence of sufficient consultant resources.
+ranks of senior IETF participants (see {[wg-support}}).
 
 Once the Area Director (and the Area Directorate, as the Area Director
 deems appropriate) has approved the working group charter, the charter
@@ -586,7 +584,7 @@ As in face-to-face sessions, occasionally one or more individuals may
 engage in behavior on a mailing list that, in the opinion of the WG
 chair, is disruptive to the WG process. The chairs and moderators
 have a range of tools at their disposal to handle such cases, as
-documented in {{?BCP245}};
+documented in {{?BCP245}}.
 
 ## Session management
 
@@ -683,7 +681,8 @@ Standards Process {{2026bis}}.
 # Working Group Termination {#sec4}
 
 Working groups are typically chartered to accomplish a specific task
-or tasks.  After the tasks are complete, the group will be disbanded.
+or tasks.  After the tasks are complete, the group will be disbanded,
+but the mailing list may remain available.
 
 If, at some point, it becomes evident that a working group is unable
 to complete the work outlined in the charter, or if the assumptions
@@ -824,26 +823,14 @@ specification for Internet Standard status along with
 documentation about testing of the interoperation of these
 implementations.
 
-## Chair Delegation
+## Working Group Support Roles {#wc-support}
 
-Working chairs can delegate portions of their authority.
-
-Taking minutes and editing working group documents often is performed
-by a specifically-designated participant or set of participants. They
-are named "WG Secretary". In this role, the Secretary's job is to
-record WG decisions, rather than to perform basic specification.
-
-When meetings tend to become distracted or divisive, it often is
-helpful to assign the task of "process management" to one participant.
-This can be achieved by naming a "WG facilitator".
-Their job is to oversee the nature, rather than the content, of
-participant interactions.  That is, they attend to the style of the
-discussion and to the schedule of the agenda, rather than making
-direct technical contributions themselves. They can be called upon
-in online fora as well as in-person meetings.
-
-Similarly, chairs can delegate the role of administrator for online
-fora; see {{BCP245}}.
+WG Chairs may appoint (and dismiss) specific participants to support roles
+such as WG Secretary, WG Facilitator, WG Moderator, etc., if needed.
+Similarly, Area Directors may appoint (and dismiss) WG Technical Advisors, WG
+Consultants, etc. Such roles do not alter the process of making WG decisions
+by consensus and do not diminish the underlying responsibilities of WG Chairs
+and Area Directors.
 
 ## Document Editor {#doc-editor}
 
@@ -877,14 +864,6 @@ within design teams properly follow IETF procedures. For example,
 any contribution made within a design team is still considered an
 IETF contribution, and is therefore subject to the IETF's
 Intellectual Property Rights policies ({{?BCP79}}).
-
-## Working Group Consultant {#wg-consultant}
-
-At the discretion of the Area Director, a Consultant (sometimes also
-named "Technical Advisor") may be assigned
-to a working group.  Consultants have specific technical background
-appropriate to the WG and experience in Internet architecture and IETF
-process.
 
 ## Area Director
 
@@ -1067,6 +1046,15 @@ This document has no IANA actions.
 
 - Draft 1: Removed sample charter. Fix "conflict of interest" text. Make
 milestones optional. Clarify IAB liaison to IESG.
+
+- Draft 2: Mention moderator role. Remove RFC 7322 reference.
+Remove description of individual drafts and instead reference 2026bis.
+Remove references to agenda@ietf.org. Mention privacy in charters.
+Remove word "staff". Defer to BCP 245 for disruptive behavior.
+Loosely define WG adoption. Remove draft standard. Use RFC 7282 to
+explain rough consensus. Require design team keep public records.
+
+- Draft 3: Use generic text for WG roles, not Moderator, Consultant, etc.
 
 ## Individual draft
 
