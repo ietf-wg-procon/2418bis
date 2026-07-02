@@ -661,10 +661,8 @@ Table of Contents
    not to be determined on the basis of volume or persistence, but
    rather a more general sense of agreement.)  Consensus can be
    determined by a show of hands, humming, or any other means on which
-   the WG agrees (by rough consensus).  Note that [RFC7282] provides
-   some examples that help describe the nuances of consensus in the
-   IETF.  It is up to the Chair to determine if rough consensus has been
-   reached.
+   the WG agrees (by rough consensus).  It is up to the Chair to
+   determine if rough consensus has been reached.
 
    It can be particularly challenging to gauge the level of consensus on
    a mailing list.  There are two different cases where a working group
@@ -1179,10 +1177,6 @@ Table of Contents
    [RFC2418]  Bradner, S., "IETF Working Group Guidelines and
               Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
               September 1998, <https://www.rfc-editor.org/rfc/rfc2418>.
-
-   [RFC7282]  Resnick, P., "On Consensus and Humming in the IETF",
-              RFC 7282, DOI 10.17487/RFC7282, June 2014,
-              <https://www.rfc-editor.org/rfc/rfc7282>.
 
    [RFC8713]  Kucherawy, M., Ed., Hinden, R., Ed., and J. Livingood,
               Ed., "IAB, IESG, IETF Trust, and IETF LLC Selection,
