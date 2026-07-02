@@ -761,8 +761,7 @@ team, described below.
 - Moderate public fora
 
 The Chair should attempt to ensure that the discussions on public fora
-(such as the WG email list, chat groups, other collaborative tools
-such as GitHub or GitLab, etc)
+(such as the WG email list, chat groups, other collaborative tools, etc)
 are relevant and that they converge to consensus agreements. The Chair
 should make sure that discussions on these fora are summarized and that
 the outcome is well documented (to avoid repetition).
