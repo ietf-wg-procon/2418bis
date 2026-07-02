@@ -762,12 +762,6 @@ Table of Contents
 
 6.  Rechartering a Working Group
 
-   Updated milestones are renegotiated with the Area Director and the
-   IESG, as needed, and then are submitted to the IESG Secretariat:
-   iesg-secretary@ietf.org.  Similarly, the Area Director can enable or
-   disable milestones, or enable or disable dates, or change the
-   granularity of dates, all without a formal recharter.
-
    Rechartering (other than changes to milestones) a working group
    follows the same procedures that the initial chartering does (see
    Section 3).  The revised charter must be submitted to the IESG and
@@ -776,6 +770,11 @@ Table of Contents
    new charter (including having the Working Group continue to use the
    old charter), or it may decline to approve the rechartered working
    group.  In the latter case, the working group is disbanded.
+
+   Updated milestones are renegotiated with the Area Director and the
+   IESG, as needed.  Similarly, the Area Director can enable or disable
+   milestones, or enable or disable dates, or change the granularity of
+   dates, all without a formal recharter.
 
 7.  Working Group Roles
 
