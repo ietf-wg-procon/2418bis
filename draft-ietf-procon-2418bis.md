@@ -683,7 +683,8 @@ Standards Process {{2026bis}}.
 # Working Group Termination {#sec4}
 
 Working groups are typically chartered to accomplish a specific task
-or tasks.  After the tasks are complete, the group will be disbanded.
+or tasks.  After the tasks are complete, the group will be disbanded,
+but the mailing list may remain available.
 
 If, at some point, it becomes evident that a working group is unable
 to complete the work outlined in the charter, or if the assumptions
