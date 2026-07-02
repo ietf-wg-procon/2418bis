@@ -584,7 +584,8 @@ As in face-to-face sessions, occasionally one or more individuals may
 engage in behavior on a mailing list that, in the opinion of the WG
 chair, is disruptive to the WG process. The chairs and moderators
 have a range of tools at their disposal to handle such cases, as
-documented in {{?BCP245}}.
+documented in {{?BCP245}}. They may need to consult with the
+Ombudsteam (see {{ombudsteam}}) if they feel harassment is involved.
 
 ## Session management
 
@@ -765,8 +766,6 @@ The Chair should attempt to ensure that the discussions on public fora
 are relevant and that they converge to consensus agreements. The Chair
 should make sure that discussions on these fora are summarized and that
 the outcome is well documented (to avoid repetition).
-They may need to consult with the Ombudsteam (see {{ombudsteam}}) if they
-feel harassment is involved.
 The process for handling disruptive behavior in online fora is
 documented in {{BCP245}}.
 
