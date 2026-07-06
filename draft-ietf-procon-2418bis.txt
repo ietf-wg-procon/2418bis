@@ -7,7 +7,7 @@ Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                          D. Schinazi
 Updates: 7475, 7776, 8717, 9141 (if approved)                 Google LLC
 Intended status: Best Current Practice                        S. Bradner
-Expires: 7 January 2027                                            SOBCO
+Expires: 7 January 2027                     Harvard University (retired)
                                                              6 July 2026
 
 
@@ -1214,5 +1214,5 @@ Authors' Addresses
 
 
    Scott Bradner
-   SOBCO
+   Harvard University (retired)
    Email: sob@sobco.com
