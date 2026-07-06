@@ -28,7 +28,7 @@ author:
  -
     ins: S. Bradner
     name: Scott Bradner
-    organization: SOBCO
+    organization: Harvard University (retired)
     email: sob@sobco.com
 
 venue:
