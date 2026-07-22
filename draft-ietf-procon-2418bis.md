@@ -1042,7 +1042,11 @@ Remove word "staff". Defer to BCP 245 for disruptive behavior.
 Loosely define WG adoption. Remove draft standard. Use RFC 7282 to
 explain rough consensus. Require design team keep public records.
 
-- Draft 3: Use generic text for WG roles, not Moderator, Consultant, etc.
+- Draft 3: Use generic text for WG roles, not Moderator, Consultant,
+etc. Remove reference to RFC 7282 added in draft 2. Mention mailing
+lists can remain open after WG closure. Tweak moderation text.
+Remove public membership requirement of design teams added in
+draft 2. Modify draft adoption text.
 
 ## Individual draft
 
