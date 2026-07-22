@@ -350,7 +350,7 @@ participants who are not familiar with the history of Internet
 architecture or IETF processes.  This can, unfortunately, lead to good
 working group consensus about a bad design.  To facilitate working
 group efforts, an Area Director may assign a Consultant from among the
-ranks of senior IETF participants (see {[wg-support}}).
+ranks of senior IETF participants (see {{wg-support}}).
 
 Once the Area Director (and the Area Directorate, as the Area Director
 deems appropriate) has approved the working group charter, the charter
