@@ -7,8 +7,8 @@ Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                          D. Schinazi
 Updates: 7475, 7776, 8717, 9141 (if approved)                 Google LLC
 Intended status: Best Current Practice                        S. Bradner
-Expires: 7 January 2027                     Harvard University (retired)
-                                                             6 July 2026
+Expires: 23 January 2027                    Harvard University (retired)
+                                                            22 July 2026
 
 
               IETF Working Group Guidelines and Procedures
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 January 2027.
+   This Internet-Draft will expire on 23 January 2027.
 
 Copyright Notice
 
@@ -1111,7 +1111,10 @@ Table of Contents
       design team keep public records.
 
    *  Draft 3: Use generic text for WG roles, not Moderator, Consultant,
-      etc.
+      etc.  Remove reference to RFC 7282 added in draft 2.  Mention
+      mailing lists can remain open after WG closure.  Tweak moderation
+      text.  Remove public membership requirement of design teams added
+      in draft 2.  Modify draft adoption text.
 
 12.2.  Individual draft
 
