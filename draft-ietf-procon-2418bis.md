@@ -818,7 +818,7 @@ specification for Internet Standard status along with
 documentation about testing of the interoperation of these
 implementations.
 
-## Working Group Support Roles {#wc-support}
+## Working Group Support Roles {#wg-support}
 
 WG Chairs may appoint (and dismiss) specific participants to support roles
 such as WG Secretary, WG Facilitator, WG Moderator, etc., if needed.
