@@ -7,8 +7,8 @@ Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                          D. Schinazi
 Updates: 7475, 7776, 8717, 9141 (if approved)                 Google LLC
 Intended status: Best Current Practice                        S. Bradner
-Expires: 3 January 2027                                            SOBCO
-                                                             2 July 2026
+Expires: 9 February 2027                    Harvard University (retired)
+                                                           8 August 2026
 
 
               IETF Working Group Guidelines and Procedures
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 January 2027.
+   This Internet-Draft will expire on 9 February 2027.
 
 Copyright Notice
 
@@ -409,9 +409,7 @@ Table of Contents
    Proposed working groups often comprise technically competent
    participants who are not familiar with the history of Internet
    architecture or IETF processes.  This can, unfortunately, lead to
-   good working group consensus about a bad design.  To facilitate
-   working group efforts, an Area Director may assign a Consultant from
-   among the ranks of senior IETF participants (see {[wg-support}}).
+   good working group consensus about a bad design.
 
    Once the Area Director (and the Area Directorate, as the Area
    Director deems appropriate) has approved the working group charter,
@@ -649,7 +647,8 @@ Table of Contents
    engage in behavior on a mailing list that, in the opinion of the WG
    chair, is disruptive to the WG process.  The chairs and moderators
    have a range of tools at their disposal to handle such cases, as
-   documented in [BCP245].
+   documented in [BCP245].  They may need to consult with the Ombudsteam
+   (see Section 7.6) if they feel harassment is involved.
 
 4.3.  Session management
 
@@ -660,10 +659,8 @@ Table of Contents
    not to be determined on the basis of volume or persistence, but
    rather a more general sense of agreement.)  Consensus can be
    determined by a show of hands, humming, or any other means on which
-   the WG agrees (by rough consensus).  Note that [RFC7282] provides
-   some examples that help describe the nuances of consensus in the
-   IETF.  It is up to the Chair to determine if rough consensus has been
-   reached.
+   the WG agrees (by rough consensus).  It is up to the Chair to
+   determine if rough consensus has been reached.
 
    It can be particularly challenging to gauge the level of consensus on
    a mailing list.  There are two different cases where a working group
@@ -698,7 +695,7 @@ Table of Contents
    to make forward progress.  The working group, as a whole, has the
    final responsibility for striking this balance.  The Chair has the
    responsibility for overseeing the process but may delegate direct
-   process management to a formally-designated Facilitator.
+   process management; see Section 7.2.
 
    It is occasionally appropriate to revisit a topic, to re-evaluate
    alternatives or to improve the group's understanding of a relevant
@@ -763,12 +760,6 @@ Table of Contents
 
 6.  Rechartering a Working Group
 
-   Updated milestones are renegotiated with the Area Director and the
-   IESG, as needed, and then are submitted to the IESG Secretariat:
-   iesg-secretary@ietf.org.  Similarly, the Area Director can enable or
-   disable milestones, or enable or disable dates, or change the
-   granularity of dates, all without a formal recharter.
-
    Rechartering (other than changes to milestones) a working group
    follows the same procedures that the initial chartering does (see
    Section 3).  The revised charter must be submitted to the IESG and
@@ -778,14 +769,18 @@ Table of Contents
    old charter), or it may decline to approve the rechartered working
    group.  In the latter case, the working group is disbanded.
 
+   Updated milestones are renegotiated with the Area Director and the
+   IESG, as needed.  Similarly, the Area Director can enable or disable
+   milestones, or enable or disable dates, or change the granularity of
+   dates, all without a formal recharter.
+
 7.  Working Group Roles
 
    Working groups require considerable care and feeding.  In addition to
    general participation, successful working groups benefit from the
    efforts of participants filling specific functional roles.  The Area
-   Director must agree to the specific people performing the WG Chair,
-   and Working Group Consultant roles, and they serve at the discretion
-   of the Area Director.
+   Director must agree to the specific people performing the WG Chair
+   role, and they serve at the discretion of the Area Director.
 
 7.1.  Working Group Chair
 
@@ -827,10 +822,8 @@ Table of Contents
    tools, etc) are relevant and that they converge to consensus
    agreements.  The Chair should make sure that discussions on these
    fora are summarized and that the outcome is well documented (to avoid
-   repetition).  They may need to consult with the Ombudsteam (see
-   Section 7.6) if they feel harassment is involved.  The process for
-   handling disruptive behavior in online fora is documented in
-   [BCP245].
+   repetition).  The process for handling disruptive behavior in online
+   fora is documented in [BCP245].
 
    The Chair also may choose to schedule organized on-line "sessions"
    with agenda and deliverables.  These can be structured as true
@@ -846,8 +839,8 @@ Table of Contents
 
    *  Communicate results of sessions
 
-   The Chair and/or Secretary must ensure that minutes of a session are
-   taken and that an attendance list is circulated (see Section 4.1).
+   The Chair must ensure that minutes of a session are taken and that an
+   attendance list is circulated (see Section 4.1).
 
    Immediately after a session, the WG Chair MUST provide the Area
    Director with a very short report (approximately one paragraph, via
@@ -885,12 +878,12 @@ Table of Contents
 
 7.2.  Working Group Support Roles
 
-   WG Chairs may appoint (and dismiss) specific participants to support
-   roles such as WG Secretary, WG Facilitator, WG Moderator, etc., if
-   needed.  Similarly, Area Directors may appoint (and dismiss) WG
-   Technical Advisors, WG Consultants, etc.  Such roles do not alter the
-   process of making WG decisions by consensus and do not diminish the
-   underlying responsibilities of WG Chairs and Area Directors.
+   WG Chairs and Area Directors may appoint (and dismiss) specific
+   participants to support roles such as Technical Advisor, Consultant,
+   Secretary, Facilitator, Moderator, etc., if needed.  Such roles do
+   not alter the process of making WG decisions by consensus and do not
+   diminish the underlying responsibilities of WG Chairs and Area
+   Directors.
 
 7.3.  Document Editor
 
@@ -916,14 +909,9 @@ Table of Contents
    between people in a hallway to a formal set of expert volunteers that
    the WG chair or AD appoints to attack a controversial problem.  The
    output of a design team is always subject to approval, rejection or
-   modification by the WG as a whole.
-
-   Design teams MUST produce public records of their contributions and
-   members to the Working Group, to ensure that any contributions made
-   within design teams properly follow IETF procedures.  For example,
-   any contribution made within a design team is still considered an
-   IETF contribution, and is therefore subject to the IETF's
-   Intellectual Property Rights policies ([BCP79]).
+   modification by the WG as a whole.  Contributions made inside design
+   teams are considered contributions to the WG, and need to follow IETF
+   procedures accordingly.
 
 7.5.  Area Director
 
@@ -1119,8 +1107,13 @@ Table of Contents
       standard.  Use RFC 7282 to explain rough consensus.  Require
       design team keep public records.
 
-   *  Draft 3: Use generic text for WG roles, not Moderator, Consultant,
-      etc.
+   *  Draft 3: Use generic text for WG roles such as Moderator,
+      Consultant, etc.  Remove reference to RFC 7282 added in draft 2.
+      Mention mailing lists can remain open after WG closure.  Tweak
+      moderation text.  Remove public membership requirement of design
+      teams added in draft 2.  Modify draft adoption text.
+
+   *  Draft 4: Further clean up WG support roles.
 
 12.2.  Individual draft
 
@@ -1169,15 +1162,6 @@ Table of Contents
 
 13.2.  Informative References
 
-   [BCP79]    Best Current Practice 79,
-              <https://www.rfc-editor.org/info/bcp79>.
-              At the time of writing, this BCP comprises the following:
-
-              Bradner, S. and J. Contreras, "Intellectual Property
-              Rights in IETF Technology", BCP 79, RFC 8179,
-              DOI 10.17487/RFC8179, May 2017,
-              <https://www.rfc-editor.org/info/rfc8179>.
-
    [BCP245]   Best Current Practice 245,
               <https://www.rfc-editor.org/info/bcp245>.
               At the time of writing, this BCP comprises the following:
@@ -1193,10 +1177,6 @@ Table of Contents
    [RFC2418]  Bradner, S., "IETF Working Group Guidelines and
               Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
               September 1998, <https://www.rfc-editor.org/rfc/rfc2418>.
-
-   [RFC7282]  Resnick, P., "On Consensus and Humming in the IETF",
-              RFC 7282, DOI 10.17487/RFC7282, June 2014,
-              <https://www.rfc-editor.org/rfc/rfc7282>.
 
    [RFC8713]  Kucherawy, M., Ed., Hinden, R., Ed., and J. Livingood,
               Ed., "IAB, IESG, IETF Trust, and IETF LLC Selection,
@@ -1236,5 +1216,5 @@ Authors' Addresses
 
 
    Scott Bradner
-   SOBCO
+   Harvard University (retired)
    Email: sob@sobco.com
