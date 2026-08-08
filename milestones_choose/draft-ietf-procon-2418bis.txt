@@ -440,10 +440,11 @@ Table of Contents
    without formal updates to the charter.  The Area Director is
    encouraged to discuss these choices with the working group chairs, as
    the success of milestones is predicated on the chairs updating them
-   in a timely manner.  Updating the date attached to a milestone is
-   under the authority of the working group chairs and does not require
-   pre-approval of the Area Director.  However, in the case of a
-   disagreement the final decision lies with the Area Director.
+   in a timely manner.  Removing milestones and updating the date
+   attached to a milestone is under the authority of the working group
+   chairs and does not require pre-approval of the Area Director.
+   However, in the case of a disagreement the final decision lies with
+   the Area Director.
 
 3.4.  Birds of a Feather (BOF)
 
