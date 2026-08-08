@@ -371,8 +371,8 @@ information into the IETF tracking database.  The working group is
 announced to the IETF-announce a by the IETF Secretariat.
 
 While chartering a new working group, the IESG will decide whether
-milestones are initially enabled or disabled for this working group, and if
-enabled whether there are dates included, and at what granularity. Examples
+this working group uses milestones, whether those milestones have dates,
+and at what granularity. Examples
 of granularity include months, quarters, half-years, IETF meetings, and
 sooner-vs-later. The responsible Area Director is empowered to change these
 details without formal updates to the charter. The Area Director is
@@ -562,8 +562,8 @@ material, or who, in the opinion of the Chair is disrupting the WG
 process.  The Chair should consult with the Area Director(s) if the
 individual persists in disruptive behavior.
 
-For working groups where milestones are enabled, chairs are expected to keep
-milestones up to date. Chairs are expected to review milestones at least
+For working groups that use milestones, chairs are expected to keep
+them up to date. Chairs are expected to review milestones at least
 once per IETF meeting (every four months) to ensure they are accurate.
 
 ### On-line
@@ -710,9 +710,9 @@ or it may decline to approve the rechartered working group.  In the
 latter case, the working group is disbanded.
 
 Updated milestones are renegotiated with the Area Director and the
-IESG, as needed. Similarly, the Area Director can enable or disable
-milestones, or enable or disable dates, or change the granularity of
-dates, all without a formal recharter.
+IESG, as needed. Similarly, the Area Director can change whether a
+given working group uses milestones, whether those have dates, or
+change the granularity of dates, all without a formal recharter.
 
 # Working Group Roles
 
@@ -1047,6 +1047,8 @@ etc. Remove reference to RFC 7282 added in draft 2. Mention mailing
 lists can remain open after WG closure. Tweak moderation text.
 Remove public membership requirement of design teams added in
 draft 2. Modify draft adoption text.
+
+- Draft 4: Rephrase text about optionality of milestones.
 
 ## Individual draft
 
