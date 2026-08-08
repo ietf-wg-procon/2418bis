@@ -1050,6 +1050,8 @@ lists can remain open after WG closure. Tweak moderation text.
 Remove public membership requirement of design teams added in
 draft 2. Modify draft adoption text.
 
+- Draft 4: Modify draft adoption text.
+
 ## Individual draft
 
 - Draft 0: Translated the nroff source of RFC 2418 into markdown. Changed
