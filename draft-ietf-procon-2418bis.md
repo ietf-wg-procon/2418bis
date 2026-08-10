@@ -902,9 +902,11 @@ stable.
 
 Working Groups can formally adopt an Internet-Draft to indicate that it
 will be the basis for one of the working group's work items. (Note that
-adoption does not indicate that the WG agrees with everything in the
-document.) Once a document is adopted, Document Editors are tasked with
-documenting the consensus of the Working Group.
+adoption does not indicate that the document's contents have consensus.)
+Once a document is adopted, Document Editors are tasked with documenting
+the outcomes of the deliberations of the Working Group. Working Groups
+can also revert Internet-Drafts to a non-adopted state, for example due
+to waning interest.
 
 ## Request For Comments (RFC) {#rfc-doc}
 
@@ -1049,7 +1051,8 @@ lists can remain open after WG closure. Tweak moderation text.
 Remove public membership requirement of design teams added in
 draft 2. Modify draft adoption text.
 
-- Draft 4: Rephrase text about optionality of milestones.
+- Draft 4: Modify draft adoption text. Rephrase text about optionality
+of milestones.
 
 ## Individual draft
 
