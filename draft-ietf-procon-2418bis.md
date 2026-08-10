@@ -348,9 +348,7 @@ milestone list is expected to be updated periodically (see {{sec5}}).
 Proposed working groups often comprise technically competent
 participants who are not familiar with the history of Internet
 architecture or IETF processes.  This can, unfortunately, lead to good
-working group consensus about a bad design.  To facilitate working
-group efforts, an Area Director may assign a Consultant from among the
-ranks of senior IETF participants (see {[wg-support}}).
+working group consensus about a bad design.
 
 Once the Area Director (and the Area Directorate, as the Area Director
 deems appropriate) has approved the working group charter, the charter
@@ -633,7 +631,7 @@ need for open and fair consideration of the issues against the need to
 make forward progress.  The working group, as a whole, has the final
 responsibility for striking this balance.  The Chair has the
 responsibility for overseeing the process but may delegate direct
-process management to a formally-designated Facilitator.
+process management; see {{wg-support}}.
 
 It is occasionally appropriate to revisit a topic, to re-evaluate
 alternatives or to improve the group's understanding of a relevant
@@ -720,9 +718,8 @@ change the granularity of dates, all without a formal recharter.
 Working groups require considerable care and feeding.  In addition to
 general participation, successful working groups benefit from the
 efforts of participants filling specific functional roles.  The Area
-Director must agree to the specific people performing the WG Chair,
-and Working Group Consultant roles, and they serve at the discretion
-of the Area Director.
+Director must agree to the specific people performing the WG Chair
+role, and they serve at the discretion of the Area Director.
 
 ## Working Group Chair
 
@@ -782,8 +779,8 @@ The Chair must plan and announce all WG sessions well in advance (see
 
 - Communicate results of sessions
 
-The Chair and/or Secretary must ensure that minutes of a session are
-taken and that an attendance list is circulated (see {{sess-planning}}).
+The Chair must ensure that minutes of a session are taken and that an
+attendance list is circulated (see {{sess-planning}}).
 
 Immediately after a session, the WG Chair MUST provide the Area
 Director with a very short report (approximately one paragraph, via
@@ -819,14 +816,14 @@ specification for Internet Standard status along with
 documentation about testing of the interoperation of these
 implementations.
 
-## Working Group Support Roles {#wc-support}
+## Working Group Support Roles {#wg-support}
 
-WG Chairs may appoint (and dismiss) specific participants to support roles
-such as WG Secretary, WG Facilitator, WG Moderator, etc., if needed.
-Similarly, Area Directors may appoint (and dismiss) WG Technical Advisors, WG
-Consultants, etc. Such roles do not alter the process of making WG decisions
-by consensus and do not diminish the underlying responsibilities of WG Chairs
-and Area Directors.
+WG Chairs and Area Directors may appoint (and dismiss) specific
+participants to support roles such as Technical Advisor, Consultant,
+Secretary, Facilitator, Moderator, etc., if needed. Such roles do
+not alter the process of making WG decisions by consensus and do not
+diminish the underlying responsibilities of WG Chairs and Area
+Directors.
 
 ## Document Editor {#doc-editor}
 
@@ -1045,14 +1042,14 @@ Remove word "staff". Defer to BCP 245 for disruptive behavior.
 Loosely define WG adoption. Remove draft standard. Use RFC 7282 to
 explain rough consensus. Require design team keep public records.
 
-- Draft 3: Use generic text for WG roles, not Moderator, Consultant,
+- Draft 3: Use generic text for WG roles such as Moderator, Consultant,
 etc. Remove reference to RFC 7282 added in draft 2. Mention mailing
 lists can remain open after WG closure. Tweak moderation text.
 Remove public membership requirement of design teams added in
 draft 2. Modify draft adoption text.
 
 - Draft 4: Modify draft adoption text. Rephrase text about optionality
-of milestones.
+of milestones. Further clean up WG support roles.
 
 ## Individual draft
 
