@@ -631,7 +631,7 @@ need for open and fair consideration of the issues against the need to
 make forward progress.  The working group, as a whole, has the final
 responsibility for striking this balance.  The Chair has the
 responsibility for overseeing the process but may delegate direct
-process management; see {{wc-support}}.
+process management; see {{wg-support}}.
 
 It is occasionally appropriate to revisit a topic, to re-evaluate
 alternatives or to improve the group's understanding of a relevant
@@ -816,7 +816,7 @@ specification for Internet Standard status along with
 documentation about testing of the interoperation of these
 implementations.
 
-## Working Group Support Roles {#wc-support}
+## Working Group Support Roles {#wg-support}
 
 WG Chairs and Area Directors may appoint (and dismiss) specific
 participants to support roles such as Technical Advisor, Consultant,
