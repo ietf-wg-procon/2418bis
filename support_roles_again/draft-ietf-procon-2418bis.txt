@@ -7,8 +7,8 @@ Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                          D. Schinazi
 Updates: 7475, 7776, 8717, 9141 (if approved)                 Google LLC
 Intended status: Best Current Practice                        S. Bradner
-Expires: 9 February 2027                    Harvard University (retired)
-                                                           8 August 2026
+Expires: 11 February 2027                   Harvard University (retired)
+                                                          10 August 2026
 
 
               IETF Working Group Guidelines and Procedures
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 9 February 2027.
+   This Internet-Draft will expire on 11 February 2027.
 
 Copyright Notice
 
@@ -431,18 +431,18 @@ Table of Contents
    is announced to the IETF-announce a by the IETF Secretariat.
 
    While chartering a new working group, the IESG will decide whether
-   milestones are initially enabled or disabled for this working group,
-   and if enabled whether there are dates included, and at what
-   granularity.  Examples of granularity include months, quarters, half-
-   years, IETF meetings, and sooner-vs-later.  The responsible Area
-   Director is empowered to change these details without formal updates
-   to the charter.  The Area Director is encouraged to discuss these
-   choices with the working group chairs, as the success of milestones
-   is predicated on the chairs updating them in a timely manner.
-   Updating the date attached to a milestone is under the authority of
-   the working group chairs and does not require pre-approval of the
-   Area Director.  However, in the case of a disagreement the final
-   decision lies with the Area Director.
+   this working group uses milestones, whether those milestones have
+   dates, and at what granularity.  Examples of granularity include
+   months, quarters, half-years, IETF meetings, and sooner-vs-later.
+   The responsible Area Director is empowered to change these details
+   without formal updates to the charter.  The Area Director is
+   encouraged to discuss these choices with the working group chairs, as
+   the success of milestones is predicated on the chairs updating them
+   in a timely manner.  Removing milestones and updating the date
+   attached to a milestone is under the authority of the working group
+   chairs and does not require pre-approval of the Area Director.
+   However, in the case of a disagreement the final decision lies with
+   the Area Director.
 
 3.4.  Birds of a Feather (BOF)
 
@@ -624,10 +624,10 @@ Table of Contents
    disrupting the WG process.  The Chair should consult with the Area
    Director(s) if the individual persists in disruptive behavior.
 
-   For working groups where milestones are enabled, chairs are expected
-   to keep milestones up to date.  Chairs are expected to review
-   milestones at least once per IETF meeting (every four months) to
-   ensure they are accurate.
+   For working groups that use milestones, chairs are expected to keep
+   them up to date.  Chairs are expected to review milestones at least
+   once per IETF meeting (every four months) to ensure they are
+   accurate.
 
 4.2.2.  On-line
 
@@ -770,9 +770,9 @@ Table of Contents
    group.  In the latter case, the working group is disbanded.
 
    Updated milestones are renegotiated with the Area Director and the
-   IESG, as needed.  Similarly, the Area Director can enable or disable
-   milestones, or enable or disable dates, or change the granularity of
-   dates, all without a formal recharter.
+   IESG, as needed.  Similarly, the Area Director can change whether a
+   given working group uses milestones, whether those have dates, or
+   change the granularity of dates, all without a formal recharter.
 
 7.  Working Group Roles
 
@@ -959,10 +959,11 @@ Table of Contents
 
    Working Groups can formally adopt an Internet-Draft to indicate that
    it will be the basis for one of the working group's work items.
-   (Note that adoption does not indicate that the WG agrees with
-   everything in the document.)  Once a document is adopted, Document
-   Editors are tasked with documenting the consensus of the Working
-   Group.
+   (Note that adoption does not indicate that the document's contents
+   have consensus.)  Once a document is adopted, Document Editors are
+   tasked with documenting the outcomes of the deliberations of the
+   Working Group.  Working Groups can also revert Internet-Drafts to a
+   non-adopted state, for example due to waning interest.
 
 8.3.  Request For Comments (RFC)
 
@@ -1113,7 +1114,8 @@ Table of Contents
       moderation text.  Remove public membership requirement of design
       teams added in draft 2.  Modify draft adoption text.
 
-   *  Draft 4: Further clean up WG support roles.
+   *  Draft 4: Modify draft adoption text.  Rephrase text about
+      optionality of milestones.  Further clean up WG support roles.
 
 12.2.  Individual draft
 
