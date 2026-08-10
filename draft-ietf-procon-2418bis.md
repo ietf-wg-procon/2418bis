@@ -28,7 +28,7 @@ author:
  -
     ins: S. Bradner
     name: Scott Bradner
-    organization: SOBCO
+    organization: Harvard University (retired)
     email: sob@sobco.com
 
 venue:
@@ -348,9 +348,7 @@ milestone list is expected to be updated periodically (see {{sec5}}).
 Proposed working groups often comprise technically competent
 participants who are not familiar with the history of Internet
 architecture or IETF processes.  This can, unfortunately, lead to good
-working group consensus about a bad design.  To facilitate working
-group efforts, an Area Director may assign a Consultant from among the
-ranks of experienced IETF participants (see {[wg-support}}).
+working group consensus about a bad design.
 
 Once the Area Director (and the Area Directorate, as the Area Director
 deems appropriate) has approved the working group charter, the charter
@@ -371,14 +369,15 @@ information into the IETF tracking database.  The working group is
 announced to the IETF-announce a by the IETF Secretariat.
 
 While chartering a new working group, the IESG will decide whether
-milestones are initially enabled or disabled for this working group, and if
-enabled whether there are dates included, and at what granularity. Examples
+this working group uses milestones, whether those milestones have dates,
+and at what granularity. Examples
 of granularity include months, quarters, half-years, IETF meetings, and
 sooner-vs-later. The responsible Area Director is empowered to change these
 details without formal updates to the charter. The Area Director is
 encouraged to discuss these choices with the working group chairs, as the
 success of milestones is predicated on the chairs updating them in a timely
-manner. Updating the date attached to a milestone is under the authority of
+manner. Removing milestones and updating the date attached to a milestone
+is under the authority of
 the working group chairs and does not require pre-approval of the Area
 Director. However, in the case of a disagreement the final decision lies
 with the Area Director.
@@ -562,8 +561,8 @@ material, or who, in the opinion of the Chair is disrupting the WG
 process.  The Chair should consult with the Area Director(s) if the
 individual persists in disruptive behavior.
 
-For working groups where milestones are enabled, chairs are expected to keep
-milestones up to date. Chairs are expected to review milestones at least
+For working groups that use milestones, chairs are expected to keep
+them up to date. Chairs are expected to review milestones at least
 once per IETF meeting (every four months) to ensure they are accurate.
 
 ### On-line
@@ -632,7 +631,7 @@ need for open and fair consideration of the issues against the need to
 make forward progress.  The working group, as a whole, has the final
 responsibility for striking this balance.  The Chair has the
 responsibility for overseeing the process but may delegate direct
-process management to a formally-designated Facilitator.
+process management; see {{wg-support}}.
 
 It is occasionally appropriate to revisit a topic, to re-evaluate
 alternatives or to improve the group's understanding of a relevant
@@ -710,18 +709,17 @@ or it may decline to approve the rechartered working group.  In the
 latter case, the working group is disbanded.
 
 Updated milestones are renegotiated with the Area Director and the
-IESG, as needed. Similarly, the Area Director can enable or disable
-milestones, or enable or disable dates, or change the granularity of
-dates, all without a formal recharter.
+IESG, as needed. Similarly, the Area Director can change whether a
+given working group uses milestones, whether those have dates, or
+change the granularity of dates, all without a formal recharter.
 
 # Working Group Roles
 
 Working groups require considerable care and feeding.  In addition to
 general participation, successful working groups benefit from the
 efforts of participants filling specific functional roles.  The Area
-Director must agree to the specific people performing the WG Chair,
-and Working Group Consultant roles, and they serve at the discretion
-of the Area Director.
+Director must agree to the specific people performing the WG Chair
+role, and they serve at the discretion of the Area Director.
 
 ## Working Group Chair
 
@@ -781,8 +779,8 @@ The Chair must plan and announce all WG sessions well in advance (see
 
 - Communicate results of sessions
 
-The Chair and/or Secretary must ensure that minutes of a session are
-taken and that an attendance list is circulated (see {{sess-planning}}).
+The Chair must ensure that minutes of a session are taken and that an
+attendance list is circulated (see {{sess-planning}}).
 
 Immediately after a session, the WG Chair MUST provide the Area
 Director with a very short report (approximately one paragraph, via
@@ -818,14 +816,14 @@ specification for Internet Standard status along with
 documentation about testing of the interoperation of these
 implementations.
 
-## Working Group Support Roles {#wc-support}
+## Working Group Support Roles {#wg-support}
 
-WG Chairs may appoint (and dismiss) specific participants to support roles
-such as WG Secretary, WG Facilitator, WG Moderator, etc., if needed.
-Similarly, Area Directors may appoint (and dismiss) WG Technical Advisors, WG
-Consultants, etc. Such roles do not alter the process of making WG decisions
-by consensus and do not diminish the underlying responsibilities of WG Chairs
-and Area Directors.
+WG Chairs and Area Directors may appoint (and dismiss) specific
+participants to support roles such as Technical Advisor, Consultant,
+Secretary, Facilitator, Moderator, etc., if needed. Such roles do
+not alter the process of making WG decisions by consensus and do not
+diminish the underlying responsibilities of WG Chairs and Area
+Directors.
 
 ## Document Editor {#doc-editor}
 
@@ -899,13 +897,13 @@ posting and disseminating in-process copies of working group documents. It is
 encouraged that draft documents be posted as soon as they become reasonably
 stable.
 
-Working Groups MAY formally adopt an Internet-Draft to indicate that
-it is being considered as a candidate for publication as an RFC. The
-main difference between a draft owned by an individual and one
-adopted by a working group is that the adoption process hands over
-change control to the working group. Once a document is adopted,
-Document Editors are tasked with documenting the consensus of the
-Working Group.
+Working Groups can formally adopt an Internet-Draft to indicate that it
+will be the basis for one of the working group's work items. (Note that
+adoption does not indicate that the document's contents have consensus.)
+Once a document is adopted, Document Editors are tasked with documenting
+the outcomes of the deliberations of the Working Group. Working Groups
+can also revert Internet-Drafts to a non-adopted state, for example due
+to waning interest.
 
 ## Request For Comments (RFC) {#rfc-doc}
 
@@ -1044,7 +1042,14 @@ Remove word "staff". Defer to BCP 245 for disruptive behavior.
 Loosely define WG adoption. Remove draft standard. Use RFC 7282 to
 explain rough consensus. Require design team keep public records.
 
-- Draft 3: Use generic text for WG roles, not Moderator, Consultant, etc.
+- Draft 3: Use generic text for WG roles such as Moderator, Consultant,
+etc. Remove reference to RFC 7282 added in draft 2. Mention mailing
+lists can remain open after WG closure. Tweak moderation text.
+Remove public membership requirement of design teams added in
+draft 2. Modify draft adoption text.
+
+- Draft 4: Modify draft adoption text. Rephrase text about optionality
+of milestones. Further clean up WG support roles.
 
 ## Individual draft
 
