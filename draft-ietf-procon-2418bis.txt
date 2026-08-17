@@ -7,8 +7,8 @@ Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                          D. Schinazi
 Updates: 7475, 7776, 8717, 9141 (if approved)                 Google LLC
 Intended status: Best Current Practice                        S. Bradner
-Expires: 11 February 2027                   Harvard University (retired)
-                                                          10 August 2026
+Expires: 18 February 2027                   Harvard University (retired)
+                                                          17 August 2026
 
 
               IETF Working Group Guidelines and Procedures
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 February 2027.
+   This Internet-Draft will expire on 18 February 2027.
 
 Copyright Notice
 
@@ -465,9 +465,9 @@ Table of Contents
    then scheduled by submitting a request to the secretariat.  A BOF
    description and agenda are required before a BOF can be scheduled.
 
-   Available time for BOFs is limited, and BOFs are held at the
-   discretion of the ADs for an area.  The AD(s) may require additional
-   assurances before authorizing a BOF.  For example,
+   BOFs are held at the discretion of the ADs for an area.  The AD(s)
+   may require additional assurances before authorizing a BOF.  For
+   example,
 
    *  The Area Director MAY require the establishment of an open email
       list prior to authorizing a BOF.  This permits initial exchanges
@@ -477,8 +477,8 @@ Table of Contents
    *  The Area Director MAY require that a BOF be held, prior to
       establishing a working group (see Section 3.2).
 
-   *  The Area Director MAY require that there be a draft of the WG
-      charter prior to holding a BOF.
+   *  The Area Director MAY require a draft of the WG charter prior to
+      holding a BOF.
 
    *  The Area Director MAY require that a BOF not be held until an
       Internet-Draft describing the proposed technology has been
@@ -594,7 +594,7 @@ Table of Contents
    experts.
 
    The application for a WG session at an IETF meeting MUST be made to
-   the IETF Secretariat.  Some Area Directors may want to coordinate WG
+   the IETF Secretariat.  Area Directors may want to coordinate WG
    sessions in their area and request that time slots be coordinated
    through them.  If this is the case it will be noted in the IETF
    meeting announcement.  A WG scheduling request MUST contain:
@@ -943,11 +943,11 @@ Table of Contents
    deadline can only be discussed in a working group session with the
    specific approval of the working group chair(s).  Since it is
    important that working group members have adequate time to review all
-   documents, granting such an exception should only be done under
-   unusual conditions.  The final session agenda should be posted to the
-   working group mailing list at least two weeks before the session and
-   sent at that time to the Secretariat for publication on the IETF web
-   site.
+   documents, granting an exception to this rule should only be done
+   under unusual conditions.  The final session agenda should be posted
+   to the working group mailing list at least two weeks before the
+   session and sent at that time to the Secretariat for publication on
+   the IETF web site.
 
 8.2.  Internet-Drafts (I-D)
 
