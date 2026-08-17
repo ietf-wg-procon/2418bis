@@ -402,7 +402,7 @@ outcome of the BOF.  If the Area Director approves, the BOF is then
 scheduled by submitting a request to the secretariat. A BOF
 description and agenda are required before a BOF can be scheduled.
 
-Available time for BOFs is limited, and BOFs are held at the
+BOFs are held at the
 discretion of the ADs for an area.  The AD(s) may require additional
 assurances before authorizing a BOF.  For example,
 
@@ -414,8 +414,8 @@ time spent in the BOF more productive.
 - The Area Director MAY require that a BOF be held, prior to
 establishing a working group (see {{sec22}}).
 
-- The Area Director MAY require that there be a draft of the WG
-charter prior to holding a BOF.
+- The Area Director MAY require a draft of the WG charter prior to
+holding a BOF.
 
 - The Area Director MAY require that a BOF not be held until an
 Internet-Draft describing the proposed technology has been published
@@ -531,7 +531,7 @@ facilitate schedule coordination for WGs requiring the same set of
 experts.
 
 The application for a WG session at an IETF meeting MUST be made to
-the IETF Secretariat.  Some Area
+the IETF Secretariat.  Area
 Directors may want to coordinate WG sessions in their area and request
 that time slots be coordinated through them.  If this is the case it
 will be noted in the IETF meeting announcement. A WG scheduling
@@ -883,7 +883,7 @@ session starts.  Any document which does not meet this publication
 deadline can only be discussed in a working group session with the
 specific approval of the working group chair(s).  Since it is
 important that working group members have adequate time to review all
-documents, granting such an exception should only be done under
+documents, granting an exception to this rule should only be done under
 unusual conditions.  The final session agenda should be posted to the
 working group mailing list at least two weeks before the session and
 sent at that time to the Secretariat for publication on the IETF web
