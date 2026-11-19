@@ -820,7 +820,7 @@ implementations.
 
 WG Chairs and Area Directors may appoint (and dismiss) specific
 participants to support roles with a defined scope and responsibilities,
-if needed. Past examples include roles such as Technical Advisor, Consultant,
+as needed. Past examples include roles such as Technical Advisor, Consultant,
 Secretary, Facilitator, Moderator, etc. Such roles do
 not alter the process of making WG decisions by consensus and do not
 diminish the underlying responsibilities of WG Chairs and Area
