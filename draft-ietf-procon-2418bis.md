@@ -902,8 +902,8 @@ will be the basis for one of the working group's work items. (Note that
 adoption does not indicate that the document's contents have consensus.)
 Once a document is adopted, Document Editors are tasked with documenting
 the outcomes of the deliberations of the Working Group. Working Groups
-can also revert Internet-Drafts to a non-adopted state, for example due
-to waning interest.
+can also revert Internet-Drafts to a non-adopted state (i.e., the Internet-Draft
+is released from the WG), for example due to waning interest.
 
 ## Request For Comments (RFC) {#rfc-doc}
 
